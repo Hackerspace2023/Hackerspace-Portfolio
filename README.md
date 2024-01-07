@@ -90,7 +90,7 @@ SOFTWARE.
 ```
 
 # Contributors
-[![Contributors](https://contrib.rocks/image?repo=hackerspace2023/hack-the-future)](./graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=hackerspace2023/Hackerspace-Portfolio)](./graphs/contributors)
 
 ## Connect 🔗
 
