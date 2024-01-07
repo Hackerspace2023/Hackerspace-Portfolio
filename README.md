@@ -59,6 +59,11 @@ npm run dev
 # or
 yarn dev
 ```
+> Fetch the Latest Changes from the Remote Repository
+
+```bash
+git pull origin main
+```
 
 ## Open your browser and visit: http://localhost:3000/
 
