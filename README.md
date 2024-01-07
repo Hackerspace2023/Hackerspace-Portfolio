@@ -37,14 +37,14 @@ Ensure you have the following installed on your machine:
 > Clone the Repository
 
 ```bash
-git clone https://github.com/YourGitHubUsername/YourPortfolioRepository.git 
+git clone https://github.com/Hackerspace2023/Hackerspace-Portfolio.git 
 ```
 
 
 > Navigate to the project directory
 
 ```bash
- cd YourPortfolioRepository
+ cd ./Hackerspace-Portfolio
  ```
 > Install dependencies
 
@@ -90,7 +90,7 @@ SOFTWARE.
 ```
 
 # Contributors
-[![Contributors](https://contrib.rocks/image?repo=hackerspace2023/hack-the-future)](./graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=hackerspace2023/Hackerspace-Portfolio)](./graphs/contributors)
 
 ## Connect 🔗
 
