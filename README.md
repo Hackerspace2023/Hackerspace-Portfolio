@@ -37,20 +37,20 @@ Ensure you have the following installed on your machine:
 > Clone the Repository
 
 ```bash
-git clone https://github.com/Hackerspace2023/Hackerspace-Portfolio.git 
+git clone https://github.com/Hackerspace2023/Hackerspace-Portfolio.git
 ```
-
 
 > Navigate to the project directory
 
 ```bash
  cd ./Hackerspace-Portfolio
- ```
+```
+
 > Install dependencies
 
 ```bash
  npm install
- ```
+```
 
 > Run the project
 
@@ -59,6 +59,7 @@ npm run dev
 # or
 yarn dev
 ```
+
 > Fetch the Latest Changes from the Remote Repository
 
 ```bash
@@ -67,10 +68,18 @@ git pull origin main
 
 ## Open your browser and visit: http://localhost:3000/
 
+## git command
+
+```bash
+git add .
+git commit -m "Your commit message"
+git push 
+```
+
 ## Licence
 [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
-``` bash 
+``` bash
 MIT License
 
 Copyright (c) 2023 Hacker Space
@@ -92,9 +101,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
+````
 
 # Contributors
+
 [![Contributors](https://contrib.rocks/image?repo=hackerspace2023/Hackerspace-Portfolio)](./graphs/contributors)
 
 ## Connect 🔗
