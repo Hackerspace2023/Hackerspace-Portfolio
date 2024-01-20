@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #00000054;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  color: var(--text-color);
+  font-size: 25px;
+  font-weight: 400;
+}
+/* ========= Glassmorphism ========= */
+
+.navbar {
+  background: #00000038;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.navItem {
+  display: flex;
+}
+
+/* navbar section inicator css */
+.sectionNumber{
+    color: var(--sub-text-color);
+    margin-right: 10px;
+}

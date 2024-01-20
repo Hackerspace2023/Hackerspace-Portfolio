@@ -1,0 +1,15 @@
+
+:root{
+    --background-color: #111119;
+    --text-color: #fff;
+    --sub-text-color: #7E7E7E;
+    --primary-color: #00FF95;
+    --sub-background-color: #007A47;
+}
+
+.container{
+    min-height: 200vh;
+    max-width: 100%;
+    background-color: var(--background-color);
+    position: relative;
+}
