@@ -1,0 +1,25 @@
+.button {
+  background-color: var(--sub-background-color);
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+.button:hover{
+    background-color: var(--primary-color);
+}
+.buttonText {
+  color: var(--primary-color);
+  font-family: "Fira Code";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+.button:hover .buttonText{
+    color: var(--background-color);
+}

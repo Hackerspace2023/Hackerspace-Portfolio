@@ -29,3 +29,14 @@
     color: var(--sub-text-color);
     margin-right: 10px;
 }
+.sectionTitle{
+  color: var(--text-color);
+}
+
+/* navbar logo */
+.navLogo{
+  font-size: 50px;
+  font-family: 'Audiowide', sans-serif;
+  margin-right: 80px;
+  letter-spacing: 5px;
+}
