@@ -12,6 +12,7 @@
   color: var(--text-color);
   font-size: 25px;
   font-weight: 400;
+  z-index: 999;
 }
 /* ========= Glassmorphism ========= */
 
