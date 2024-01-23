@@ -2,9 +2,7 @@ import React from "react";
 import TagContainer from "./TagContainer";
 import "../../css/homeSection.css";
 import icon from "../../assets/hackerspace-logo.jpg";
-import Ellipse_Small from "../../assets/EllipseSample2.png";
-import Ellipse_Big from "../../assets/EllipseSample.png";
-import circle from "../../assets/circle.png"
+import ellipse from "../../assets/ellipse.png"
 const HomeSection = () => {
   return (
     <section className="home">
@@ -22,12 +20,9 @@ const HomeSection = () => {
       <div className="rightSectionHome">
         <div className="imgHomeWrapper">
           <img src={icon} alt="hackerspace-logo" className="imgHome" />
-          {/* <img src={Ellipse_Big} alt="" className="ellipseBig" /> */}
-          <img src={circle} alt="" className="ellipseSmall" />
-          <img src={circle} alt="" className="ellipseSmall2" />
+          <img src={ellipse} alt="" className="ellipse-slow" />
+          <img src={ellipse} alt="" className="ellipse-fast" />
         </div>
-
-        {/* <img src={Ellipse_Small} alt="" className="ellipseSmall" /> */}
       </div>
     </section>
   );

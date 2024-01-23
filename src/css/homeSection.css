@@ -63,8 +63,6 @@
   justify-content: center;
   align-items: center;
   height: 400px;
-
-  /* background-color: red; */
 }
 .imgHomeWrapper {
   width: 308px;
@@ -81,8 +79,8 @@
 }
 .imgHome {
   border-radius: 50%;
-  height: 232px;
-  width: 232px;
+  height: 220px;
+  width: 220px;
   border: 2px solid var(--primary-color);
 }
 .ellipseBig {
@@ -92,22 +90,13 @@
   height: 330px;
   width: 330px;
 }
-.ellipseSmall {
+.ellipse-fast {
   position: absolute;
-  /* bottom: 30px;
-  left: 115px; */
-  /* height: 250px;
-  width: 250px; */
-  /* left: -2px;
-  bottom: -15px; */
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
   scale: 1.1;
   transform: rotate(90deg);
-  /* rotate: 180deg; */
-  animation: circle-animation1 10s infinite linear;
+  animation: circle-animation1 5s infinite linear;
 }
 
 @keyframes circle-animation1 {
@@ -119,17 +108,13 @@
   }
 }
 
-.ellipseSmall2 {
+.ellipse-slow {
   position: absolute;
-  /* height: 250px;
-  width: 250px; */
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
   scale: 1.1;
   transform: rotate(-90deg);
-  animation: circle-animation2 10s infinite linear;
+  animation: circle-animation2 15s infinite linear;
 }
 
 @keyframes circle-animation2 {
