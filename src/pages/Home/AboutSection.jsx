@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../css/AboutSection.css"
+import "../../css/aboutSection.css"
 import { Button } from '../../components'
 
 const AboutSection = () => {
