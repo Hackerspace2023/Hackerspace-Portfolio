@@ -1,17 +1,14 @@
-import React from 'react'
-
-
-const Card = ({className="",children,...props}) => {
+const Card = ({ className = "", children, ...props }) => {
   return (
     <>
-        <div className={`Card ${className}`} {...props}>
-            {children}
-        </div>
+      <div className={`Card ${className}`} {...props}>
+        {children}
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
 
 // I have added three props in the componets
 // 1. className is used when we add classes outside the componet
