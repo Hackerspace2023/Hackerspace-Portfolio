@@ -1,0 +1,100 @@
+.about {
+    /* height: 100vh; */
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+/*  ============= Section Gap ==================  */
+.about {
+    margin-top: 100px;  
+}
+
+.title {
+    /* background-color: red; */
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--text-color);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 80px;
+}
+
+.tagAbout {
+    color: var(--sub-text-color);
+    font-family: "Fira Code";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tagAbout1 {
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+
+.tagAbout2 {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+}
+
+.aboutContent {
+    width: 63vw;
+    height: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* background-color: blue; */
+    background: url(../../src/assets/aboutContent.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 6vw 5vw 3.5vw 5vw;
+    position: relative;
+}
+
+.aboutText {
+    margin-bottom: 20px;
+}
+
+.aboutText p {
+    font-family: "Fira Code";
+    /* font-size: 35px; */
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    /* line-height: 55px; */
+    line-height: 3vw;
+}
+
+.aboutLogo {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: -55px;
+    left: -55px;
+    background: url(../../src/assets/aboutLogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aboutButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,141 @@
+.home {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  /* min-height: 88vh; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+  /* background-color: red; */
+}
+
+/* ========= left Section ========= */
+.leftSectionHome {
+  padding-left: 42px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tag {
+  color: var(--sub-text-color);
+  font-family: "Fira Code";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subTitleHome {
+  white-space: nowrap;
+}
+
+.subTitleHomeText {
+  color: var(--primary-color);
+  font-family: "Fira Code";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bottomTitleHome {
+  margin-left: 20px;
+}
+
+.titleHome {
+  margin-left: 60px;
+}
+
+.titleHomeText {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Audiowide;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+/* ========= right Section ========= */
+.rightSectionHome {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.imgHomeWrapper {
+  width: 308px;
+  height: 308px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 308px;
+  background-image: url("Ellipse.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.imgHome {
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  border: 2px solid var(--primary-color);
+}
+
+.ellipseBig {
+  position: absolute;
+  top: -19px;
+  left: -6px;
+  height: 330px;
+  width: 330px;
+}
+
+.ellipse-fast {
+  position: absolute;
+  left: 0;
+  top: 0;
+  scale: 1.1;
+  transform: rotate(90deg);
+  animation: circle-animation1 5s infinite linear;
+}
+
+@keyframes circle-animation1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ellipse-slow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  scale: 1.1;
+  transform: rotate(-90deg);
+  animation: circle-animation2 15s infinite linear;
+}
+
+@keyframes circle-animation2 {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
