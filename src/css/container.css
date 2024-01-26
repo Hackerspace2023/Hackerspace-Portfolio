@@ -2,7 +2,7 @@
 :root{
     --background-color: #111119;
     --text-color: #fff;
-    --sub-text-color: #7E7E7E;
+    --sub-text-color: #7e7e7ee1;
     --primary-color: #00FF95;
     --sub-background-color: rgba(0, 255, 149, 0.10);
     --transition: all 300ms ease;
