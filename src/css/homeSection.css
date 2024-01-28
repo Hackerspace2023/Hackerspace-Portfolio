@@ -23,7 +23,6 @@
 
 .tag {
   color: var(--sub-text-color);
-  font-family: "Fira Code";
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -36,7 +35,6 @@
 
 .subTitleHomeText {
   color: var(--primary-color);
-  font-family: "Fira Code";
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -54,7 +52,7 @@
 .titleHomeText {
   color: var(--text-color);
   text-align: center;
-  font-family: Audiowide;
+  @apply font-audiowide;
   font-size: 80px;
   font-style: normal;
   font-weight: 400;

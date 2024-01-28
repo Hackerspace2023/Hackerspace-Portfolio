@@ -1,17 +1,15 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import "../../css/navbar.css";
 import Button from "../Button/Button";
-import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
-  
+
   useEffect(() => {
-    
     if (path) {
       setPath(pathname.replace(/^\/|\/$/g, ""));
-      
     } else {
       setPath("home");
     }
@@ -33,7 +31,7 @@ const Navbar = () => {
           <div className="navLogo">HS</div>
         </div>
         <div className="navItem">
-          <Button text="Join US" to={"/contact"} />
+          <Button text="Join Us" to={"/contact"} />
         </div>
       </nav>
     </>

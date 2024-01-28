@@ -1,8 +1,8 @@
-import React from "react";
 import TagContainer from "./TagContainer";
 import "../../css/homeSection.css";
 import icon from "../../assets/hackerspace-logo.jpg";
-import ellipse from "../../assets/ellipse.png"
+import ellipse from "../../assets/ellipse.png";
+
 const HomeSection = () => {
   return (
     <section className="home">

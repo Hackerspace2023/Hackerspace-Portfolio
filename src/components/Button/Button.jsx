@@ -1,7 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import "../../css/button.css"
+import "../../css/button.css";
+
 const Button = ({
   children,
   text = "button",
@@ -12,22 +12,12 @@ const Button = ({
   ...props
 }) => {
   return isHashLink ? (
-    <HashLink
-      to={link}
-      className="button"
-      title={title}
-      {...props}
-    >
+    <HashLink to={link} className="button" title={title} {...props}>
       <p className="buttonText">{text}</p>
       {children && <i>{children}</i>}
     </HashLink>
   ) : (
-    <Link
-      to={link}
-      className="button"
-      title={title}
-      {...props}
-    >
+    <Link to={link} className="button" title={title} {...props}>
       <p className="buttonText">{text}</p>
       {children && <i>{children}</i>}
     </Link>
