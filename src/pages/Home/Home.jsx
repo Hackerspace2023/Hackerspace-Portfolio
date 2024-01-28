@@ -1,7 +1,10 @@
+
 import React from 'react'
 import HomeSection from './HomeSection'
 import AboutSection from './AboutSection'
 import MembersSection from './MembersSection'
+
+
 
 
 const Home = () => {
@@ -9,9 +12,12 @@ const Home = () => {
     <>
       <HomeSection />
       <AboutSection />
-      <MembersSection />
-    </>
-  )
-}
 
-export default Home
+      <MembersSection />
+
+
+    </>
+  );
+};
+
+export default Home;

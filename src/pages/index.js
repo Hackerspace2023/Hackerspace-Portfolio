@@ -7,6 +7,4 @@ import Gallery from "./Gallery/Gallery";
 import Projects from "./Projects/Projects";
 import Error from "./Error/Error";
 
-
-
-export {Home,About,Blog,Contact,Events,Gallery,Projects,Error}
+export { Home, About, Blog, Contact, Events, Gallery, Projects, Error };
