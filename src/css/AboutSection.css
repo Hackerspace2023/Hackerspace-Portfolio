@@ -29,11 +29,13 @@
 }
 
 .tagAbout {
+
   color: var(--sub-text-color);
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
 }
 
 .tagAbout1 {

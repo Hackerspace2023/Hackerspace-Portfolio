@@ -1,3 +1,4 @@
+
 :root {
   --background-color: #111119;
   --text-color: #fff;
@@ -5,6 +6,7 @@
   --primary-color: #00ff95;
   --sub-background-color: rgba(0, 255, 149, 0.1);
   --transition: all 300ms ease;
+
 }
 
 .container {

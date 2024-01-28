@@ -1,5 +1,10 @@
+
+import React from 'react'
+
+
 import { Button } from "../../components";
 import "../../css/AboutSection.css";
+
 
 const AboutSection = () => {
   return (
