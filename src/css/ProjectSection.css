@@ -1,0 +1,105 @@
+/* ========= section gap ========= */
+.projectSection {
+  margin-top: 100px;
+}
+
+.projectSection {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000a2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+/* ========= porject section ========= */
+.projectSwiperContainer {
+  margin-top: 50px;
+}
+.projectSectionGraphics{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.porjectItem {
+  height: 500px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url(../assets/projectCard.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  z-index: -2;
+}
+/* ========= Project Section image ========= */
+
+.projectItemImg {
+  width: 300px;
+  height: 400px;
+  /* overflow: hidden; */
+  background-color: var(--primary-color);
+  clip-path: polygon(16% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 14%);
+  padding: 4px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.projectItemImg img {
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(16% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 14%);
+}
+
+/* ========= Project Section content ========= */
+
+.projectItemContent {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* gap: 20px ; */
+  padding-left: 20px;
+}
+.projectItemContent h3 {
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 100% */
+}
+.projectItemContent h4 {
+  color: var(--primary-color);
+  margin-top: 10px;
+  font-size: 20px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 1.5px;
+}
+.projectSectionText{
+    color: #FFF;
+font-family: "Fira Code";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+margin-top: 20px;
+line-height: 160%;
+}
+.buttonSection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
