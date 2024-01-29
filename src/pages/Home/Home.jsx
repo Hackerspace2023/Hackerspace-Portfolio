@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeSection from './HomeSection'
 import AboutSection from './AboutSection'
+import ProjectSection from './ProjectSection'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <>
       <HomeSection/>
       <AboutSection/>
+      <ProjectSection/>
     </>
   )
 }

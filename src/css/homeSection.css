@@ -54,7 +54,7 @@
 .titleHomeText {
   color: var(--text-color);
   text-align: center;
-  font-family: Audiowide;
+  font-family: 'Audiowide', sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +80,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 308px;
-  background-image: url("Ellipse.svg");
+  background-image: url("../assets/Ellipse.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

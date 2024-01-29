@@ -15,10 +15,11 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
   letter-spacing: 2px;
   transition: var(--transition);
   text-transform: capitalize;
+  word-wrap: nowrap;
+  margin-top: 0px !important;
 }
 .button:hover .buttonText{
     color: var(--background-color);
