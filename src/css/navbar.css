@@ -14,8 +14,8 @@
   font-weight: 400;
   z-index: 999;
 }
-/* ========= Glassmorphism ========= */
 
+/* ========= Glassmorphism ========= */
 .navbar {
   background: #00000038;
   backdrop-filter: blur(18px);
@@ -25,19 +25,19 @@
   display: flex;
 }
 
-/* navbar section inicator css */
-.sectionNumber{
-    color: var(--sub-text-color);
-    margin-right: 10px;
+/* navbar section indicator css */
+.sectionNumber {
+  color: var(--sub-text-color);
+  margin-right: 10px;
 }
-.sectionTitle{
+.sectionTitle {
   color: var(--text-color);
 }
 
 /* navbar logo */
-.navLogo{
+.navLogo {
+  @apply font-audiowide;
   font-size: 50px;
-  font-family: 'Audiowide', sans-serif;
   margin-right: 80px;
   letter-spacing: 5px;
 }

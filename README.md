@@ -2,18 +2,6 @@
 
 Welcome to the Hackerspace Website! This project is powered by Vite and encourages the use of Prettier for code formatting.
 
-<p align="center">
-  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
-    <img width="180" src="https://vitejs.dev/logo.svg" alt="Vite logo">
-  </a>
-</p>
-<br/>
-<p align="center">
-  <a href="https://npmjs.com/package/vite"><img src="https://img.shields.io/npm/v/vite.svg" alt="npm package"></a>
-  <a href="https://nodejs.org/en/about/previous-releases"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatibility"></a>
-</p>
-<br/>
-
 ## Features
 
 > Next Generation Frontend Tooling
@@ -30,7 +18,7 @@ Welcome to the Hackerspace Website! This project is powered by Vite and encourag
 Ensure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/) (v14.0.0 or higher recommended)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
 ## Getting Started
 
@@ -43,21 +31,23 @@ git clone https://github.com/Hackerspace2023/Hackerspace-Portfolio.git
 > Navigate to the project directory
 
 ```bash
- cd ./Hackerspace-Portfolio
+cd ./Hackerspace-Portfolio
 ```
 
-> Install dependencies
+> Install the dependencies
 
 ```bash
- npm install
+yarn
+# or
+npm i
 ```
 
 > Run the project
 
 ```bash
-npm run dev
-# or
 yarn dev
+# or
+npm run dev
 ```
 
 > Fetch the Latest Changes from the Remote Repository
@@ -66,20 +56,21 @@ yarn dev
 git pull origin main
 ```
 
-## Open your browser and visit: http://localhost:3000/
+> Open your browser and visit: [http://localhost:3000/](http://localhost:3000/)
 
-## git command
+## Git commands
 
 ```bash
 git add .
 git commit -m "Your commit message"
-git push 
+git push
 ```
 
 ## Licence
+
 [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
-``` bash
+```bash
 MIT License
 
 Copyright (c) 2023 Hacker Space
@@ -101,9 +92,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-````
+```
 
-# Contributors
+## Contributors
 
 [![Contributors](https://contrib.rocks/image?repo=hackerspace2023/Hackerspace-Portfolio)](./graphs/contributors)
 

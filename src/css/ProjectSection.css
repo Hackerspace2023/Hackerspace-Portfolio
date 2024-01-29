@@ -65,7 +65,7 @@
   width: 400px;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   /* gap: 20px ; */
   padding-left: 20px;
