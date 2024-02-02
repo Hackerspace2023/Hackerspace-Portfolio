@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  @apply font-firacode;
+  @apply font-firacode text-txt-primary;
 }
