@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <>
-      <h1>WELCOME TO HACKERSPACE Test</h1>
+      <h1 className=" text-2xl">WELCOME TO HACKERSPACE Test</h1>
       <h1>new</h1>
     </>
   );
