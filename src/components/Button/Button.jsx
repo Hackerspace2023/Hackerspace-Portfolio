@@ -12,10 +12,10 @@ const Button = ({
   ...props
 }) => {
   return (
-    <div className="inline-flex items-center hover:gap-1 transition-all ease-linear">
+    <div className="arrowButton inline-flex items-center transition-all ease-linear">
       <i className="btn arrow left opacity-10"></i>
-      <i className="btn arrow left opacity-30"></i>
-      <i className="btn arrow left opacity-50"></i>
+      <i className="btn arrow left opacity-40"></i>
+      <i className="btn arrow left opacity-80"></i>
       <div className="inline-flex items-center btn-container">
         {isHashLink ? (
           <HashLink to={link} className="button" title={title} {...props}>
@@ -29,8 +29,8 @@ const Button = ({
           </Link>
         )}
       </div>
-      <i className="btn arrow right opacity-50"></i>
-      <i className="btn arrow right opacity-30"></i>
+      <i className="btn arrow right opacity-80"></i>
+      <i className="btn arrow right opacity-40"></i>
       <i className="btn arrow right opacity-10"></i>
     </div>
   );
