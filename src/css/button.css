@@ -1,14 +1,17 @@
 .btn-container {
   @apply h-12;
   clip-path: polygon(0% 50%, 10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%);
+  background-color: var(--primary-color);
+  padding: 2px
 }
 
 .button {
   @apply inline-flex items-center px-4 w-full h-full text-txt-secondary;
   clip-path: polygon(0% 50%, 10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%);
-  background-color: var(--sub-background-color);
+  background-color: #101d1f;
   transition: var(--transition);
-  z-index: 10;
+  position: relative;
+  z-index: 2;
 }
 
 /* .button::before {
@@ -26,7 +29,8 @@
   @apply opacity-0;
 } */
 
-.button:hover {
+
+.arrowButton:hover .button {
   background-color: var(--primary-color);
 }
 
@@ -41,7 +45,7 @@
   word-wrap: nowrap;
   /* margin-top: 0px !important; */
 }
-.button:hover .buttonText {
+.arrowButton:hover .buttonText {
   color: var(--background-color);
 }
 
@@ -58,4 +62,71 @@
 .btn.arrow.right {
   /* clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%); */
   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 100%, 50% 50%, 0 0);
+}
+.arrowButton:hover .btn.arrow.left:nth-child(3)
+{
+  animation-name: arrowLive3;
+  animation-duration: 1s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-delay: 0.1s;
+}
+.arrowButton:hover .btn.arrow.left:nth-child(2)
+{
+  animation-name: arrowLive2;
+  animation-duration: 1s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-delay: 0.2s;
+}
+.arrowButton:hover .btn.arrow.left:nth-child(1)
+{
+  animation-name: arrowLive1;
+  animation-duration: 1s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-delay: 0.3s;
+}
+.arrowButton:hover .btn.arrow.right:nth-child(5)
+{
+  animation-name: arrowLive3;
+  animation-duration: 1s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-delay: 0.1s;
+}
+.arrowButton:hover .btn.arrow.right:nth-child(6)
+{
+  animation-name: arrowLive2;
+  animation-duration: 1s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-delay: 0.2s;
+}
+.arrowButton:hover .btn.arrow.right:nth-child(7)
+{
+  animation-name: arrowLive1;
+  animation-duration: 1s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes arrowLive3 {
+  0%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes arrowLive2 {
+  0%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 0.8;
+  }
+}
+@keyframes arrowLive1 {
+  0%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 0.8;
+  }
 }
