@@ -1,4 +1,3 @@
-import React from "react";
 import "../../css/homeSection.css";
 
 const TagContainer = ({ children, tag = "", className = "", ...props }) => {
