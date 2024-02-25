@@ -12,7 +12,7 @@ const AboutSection = () => {
             </div>
             <div className='aboutContent'>
                 <div className='aboutText'>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting been the industrys standard dummy text Lorem Ipsum is simply dummy text of the simply dummy text of the simply dummy text of the printing and simply dummy text of the typesetting industry. Lorem Ipsum has been</p>
                 </div>
                 <div className="aboutLogo"></div>
                 <div className='aboutButton'>

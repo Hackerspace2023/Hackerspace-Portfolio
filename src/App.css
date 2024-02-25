@@ -1,0 +1,20 @@
+@import '@splidejs/react-splide/css';
+
+
+@import '@splidejs/react-splide/css/skyblue';
+@import '@splidejs/react-splide/css/sea-green';
+
+
+
+@import '@splidejs/react-splide/css/core';
+
+.my-slider-progress {
+    background: #ccc;
+}
+
+.my-slider-progress-bar {
+    background: greenyellow;
+    height: 2px;
+    transition: width 400ms ease;
+    width: 0;
+}

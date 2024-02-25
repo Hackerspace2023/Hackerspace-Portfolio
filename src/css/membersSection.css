@@ -1,0 +1,57 @@
+.members {
+    /* height: 100vh; */
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+/*  ============= Section Gap ==================  */
+.members {
+    margin-top: 100px;  
+}
+
+.title {
+    /* background-color: red; */
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--text-color);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 80px;
+}
+
+.tagAbout {
+    color: var(--sub-text-color);
+    font-family: "Fira Code";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tagAbout1 {
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+
+.tagAbout2 {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+}
+
+/* ========================================================================================== */
+
