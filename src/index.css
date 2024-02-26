@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply transition-colors duration-200;
+}
+
 body {
   @apply font-firacode text-txt-primary;
 }

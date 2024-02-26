@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Follow Us",
+    "items": [
+      {
+        "text": "GitHub",
+        "link": "https://github.com/hackerspace2023",
+        "type": "external"
+      },
+      {
+        "text": "Facebook",
+        "link": "https://www.facebook.com/people/HackerSpace/100091680046825/",
+        "type": "external"
+      },
+      {
+        "text": "Instagram",
+        "link": "https://www.instagram.com/_hackerspace_msit_/",
+        "type": "external"
+      },
+      {
+        "text": "Twitter",
+        "link": "https://twitter.com/_hackerspace_",
+        "type": "external"
+      }
+    ]
+  },
+  {
+    "title": "Languages",
+    "items": [
+      {
+        "text": "C & C++",
+        "link": "/",
+        "type": "internal"
+      },
+      {
+        "text": "HTML, CSS, JS",
+        "link": "/",
+        "type": "internal"
+      },
+      {
+        "text": "Java",
+        "link": "/",
+        "type": "internal"
+      },
+      {
+        "text": "Python",
+        "link": "/",
+        "type": "internal"
+      }
+    ]
+  }
+]
