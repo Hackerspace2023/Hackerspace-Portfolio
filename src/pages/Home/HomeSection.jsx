@@ -2,6 +2,7 @@ import TagContainer from "./TagContainer";
 import "../../css/homeSection.css";
 import icon from "../../assets/hackerspace-logo.jpg";
 import ellipse from "../../assets/ellipse.png";
+import { ImageBorder } from "../../components";
 
 const HomeSection = () => {
   return (
@@ -18,11 +19,12 @@ const HomeSection = () => {
         </TagContainer>
       </div>
       <div className="rightSectionHome">
-        <div className="imgHomeWrapper">
+        {/* <div className="imgHomeWrapper">
           <img src={icon} alt="hackerspace-logo" className="imgHome" />
           <img src={ellipse} alt="" className="ellipse-slow" />
           <img src={ellipse} alt="" className="ellipse-fast" />
-        </div>
+        </div> */}
+        <ImageBorder icon={"hackerspace-logo.jpg"} />
       </div>
     </section>
   );
