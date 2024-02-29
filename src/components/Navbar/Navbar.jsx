@@ -2,11 +2,14 @@ import { useCallback, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "../../css/navbar.css";
 import Button from "../Button/Button";
+import { useDispatch, useSelector } from "react-redux";
+import { updateTitle } from "../../features/navSlice";
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   const location = useLocation();
-  const [number, setNumber] = useState("01");
-  const [path, setPath] = useState("");
+  const [path, setPath] = useState(useSelector((state)=>state.nav.navTitle));
+  const [number, setNumber] = useState(useSelector((state)=>state.nav.navNumber));
   const routesNumber = {
     "": "01",
     "about": "02",
@@ -17,19 +20,32 @@ const Navbar = () => {
     "contact": "07",
   }
 
-  const changeHeader = (path)=>{
-    setHeader(path.replace(/^\/|\/$/g, ""));
+  const changeHeader = (path,number)=>{
+    const newPath = {
+      navTitle: path,
+      navNumber: number
+    }
+    dispatch(updateTitle(newPath));
   }
 
   const setHeader = (path)=>{
+    let temp="";
     if(path)
     {
       setPath(path);
+      temp=path
     }
     else{
       setPath("home")
+      temp="home"
     }
-    setNumber(routesNumber[path]);
+    const number = routesNumber[path]
+    setNumber(number);
+    const newPath = {
+      navTitle: temp,
+      navNumber: number
+    }
+    dispatch(updateTitle(newPath));
   }
   
 
@@ -52,14 +68,14 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navItem">
-          <div className="sectionNumber">//{number}.</div>
-          <div className="sectionTitle">{path}</div>
+          <div className="sectionNumber">//{useSelector((state)=>state.nav.navNumber)}.</div>
+          <div className="sectionTitle">{useSelector((state)=>state.nav.navTitle)}</div>
         </div>
         <div className="navItem">
           <div className="navLogo">HS</div>
         </div>
         <div className="navItem">
-          <Button text="Join Us" to={"/contact"} onClick={()=>changeHeader("contact")}/>
+          <Button text="Join Us" to={"/contact"} onClick={()=>changeHeader("contact","07")}/>
         </div>
       </nav>
     </>
