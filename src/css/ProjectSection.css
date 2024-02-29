@@ -1,6 +1,7 @@
 /* ========= section gap ========= */
 .projectSection {
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  padding-top: 80px;
 }
 
 .projectSection {
@@ -71,9 +72,8 @@
   padding-left: 20px;
 }
 .projectItemContent h3 {
-  font-size: 50px;
   font-family: "Audiowide", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: 60px; /* 100% */

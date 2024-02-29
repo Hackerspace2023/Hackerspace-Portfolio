@@ -8,7 +8,7 @@ import "../../css/ProjectSection.css";
 import "../../css/AboutSection.css";
 import {Button} from "../../components"
 
-const Testimonial = () => {
+const Testimonial = ({...props}) => {
   const data = [{
     title: "Lorem Ipsam",
     subTitle: "DESIGN AND DEVELOPMET",
@@ -66,7 +66,7 @@ const Testimonial = () => {
 ];
   return (
     <>
-      <section className="projectSection">
+      <section className="projectSection" {...props}>
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Our Projects</h1>

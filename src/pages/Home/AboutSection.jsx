@@ -8,7 +8,7 @@ import { useDispatch } from 'react-redux';
 import { updateTitle } from '../../features/navSlice';
 
 
-const AboutSection = () => {
+const AboutSection = ({...props}) => {
   const dispatch = useDispatch();
   const changeHeader = (path,number)=>{
     const newPath = {
@@ -19,7 +19,7 @@ const AboutSection = () => {
   }
   
   return (
-    <section className="about">
+    <section className="about" {...props}>
       <div className="titleContainer">
         <span className="tagAbout tagAbout1">{`<h2>`}</span>
         <h1 className="title">About Us</h1>
