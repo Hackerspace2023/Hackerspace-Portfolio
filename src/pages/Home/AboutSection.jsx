@@ -4,9 +4,20 @@ import React from 'react'
 
 import { Button } from "../../components";
 import "../../css/AboutSection.css";
+import { useDispatch } from 'react-redux';
+import { updateTitle } from '../../features/navSlice';
 
 
 const AboutSection = () => {
+  const dispatch = useDispatch();
+  const changeHeader = (path,number)=>{
+    const newPath = {
+      navTitle: path,
+      navNumber: number
+    }
+    dispatch(updateTitle(newPath));
+  }
+  
   return (
     <section className="about">
       <div className="titleContainer">
@@ -25,7 +36,7 @@ const AboutSection = () => {
         </div>
         <div className="aboutLogo"></div>
         <div className="aboutButton">
-          <Button text="Learn More" to={"/about"} />
+          <Button text="Learn More" to={"/about"} onClick={()=>changeHeader("about","02")}/>
         </div>
       </div>
     </section>
