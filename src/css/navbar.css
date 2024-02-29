@@ -21,7 +21,7 @@
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
-.navItem {
+.navHeader{
   display: flex;
 }
 
@@ -40,4 +40,41 @@
   font-size: 50px;
   margin-right: 80px;
   letter-spacing: 5px;
+}
+
+
+/* ========= navItems ========= */
+.navItems{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-size: 22px;
+}
+.navLinks{
+  padding: 10px;
+  padding-bottom: 5px;
+  color: var(--sub-text-color);
+  /* background-color: red; */
+  cursor: pointer;
+  position: relative;
+  transition: var(--transition);
+}
+.navLinks::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 3px;
+  background-color: var(--text-color);
+  transition: var(--transition);
+}
+.navLinks:hover{
+  color: var(--text-color);
+}
+.navLinks:hover::after{
+  left: 0;
+  width: 100%;
 }

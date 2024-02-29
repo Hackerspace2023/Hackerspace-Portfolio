@@ -3,9 +3,9 @@ import "../../css/homeSection.css";
 import icon from "../../assets/hackerspace-logo.jpg";
 import ellipse from "../../assets/ellipse.png";
 
-const HomeSection = () => {
+const HomeSection = ({...props}) => {
   return (
-    <section className="home">
+    <section className="home" {...props}>
       <div className="leftSectionHome">
         <TagContainer tag="p" className="subTitleHome">
           <b className="subTitleHomeText"> Welcome To </b>
