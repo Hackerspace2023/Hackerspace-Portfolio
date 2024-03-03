@@ -10,6 +10,7 @@
     "preview": "vite preview --host"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
     "@reduxjs/toolkit": "^2.2.1",
     "dotenv": "^16.4.5",
     "prettier": "^3.2.5",
