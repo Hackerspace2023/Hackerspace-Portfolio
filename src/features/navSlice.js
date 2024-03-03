@@ -1,8 +1,31 @@
 import { createSlice } from "@reduxjs/toolkit"
+import { nav } from "../data";
 
 const initialState = {
     navTitle: "home",
-    navNumber: "01"
+    navNumber: "01",
+    navItems: [
+        {
+            text: "Home",
+            link: "/#home"
+        },
+        {
+            text: "About",
+            link: "/#about"
+        },
+        {
+            text: "Projects",
+            link: "/#projects"
+        },
+        {
+            text: "Members",
+            link: "/#members"
+        },
+        {
+            text: "Contact",
+            link: "/#contact"
+        }
+    ]
 }
 
 const navSlice = createSlice({
@@ -10,8 +33,13 @@ const navSlice = createSlice({
     initialState,
     reducers: {
         updateTitle: (state,action) => {
-            state.navTitle = action.payload.navTitle;
-            state.navNumber = action.payload.navNumber;
+            let newPath = action.payload?action.payload: "home";
+            if(!nav.hasOwnProperty(newPath)){
+                newPath = "error"
+            }
+            state.navTitle = nav[newPath].navTitle;
+            state.navNumber = nav[newPath].navNumber;
+            state.navItems = nav[newPath].navItems;
         }
     }
 })
