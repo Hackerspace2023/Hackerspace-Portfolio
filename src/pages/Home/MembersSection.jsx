@@ -14,7 +14,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const MembersSection = () => {
+const MembersSection = ({...props}) => {
     const data = [
         {
             profilePic: "profileImg.jpg",
@@ -43,7 +43,7 @@ const MembersSection = () => {
     ];
 
     return (
-        <section className="members">
+        <section className="members" {...props}>
             <div className="titleContainer">
                 <span className="tagAbout tagAbout1">{`<h2>`}</span>
                 <h1 className="title">Our Members</h1>
