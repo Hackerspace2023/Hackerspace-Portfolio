@@ -9,14 +9,7 @@ import { updateTitle } from '../../features/navSlice';
 
 
 const AboutSection = ({...props}) => {
-  const dispatch = useDispatch();
-  const changeHeader = (path,number)=>{
-    const newPath = {
-      navTitle: path,
-      navNumber: number
-    }
-    dispatch(updateTitle(newPath));
-  }
+  
   
   return (
     <section className="about" {...props}>
@@ -36,7 +29,7 @@ const AboutSection = ({...props}) => {
         </div>
         <div className="aboutLogo"></div>
         <div className="aboutButton">
-          <Button text="Learn More" to={"/about"} onClick={()=>changeHeader("about","02")}/>
+          <Button text="Learn More" to={"/about"} />
         </div>
       </div>
     </section>

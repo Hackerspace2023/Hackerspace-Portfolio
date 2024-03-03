@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate, useNavigation } from "react-router-dom";
 import "../../css/navbar.css";
 import Button from "../Button/Button";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,95 +10,38 @@ import NavItem from "./NavItem";
 const Navbar = () => {
   const dispatch = useDispatch();
   const location = useLocation();
-  const [path, setPath] = useState(useSelector((state)=>state.nav.navTitle));
-  const [number, setNumber] = useState(useSelector((state)=>state.nav.navNumber));
-  const routesNumber = {
-    "": "01",
-    "about": "02",
-    "projects": "03",
-    "events": "04",
-    "blog": "05",
-    "gallery": "06",
-    "contact": "07",
-  }
 
-  const changeHeader = (path,number)=>{
-    const newPath = {
-      navTitle: path,
-      navNumber: number
-    }
-    dispatch(updateTitle(newPath));
-  }
+  // geting the initial navigation state
+  const navTitle = useSelector((state)=>state.nav.navTitle);
+  const navNumber = useSelector((state)=>state.nav.navNumber);
+  const navItems = useSelector((state)=>state.nav.navItems);
 
-  const setHeader = (path)=>{
-    let temp="";
-    if(path)
-    {
-      setPath(path);
-      temp=path
-    }
-    else{
-      setPath("home")
-      temp="home"
-    }
-    const number = routesNumber[path]
-    setNumber(number);
-    const newPath = {
-      navTitle: temp,
-      navNumber: number
-    }
-    dispatch(updateTitle(newPath));
-  }
-  
+  // if the page is routes changed
 
   useEffect(() => {
-    const {pathname} = location;
-    window.onload = function(){
-      setHeader(pathname.replace(/^\/|\/$/g, ""));
+    console.log(location);
+    let newPath = "";
+    if(location.pathname === "/")
+    {
+      newPath = "home";
     }
-    const handleEvent = ()=>{
-      const {pathname} = location;
-      setHeader(pathname.replace(/^\/|\/$/g, ""));
+    else{
+      newPath = location.pathname.replace(/^\/|\/$/g, "");
     }
-    window.addEventListener("popstate",handleEvent)
-    return () => {
-      window.removeEventListener("popstate", handleEvent);
-    };
-  }, []);
-
-  const navData = [
-    {
-      text: "Home",
-      link: "/#home"
-    },
-    {
-      text: "About",
-      link: "/#about"
-    },
-    {
-      text: "Members",
-      link: "/#members"
-    },
-    {
-      text: "Projects",
-      link: "/#projects"
-    },
-    {
-      text: "Contact",
-      link: "/#contact"
-    },
-  ]
+    dispatch(updateTitle(newPath));
+  }, [location]);
+  
 
   return (
     <>
       <nav className="navbar">
         <div className="navHeader">
-          <div className="sectionNumber">//{useSelector((state)=>state.nav.navNumber)}.</div>
-          <div className="sectionTitle">{useSelector((state)=>state.nav.navTitle)}</div>
+          <div className="sectionNumber">//{navNumber}.</div>
+          <div className="sectionTitle">{`${navTitle}`}</div>
         </div>
         <div className="navItems">
           {
-            navData.map((ele,index)=>(<NavItem key={index} text={ele.text} link={ele.link}/>))
+            navItems.map((ele,index)=>(<NavItem key={index} text={ele.text} link={ele.link}/>))
           }
         </div>
       </nav>

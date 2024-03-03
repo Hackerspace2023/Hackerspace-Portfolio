@@ -10,14 +10,7 @@ import { useDispatch } from "react-redux";
 import { updateTitle } from "../../features/navSlice";
 
 const ContactSection = ({ ...props }) => {
-    const dispatch = useDispatch();
-    const changeHeader = (path,number)=>{
-        const newPath = {
-          navTitle: path,
-          navNumber: number
-        }
-        dispatch(updateTitle(newPath));
-      }
+    
       
   return (
     <>
@@ -37,7 +30,7 @@ const ContactSection = ({ ...props }) => {
           <a className="circleIcon" data-icon="linkedin" href="#" target="_blank">
             <FaLinkedin />
           </a>
-          <Link className="circleIcon" data-icon="mail" to="/contact" onClick={()=>changeHeader("contact","07")} >
+          <Link className="circleIcon" data-icon="mail" to="/contact" >
             <IoMdMail />
           </Link>
         </div>
