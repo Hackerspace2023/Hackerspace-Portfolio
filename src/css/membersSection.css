@@ -8,11 +8,8 @@
 
 /*  ============= Section Gap ==================  */
 .members {
-    margin-top: 100px;
-}
-
-.title {
-    /* background-color: red; */
+    /* margin-top: 100px; */
+    padding-top: 80px;
 }
 
 .titleContainer {
