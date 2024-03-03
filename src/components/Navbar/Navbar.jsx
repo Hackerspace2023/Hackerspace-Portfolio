@@ -19,7 +19,6 @@ const Navbar = () => {
   // if the page is routes changed
 
   useEffect(() => {
-    console.log(location);
     let newPath = "";
     if(location.pathname === "/")
     {
