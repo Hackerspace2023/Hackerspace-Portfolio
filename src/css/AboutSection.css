@@ -7,7 +7,8 @@
 }
 /*  ============= Section Gap ==================  */
 .about {
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  padding-top: 80px;
 }
 
 .titleContainer {
@@ -25,13 +26,13 @@
 
 .title {
   @apply font-audiowide;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .tagAbout {
 
   color: var(--sub-text-color);
-  font-size: 35px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

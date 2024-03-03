@@ -1,65 +1,47 @@
 import { useCallback, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate, useNavigation } from "react-router-dom";
 import "../../css/navbar.css";
 import Button from "../Button/Button";
+import { useDispatch, useSelector } from "react-redux";
+import { updateTitle } from "../../features/navSlice";
+import { HashLink as Link } from "react-router-hash-link";
+import NavItem from "./NavItem";
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   const location = useLocation();
-  const [number, setNumber] = useState("01");
-  const [path, setPath] = useState("");
-  const routesNumber = {
-    "": "01",
-    "about": "02",
-    "projects": "03",
-    "events": "04",
-    "blog": "05",
-    "gallery": "06",
-    "contact": "07",
-  }
 
-  const changeHeader = (path)=>{
-    setHeader(path.replace(/^\/|\/$/g, ""));
-  }
+  // geting the initial navigation state
+  const navTitle = useSelector((state)=>state.nav.navTitle);
+  const navNumber = useSelector((state)=>state.nav.navNumber);
+  const navItems = useSelector((state)=>state.nav.navItems);
 
-  const setHeader = (path)=>{
-    if(path)
-    {
-      setPath(path);
-    }
-    else{
-      setPath("home")
-    }
-    setNumber(routesNumber[path]);
-  }
-  
+  // if the page is routes changed
 
   useEffect(() => {
-    const {pathname} = location;
-    window.onload = function(){
-      setHeader(pathname.replace(/^\/|\/$/g, ""));
+    let newPath = "";
+    if(location.pathname === "/")
+    {
+      newPath = "home";
     }
-    const handleEvent = ()=>{
-      const {pathname} = location;
-      setHeader(pathname.replace(/^\/|\/$/g, ""));
+    else{
+      newPath = location.pathname.replace(/^\/|\/$/g, "");
     }
-    window.addEventListener("popstate",handleEvent)
-    return () => {
-      window.removeEventListener("popstate", handleEvent);
-    };
-  }, []);
+    dispatch(updateTitle(newPath));
+  }, [location]);
+  
 
   return (
     <>
       <nav className="navbar">
-        <div className="navItem">
-          <div className="sectionNumber">//{number}.</div>
-          <div className="sectionTitle">{path}</div>
+        <div className="navHeader">
+          <div className="sectionNumber">//{navNumber}.</div>
+          <div className="sectionTitle">{`${navTitle}`}</div>
         </div>
-        <div className="navItem">
-          <div className="navLogo">HS</div>
-        </div>
-        <div className="navItem">
-          <Button text="Join Us" to={"/contact"} onClick={()=>changeHeader("contact")}/>
+        <div className="navItems">
+          {
+            navItems.map((ele,index)=>(<NavItem key={index} text={ele.text} link={ele.link}/>))
+          }
         </div>
       </nav>
     </>

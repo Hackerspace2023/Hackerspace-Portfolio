@@ -4,16 +4,18 @@ import HomeSection from './HomeSection'
 import AboutSection from './AboutSection'
 import ProjectSection from './ProjectSection'
 import MembersSection from './MembersSection'
+import ContactSection from './ContactSection'
 
 
 
 const Home = () => {
   return (
     <>
-      <HomeSection/>
-      <AboutSection/>
-      <ProjectSection/>
-      <MembersSection />
+      <HomeSection id="home"/>
+      <AboutSection id="about"/>
+      <ProjectSection id="projects"/>
+      <MembersSection id="members"/>
+      <ContactSection id="contact"/>
     </>
   );
 };
