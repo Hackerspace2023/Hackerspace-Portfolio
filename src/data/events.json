@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Dummy Event",
+    "date": "2024-06-13",
+    "type": "one-day",
+    "startDate": "2024-06-13",
+    "endDate": "2024-06-15",
+    "location": "Remote",
+    "image": "https://via.placeholder.com/400x500"
+  },
+  {
+    "name": "Another Dummy Event",
+    "date": "2022-02-15",
+    "type": "one-day",
+    "startDate": "2022-02-15",
+    "endDate": "2022-02-15",
+    "location": "Another Dummy Location",
+    "image": "https://via.placeholder.com/400x500"
+  },
+  {
+    "name": "Yet Another Dummy Event",
+    "date": "2022-03-10",
+    "type": "one-day",
+    "startDate": "2022-03-10",
+    "endDate": "2022-03-10",
+    "location": "Yet Another Dummy Location",
+    "image": "https://via.placeholder.com/400x500"
+  },
+  {
+    "name": "One More Dummy Event",
+    "date": "2022-04-20",
+    "type": "one-day",
+    "startDate": "2022-04-20",
+    "endDate": "2022-04-20",
+    "location": "Remote",
+    "image": "https://via.placeholder.com/400x500"
+  },
+  {
+    "name": "Dummy Event",
+    "date": "2022-01-01",
+    "type": "one-day",
+    "startDate": "2022-01-01",
+    "endDate": "2022-01-01",
+    "location": "Dummy Location",
+    "image": "https://via.placeholder.com/400x500"
+  },
+  {
+    "name": "Another Dummy Event",
+    "date": "2022-02-15",
+    "type": "one-day",
+    "startDate": "2022-02-15",
+    "endDate": "2022-02-15",
+    "location": "Another Dummy Location",
+    "image": "https://via.placeholder.com/400x500"
+  },
+  {
+    "name": "Yet Another Dummy Event",
+    "date": "2024-08-10",
+    "type": "consecutive",
+    "startDate": "2024-08-10",
+    "endDate": "2024-08-15",
+    "location": "Yet Another Dummy Location",
+    "image": "https://via.placeholder.com/400x500"
+  },
+  {
+    "name": "One More Dummy Event",
+    "date": "2022-04-20",
+    "type": "one-day",
+    "startDate": "2022-04-20",
+    "endDate": "2022-04-20",
+    "location": "One More Dummy Location",
+    "image": "https://via.placeholder.com/400x500"
+  }
+]
