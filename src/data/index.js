@@ -1,6 +1,7 @@
+import events from "./events.json";
 import footer from "./footer.json";
-import nav from "./nav.json"
-import journey from "./journey.json"
+import journey from "./journey.json";
 import members from "./members.json";
+import nav from "./nav.json";
 
-export { footer,nav,journey,members };
+export { events, footer, nav, journey, members };
