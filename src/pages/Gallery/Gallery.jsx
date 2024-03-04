@@ -1,20 +1,10 @@
 import React from "react";
 import "../../css/gallery.css";
 import Swiper from "swiper";
+import { ImageBorder } from "../../components";
+import { gallery, members } from "../../data";
 
 const Gallery = () => {
-  const data = [
-    {
-      profilePic: "profileImg.jpg",
-      name: "Lorem Ipsam",
-      // role: "DESIGN AND DEVELOPMET",
-    },
-    {
-      profilePic: "profileImg2.jpeg",
-      name: "Lorem Ipsam",
-      // role: "DESIGN AND DEVELOPMET",
-    },
-  ];
   return (
     <section className="gallery">
       <div className="galleryAbout">
@@ -33,15 +23,42 @@ const Gallery = () => {
           and typesetting industry. Lorem Ipsum has been
         </div>
       </div>
-      <div className="galleryAbout">
+
+      <div className="galleryMember">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Our Members</h1>
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
+        <div className="members-contain">
+          {members.map((member, index) => {
+            return (
+              <div className="members-card">
+                <ImageBorder icon={member.profilePic} />
+                <div>
+                  <h3>{member.name}</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
-      <div className="members">
-        
+
+      <div className="galleryPic">
+        <div className="titleContainer">
+          <span className="tagAbout tagAbout1">{`<h2>`}</span>
+          <h1 className="title">Our Gallery</h1>
+          <span className="tagAbout tagAbout2">{`</h2>`}</span>
+        </div>
+        <div className="galleryPic-contain">
+          {gallery.map((image, index) => {
+            return (
+              <div className="galleryPic-card" key={index}>
+                <img src={image.eventImage} alt="img" />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
