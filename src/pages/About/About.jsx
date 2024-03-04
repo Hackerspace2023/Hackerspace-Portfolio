@@ -1,10 +1,13 @@
 import { Button } from "../../components";
 import "../../css/About.css"
+import AboutSection from "../Home/AboutSection";
+import Experience from "./Experience";
 import Journey from "./Journey";
+import MembersSection from "../Home/MembersSection";
 
-const About = () => {
+const About = ({...props}) => {
   return (
-    <>
+    <section {...props}>
       <section className="About" id="about">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
@@ -18,8 +21,10 @@ const About = () => {
           industry. Lorem Ipsum has been
         </div>
         <Journey id="journey"/>
+        <Experience id="experience"/>
+        <MembersSection id="members" style={{paddingBottom: "50px"}}/>
       </section>
-    </>
+    </section>
   );
 };
 

@@ -1,11 +1,48 @@
-import React from 'react'
+import React from "react";
+import "../../css/About.css";
+import { journey } from "../../data";
 
-const Journey = () => {
+const Journey = ({ ...props }) => {
   return (
-    <section>
-        
-    </section>
-  )
-}
+    <section className="journey" {...props}>
+      <div className="titleContainer">
+        <span className="tagAbout tagAbout1">{`<h2>`}</span>
+        <h1 className="title">Our Journey</h1>
+        <span className="tagAbout tagAbout2">{`</h2>`}</span>
+      </div>
+      <div className="aboutDescription">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text Lorem
+        Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been
+      </div>
 
-export default Journey
+      <div className="timeline">
+        <div className="line"></div>
+        <ul>
+          {journey.map((item, index) => {
+            return (
+              <li key={index}>
+                <div className="timeline-content">
+                  <h3 className="date">{item.date}</h3>
+                  <h1>
+                    {
+                      item.title
+                    }
+                  </h1>
+                  <p>
+                    {
+                      item.description
+                    }
+                  </p>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
+};
+
+export default Journey;

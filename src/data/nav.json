@@ -40,6 +40,10 @@
             {
                 "text": "Experience",
                 "link": "/about/#experience"
+            },
+            {
+                "text": "Members",
+                "link": "/about/#members"
             }
         ]
     },
@@ -65,21 +69,21 @@
             }
         ]
     },
-    "event": {
-        "navTitle": "event",
+    "events": {
+        "navTitle": "events",
         "navNumber": "03",
         "navItems": [
             {
                 "text": "Events",
-                "link": "/event/#events"
+                "link": "/events/#events"
             },
             {
                 "text": "Upcoming",
-                "link": "/event/#upcoming"
+                "link": "/events/#upcoming"
             },
             {
                 "text": "Past",
-                "link": "/event/#past"
+                "link": "/events/#past"
             }
         ]
     },

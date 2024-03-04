@@ -13,34 +13,9 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { members } from "../../data";
 
 const MembersSection = ({...props}) => {
-    const data = [
-        {
-            profilePic: "profileImg.jpg",
-            name: "Lorem Ipsam",
-            role: "DESIGN AND DEVELOPMET",
-            description: "Lorem Ipsum is simply dummy text of the printing",
-            socials: {
-                instagram: "https://www.instagram.com",
-                github: "https://www.github.com",
-                linkedin: "https://www.linkedin.com",
-                facebook: "https://www.facebook.com",
-            },
-        },
-        {
-            profilePic: "profileImg2.jpeg",
-            name: "Lorem Ipsam",
-            role: "DESIGN AND DEVELOPMET",
-            description: "Lorem Ipsum is simply dummy text of the printing",
-            socials: {
-                instagram: "https://www.instagram.com",
-                github: "https://www.github.com",
-                linkedin: "https://www.linkedin.com",
-                facebook: "https://www.facebook.com",
-            },
-        },
-    ];
 
     return (
         <section className="members" {...props}>
@@ -65,7 +40,7 @@ const MembersSection = ({...props}) => {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    {data.map((ele, index) => {
+                    {members.map((ele, index) => {
                         return (
                             <SwiperSlide key={index}>
                                 <div className="membersContainer">
