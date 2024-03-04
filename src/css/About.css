@@ -1,0 +1,214 @@
+.About {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: var(--text-color);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px
+}
+
+.title {
+  @apply font-audiowide;
+  font-size: 70px;
+}
+
+.tagAbout {
+  color: var(--sub-text-color);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tagAbout1 {
+  position: absolute;
+  top: 0;
+  left: -80px;
+}
+
+.tagAbout2 {
+  position: absolute;
+  bottom: 0;
+  right: -100px;
+}
+
+.aboutDescription{
+    margin-top: 50px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-color);
+}
+
+/* ========= Journey ========= */
+.journey{
+  /* background-color: red; */
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+/* ======================================= PAGE 8 ==================================== */
+
+
+
+/* ===================================== TIMELINE =============================== */
+
+.timeline {
+  height: fit-content;
+  /* max-width: 1300px; */
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  /* padding-bottom: 20px; */
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s linear;
+}
+
+.timeline .line{
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  background-color: var(--text-color);
+  width: 2px;
+  height: 100%;
+  /* z-index: -1; */
+}
+
+/* ============================ TIMELINE RESPONSIVE ==================================== */
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 0px 10px #00000079; */
+  border: 2px solid var(--primary-color);
+  width: 50%;
+  position: relative;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.timeline ul li:hover{
+  /* box-shadow: 0px 0px 15px #000000d2; */
+  background-color: var(--sub-background-color);
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  /* color: #ea7c11; */
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  /* background-color: red; */
+  transform: translateY(-5px);
+}
+.timeline ul li:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-30px);
+  /* border-radius: 20px 0px 20px 20px; */
+}
+.timeline ul li:nth-child(even) {
+  float: right;
+  clear: left;
+  transform: translateX(30px);
+  /* border-radius: 0px 20px 20px 20px; */
+}
+.timeline ul li::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  top: 0px;
+  transition: all 0.2s ease;
+}
+.timeline ul li:nth-child(odd)::before {
+  transform: translate(50%, -50%);
+  right: -33px;
+  top: -10px;
+}
+.timeline ul li:nth-child(even)::before {
+  transform: translate(-50%, -50%);
+  left: -30px;
+}
+.timeline-content .date {
+  position: absolute;
+  top: -30px;
+}
+.timeline ul li:hover::before {
+  background-color: var(--primary-color);
+}
+
+/* ========= Experience ========= */
+.experience{
+  /* background-color: red; */
+  padding-top: 80px;
+  
+}
+.experienceContainer{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.experienceCard{
+  height: 200px;
+  width: 280px;
+  /* background-color: red; */
+}
+.experienceCard .cardTitle{
+  @apply font-audiowide;
+  font-size: 32px;
+}
+.experienceCard .cardSubTitle{
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 2px ;
+  color: var(--primary-color);
+}

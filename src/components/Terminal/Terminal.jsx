@@ -10,7 +10,6 @@ const Terminal = () => {
   const [show, setShow] = useState(false);
   const data = Object.keys(nav);
   const navData = [...data.filter((item) => item !== "error")];
-  console.log(navData);
   const handleForm = (e) => {
     e.preventDefault();
     navigate(`${terminal}`);
