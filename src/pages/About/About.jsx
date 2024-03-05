@@ -4,8 +4,15 @@ import AboutSection from "../Home/AboutSection";
 import Experience from "./Experience";
 import Journey from "./Journey";
 import MembersSection from "../Home/MembersSection";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const About = ({...props}) => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <section {...props}>
       <section className="About" id="about">

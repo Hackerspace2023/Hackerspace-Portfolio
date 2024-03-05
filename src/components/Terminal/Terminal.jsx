@@ -12,7 +12,10 @@ const Terminal = () => {
   const navData = [...data.filter((item) => item !== "error")];
   const handleForm = (e) => {
     e.preventDefault();
-    navigate(`${terminal}`);
+    let path = terminal.replace(/^\/|\/$/g, "")
+    console.log(path);
+    navigate(`/${path}/#${path}`);
+    window.scrollTo(0, 0);
     setTerminal("");
     setShow(false);
   };
@@ -27,6 +30,7 @@ const Terminal = () => {
   };
   const handleClick = (item) => {
     navigate(`${item}`);
+    window.scrollTo(0, 0);
     setTerminal("");
     setShow(false);
   };
