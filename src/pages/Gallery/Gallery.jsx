@@ -1,13 +1,12 @@
 import React from "react";
 import "../../css/gallery.css";
-import Swiper from "swiper";
 import { ImageBorder } from "../../components";
 import { gallery, members } from "../../data";
 
 const Gallery = () => {
   return (
-    <section className="gallery">
-      <div className="galleryAbout">
+    <section id="gallery" className="gallery">
+      <section className="galleryAbout">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Gallery</h1>
@@ -22,9 +21,9 @@ const Gallery = () => {
           standard dummy text Lorem Ipsum is simply dummy text of the printing
           and typesetting industry. Lorem Ipsum has been
         </div>
-      </div>
+      </section>
 
-      <div className="galleryMember">
+      <section id="memebers" className="galleryMember">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Our Members</h1>
@@ -42,9 +41,9 @@ const Gallery = () => {
             );
           })}
         </div>
-      </div>
+      </section>
 
-      <div className="galleryPic">
+      <section id="photos" className="galleryPic">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Our Gallery</h1>
@@ -59,7 +58,7 @@ const Gallery = () => {
             );
           })}
         </div>
-      </div>
+      </section>
     </section>
   );
 };
