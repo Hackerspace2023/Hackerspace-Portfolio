@@ -1,3 +1,4 @@
+import projects from "./projects.json";
 import footer from "./footer.json";
 
-export { footer };
+export { projects, footer };
