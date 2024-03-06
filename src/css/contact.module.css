@@ -1,0 +1,248 @@
+/* ========= section gap ========= */
+.contactSection {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  gap: 30px;
+}
+.contactSection {
+  /* width: 100%; */
+  max-width: 1320px;
+  /* background-color: red; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 0;
+}
+
+/* ========= Button ========= */
+.contactButton{
+    background-color: var(--primary-color);
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+/* ========= contact Card ========= */
+.contactCard {
+  /* background: rgba(255, 255, 255, 0.05); */
+  /* backdrop-filter: blur(20px); */
+  /* -webkit-backdrop-filter: blur(20px); */
+  border-radius: 0px;
+  border: 1px solid var(--primary-color);
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  overflow: hidden;
+}
+/* ========= Left ========= */
+
+.left {
+  padding: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.leftTitle {
+  font-size: 50px;
+  color: var(--text-color);
+  /* font-weight: 600; */
+  /* line-height: 80px; */
+  /* letter-spacing: 1.3px; */
+  @apply font-audiowide;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+}
+.leftSubTitle {
+  font-size: 18px;
+  color: var(--text-color);
+  letter-spacing: 2px;
+}
+.map {
+  width: 100%;
+  height: 310px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+/* ========= right ========= */
+.right {
+  width: 50%;
+  /* background: rgba(255, 255, 255, 0.007); */
+  /* backdrop-filter: blur(20px); */
+  /* -webkit-backdrop-filter: blur(20px); */
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  border-left: 2px solid var(--primary-color);
+  /* border-top-left-radius: 50px; */
+  /* border-bottom-left-radius: 50px; */
+  padding: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.rightTitle {
+  font-size: 50px;
+  color: var(--text-color);
+  /* font-weight: 600; */
+  /* line-height: 80px; */
+  /* letter-spacing: 1.3px; */
+  @apply font-audiowide;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 25px;
+}
+.form input {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  width: 500px;
+  background-color: transparent;
+  color: var(--text-color);
+}
+.form input::placeholder {
+  color: var(--sub-text-color);
+}
+
+.form textarea {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  width: 500px;
+  height: 200px;
+  resize: none;
+  color: var(--text-color);
+  background-color: transparent;
+}
+.form textarea::placeholder {
+  color: var(--sub-text-color);
+}
+
+/* ========= Contact Page ( RESPONSIVE ) ========= */
+@media only screen and (max-width: 1300px) {
+  .contactCard {
+    max-width: 1022px;
+  }
+  .form input {
+    width: 100%;
+  }
+  .form textarea {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .contactCard {
+    max-width: 870px;
+  }
+  .leftTitle,
+  .rightTitle {
+    font-size: 38px;
+  }
+  .leftSubTitle {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .contactCard {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .contactCard {
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .right {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .leftTitle,
+  .rightTitle {
+    font-size: 50px;
+  }
+  .leftSubTitle {
+    font-size: 22px;
+  }
+  .form input {
+    font-size: 25px;
+  }
+  .form textarea {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .leftTitle,
+  .rightTitle {
+    font-size: 38px;
+  }
+  .leftSubTitle {
+    font-size: 18px;
+  }
+  .left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .leftTitle,
+  .rightTitle {
+    font-size: 30px;
+  }
+  .leftSubTitle {
+    font-size: 15px;
+  }
+  .form input {
+    font-size: 20px;
+  }
+  .form textarea {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .contactCard {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .leftTitle,
+  .rightTitle {
+    line-height: 60px;
+    text-align: center;
+  }
+  #blob2,
+  #blob1 {
+    height: 200px;
+    width: 200px;
+  }
+}

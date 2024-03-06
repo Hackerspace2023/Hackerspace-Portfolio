@@ -1,0 +1,42 @@
+[
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg1.jpg"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg2.jpg"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg2.jpg"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg1.jpg"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg1.jpg"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg2.jpg"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg2.jpg"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "eventImage": "galleryImg1.jpg"
+    }
+]
