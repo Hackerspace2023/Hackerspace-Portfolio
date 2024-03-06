@@ -1,0 +1,138 @@
+{
+    "home": {
+        "navTitle": "home",
+        "navNumber": "01",
+        "navItems": [
+            {
+                "text": "Home",
+                "link": "/#home"
+            },
+            {
+                "text": "About",
+                "link": "/#about"
+            },
+            {
+                "text": "Projects",
+                "link": "/#projects"
+            },
+            {
+                "text": "Members",
+                "link": "/#members"
+            },
+            {
+                "text": "Contact",
+                "link": "/#contact"
+            }
+        ]
+    },
+    "about": {
+        "navTitle": "about",
+        "navNumber": "02",
+        "navItems": [
+            {
+                "text": "About",
+                "link": "/about/#about"
+            },
+            {
+                "text": "Journey",
+                "link": "/about/#journey"
+            },
+            {
+                "text": "Experience",
+                "link": "/about/#experience"
+            },
+            {
+                "text": "Members",
+                "link": "/about/#members"
+            }
+        ]
+    },
+    "project": {
+        "navTitle": "project",
+        "navNumber": "03",
+        "navItems": [
+            {
+                "text": "Projects",
+                "link": "/project/#projects"
+            },
+            {
+                "text": "Web",
+                "link": "/project/#web"
+            },
+            {
+                "text": "Python",
+                "link": "/project/#python"
+            },
+            {
+                "text": "Other",
+                "link": "/project/#other"
+            }
+        ]
+    },
+    "events": {
+        "navTitle": "events",
+        "navNumber": "03",
+        "navItems": [
+            {
+                "text": "Events",
+                "link": "/events/#events"
+            },
+            {
+                "text": "Upcoming",
+                "link": "/events/#upcoming"
+            },
+            {
+                "text": "Past",
+                "link": "/events/#past"
+            }
+        ]
+    },
+    "blog": {
+        "navTitle": "blog",
+        "navNumber": "04",
+        "navItems": [
+            {
+                "text": "Blog",
+                "link": "/blog/#blog"
+            }
+        ]
+    },
+    "gallery": {
+        "navTitle": "gallery",
+        "navNumber": "05",
+        "navItems": [
+            {
+                "text": "Gallery",
+                "link": "/gallery/#gallery"
+            },
+            {
+                "text": "Memebers",
+                "link": "/gallery/#memebers"
+            },
+            {
+                "text": "Photos",
+                "link": "/gallery/#photos"
+            }
+        ]
+    },
+    "contact": {
+        "navTitle": "contact",
+        "navNumber": "06",
+        "navItems": [
+            {
+                "text": "Return to Home",
+                "link": "/#home"
+            }
+        ]
+    },
+    "error": {
+        "navTitle": "error",
+        "navNumber": "XX",
+        "navItems": [
+            {
+                "text": "Return to Home",
+                "link": "/#home"
+            }
+        ]
+    }
+}

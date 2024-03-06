@@ -1,0 +1,60 @@
+/* ====================== Contact Section ====================== */
+.contactSection{
+    /* background-color: red; */
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+.contactContainer{
+    /* background-color: green; */
+    position: relative;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 50px;
+}
+.circleIcon{
+    /* background-color: blue; */
+    padding: 90px;
+    color: var(--primary-color);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    transition: var(--transition) !important;
+    position: absolute;
+}
+.circleIcon svg{
+    transition: all 0.1s ease !important;
+}
+.circleIcon:hover{
+    /* background-color: var(--primary-color); */
+    /* color: var(--background-color); */
+    /* background-color: var(--text-color); */
+    transform: scale(0.9);
+    background-color: var(--sub-background-color);
+}
+.circleIcon[data-icon="twitter"]
+{
+    left: 95px;
+    top: 35px;
+}
+.circleIcon[data-icon="instagram"]{
+    padding: 50px;
+    left: 396px;
+    top: 306px;
+}
+.circleIcon[data-icon="linkedin"]{
+    padding: 70px;
+    top: 67px;
+    left: 610px;
+}
+.circleIcon[data-icon="mail"]{
+    padding: 50px;
+    top: 198px;
+    right: 154px;
+}
