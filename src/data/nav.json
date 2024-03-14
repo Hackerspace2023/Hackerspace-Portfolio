@@ -47,7 +47,7 @@
             }
         ]
     },
-    "project": {
+    "projects": {
         "navTitle": "project",
         "navNumber": "03",
         "navItems": [
@@ -84,16 +84,6 @@
             {
                 "text": "Past",
                 "link": "/events/#past"
-            }
-        ]
-    },
-    "blog": {
-        "navTitle": "blog",
-        "navNumber": "04",
-        "navItems": [
-            {
-                "text": "Blog",
-                "link": "/blog/#blog"
             }
         ]
     },
