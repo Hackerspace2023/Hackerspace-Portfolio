@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Project 1",
+    "domain": "Web Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 2",
+    "domain": "Mobile App Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 3",
+    "domain": "Data Science",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 4",
+    "domain": "Artificial Intelligence",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 5",
+    "domain": "UI/UX Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 6",
+    "domain": "Blockchain",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 7",
+    "domain": "Cloud Computing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 8",
+    "domain": "Python Projects",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 9",
+    "domain": "Python Projects",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 10",
+    "domain": "Game Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 11",
+    "domain": "Python Projects",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 12",
+    "domain": "Virtual Reality",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 13",
+    "domain": "Big Data",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 14",
+    "domain": "Machine Learning",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 15",
+    "domain": "Mobile App Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 16",
+    "domain": "Data Science",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 17",
+    "domain": "Web Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 18",
+    "domain": "Mobile App Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 19",
+    "domain": "Data Science",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": true,
+    "repo": "",
+    "url": ""
+  },
+  {
+    "name": "Project 20",
+    "domain": "Web Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "showOnHighlights": false,
+    "repo": "",
+    "url": ""
+  }
+]
