@@ -1,5 +1,5 @@
 :root {
-  --background-color: #111119;
+  --background-color: #000000;
   --text-color: #fff;
   --sub-text-color: #7e7e7e;
   --primary-color: #00ff95;
@@ -11,7 +11,56 @@
 .container {
   min-height: 100vh;
   max-width: 100%;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   position: relative;
   color: var(--text-color);
+}
+
+#hex-grid{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--background-color);
+  /* background-color: red; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* opacity: 0.2; */
+  z-index: -1;
+}
+
+#hex-grid .grid{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../assets/grid.svg)
+  repeat;
+  
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-size: 500px;
+}
+
+#hex-grid .light{
+  position:  absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  filter: blur(15px);
+  background-color: #00ff953d;
+  z-index: 0;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: var(--background-color);
+  background: var(--primary-color);
+}
+
+::selection {
+  color: var(--background-color);
+  background: var(--primary-color);
 }
