@@ -1,4 +1,3 @@
-
 import React from 'react'
 
 
@@ -24,7 +23,8 @@ const AboutSection = ({...props}) => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been{" "}
+            industry. Lorem Ipsum has been Ipsum has been the industrys standard dummy text
+            Lorem Ipsum is simply dummy text of the printing
           </p>
         </div>
         <div className="aboutLogo"></div>

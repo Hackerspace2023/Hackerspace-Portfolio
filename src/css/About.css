@@ -44,21 +44,21 @@
   right: -100px;
 }
 
-.aboutDescription{
-    margin-top: 50px;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: center;
-    max-width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--text-color);
+.aboutDescription {
+  margin-top: 50px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--text-color);
 }
 
 /* ========= Journey ========= */
-.journey{
+.journey {
   /* background-color: red; */
   padding-top: 80px;
   padding-bottom: 50px;
@@ -87,7 +87,7 @@
   transition: all 0.5s linear;
 }
 
-.timeline .line{
+.timeline .line {
   position: absolute;
   top: 40px;
   left: 50%;
@@ -102,6 +102,7 @@
 .timeline ul {
   list-style: none;
 }
+
 .timeline ul li {
   padding: 20px;
   /* border-radius: 10px; */
@@ -113,13 +114,16 @@
   cursor: pointer;
   transition: all 0.2s ease;
 }
-.timeline ul li:hover{
+
+.timeline ul li:hover {
   /* box-shadow: 0px 0px 15px #000000d2; */
   background-color: var(--sub-background-color);
 }
+
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
+
 .timeline-content h1 {
   font-weight: 500;
   font-size: 25px;
@@ -129,11 +133,13 @@
   color: var(--primary-color);
   font-weight: 700;
 }
+
 .timeline-content p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
 }
+
 .timeline-content .date {
   font-size: 18px;
   font-weight: 500;
@@ -142,18 +148,21 @@
   /* background-color: red; */
   transform: translateY(-5px);
 }
+
 .timeline ul li:nth-child(odd) {
   float: left;
   clear: right;
   transform: translateX(-30px);
   /* border-radius: 20px 0px 20px 20px; */
 }
+
 .timeline ul li:nth-child(even) {
   float: right;
   clear: left;
   transform: translateX(30px);
   /* border-radius: 0px 20px 20px 20px; */
 }
+
 .timeline ul li::before {
   content: "";
   position: absolute;
@@ -164,30 +173,35 @@
   top: 0px;
   transition: all 0.2s ease;
 }
+
 .timeline ul li:nth-child(odd)::before {
   transform: translate(50%, -50%);
   right: -33px;
   top: -10px;
 }
+
 .timeline ul li:nth-child(even)::before {
   transform: translate(-50%, -50%);
   left: -30px;
 }
+
 .timeline-content .date {
   position: absolute;
   top: -30px;
 }
+
 .timeline ul li:hover::before {
   background-color: var(--primary-color);
 }
 
 /* ========= Experience ========= */
-.experience{
+.experience {
   /* background-color: red; */
   padding-top: 80px;
-  
+
 }
-.experienceContainer{
+
+.experienceContainer {
   /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
@@ -196,19 +210,60 @@
   margin-top: 40px;
   margin-bottom: 10px;
 }
-.experienceCard{
+
+.experienceCard {
   height: 200px;
   width: 280px;
   /* background-color: red; */
 }
-.experienceCard .cardTitle{
+
+.experienceCard .cardTitle {
   @apply font-audiowide;
   font-size: 32px;
 }
-.experienceCard .cardSubTitle{
+
+.experienceCard .cardSubTitle {
   font-size: 30px;
   margin-top: 20px;
   font-weight: bold;
-  letter-spacing: 2px ;
+  letter-spacing: 2px;
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 1250px) {
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 870px) {}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .tagAbout {
+    font-size: 18px;
+  }
+
+  .tagAbout1 {
+    left: -45px;
+  }
+
+  .tagAbout2 {
+    right: -60px;
+  }
 }

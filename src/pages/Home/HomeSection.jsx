@@ -15,7 +15,7 @@ const HomeSection = ({...props}) => {
           <b className="subTitleHomeText"> Welcome To </b>
         </TagContainer>
         <TagContainer tag="h1" className="titleHome">
-          <h1 className="titleHomeText">Hacker Space</h1>
+          <h1 className="titleHomeText">Hackerspace</h1>
         </TagContainer>
         <TagContainer tag="p" className="subTitleHome bottomTitleHome">
           <b className="subTitleHomeText"> Let's hack the future </b>

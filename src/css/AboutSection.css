@@ -3,8 +3,10 @@
   max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
+  /* height: 100vh; */
   /* background-color: red; */
 }
+
 /*  ============= Section Gap ==================  */
 .about {
   /* margin-top: 100px; */
@@ -52,17 +54,21 @@
 }
 
 .aboutContent {
-  width: 63vw;
-  height: 35vw;
-  margin-left: auto;
+  /* width: 63vw;
+  height: 35vw; */
+  width: 89%;
+  /* height: 650px; */
+  /* margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 50px; */
+  margin: 50px 84px 0 84px;
   /* background-color: blue; */
   background: url(../../src/assets/aboutContent.png);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 6vw 5vw 3.5vw 5vw;
   position: relative;
+  scale: 0.9;
 }
 
 .aboutText {
@@ -70,13 +76,13 @@
 }
 
 .aboutText p {
-  /* font-size: 35px; */
-  font-size: 2vw;
+  font-size: 34px;
+  /* font-size: 2vw; */
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  /* line-height: 55px; */
-  line-height: 3vw;
+  line-height: 55px;
+  /* line-height: 3vw; */
 }
 
 .aboutLogo {
@@ -91,7 +97,233 @@
 }
 
 .aboutButton {
+  margin-top: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1560px) {
+  .aboutContent {
+    width: 87%;
+  }
+
+  .aboutText p {
+    font-size: 32px;
+  }
+}
+
+
+@media screen and (max-width: 1250px) {
+  .aboutContent {
+    width: 86%;
+  }
+
+  .aboutButton {
+    margin-top: 20px;
+  }
+
+  .aboutText p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutButton {
+    margin-top: 0px;
+    scale: 0.8;
+  }
+
+  .aboutText p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .aboutContent {
+    width: 84%;
+  }
+
+  .aboutText p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .aboutLogo {
+    top: -46px;
+    left: -49px;
+  }
+
+  .aboutText p {
+    font-size: 21px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .aboutLogo {
+    top: -44px;
+    left: -43px;
+  }
+
+  .aboutText p {
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .aboutText p {
+    font-size: 18px;
+  }
+
+  .aboutButton {
+    scale: 0.7;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .aboutLogo {
+    top: -34px;
+    left: -34px;
+  }
+
+  .aboutContent {
+    margin-left: 65px;
+  }
+
+  .aboutText p {
+    line-height: 32px;
+  }
+
+  .aboutButton {
+    scale: 0.6;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .aboutText {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .aboutText p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .aboutContent {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .aboutLogo {
+    top: -26px;
+    left: -26px;
+  }
+
+  .aboutText p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .aboutButton {
+    scale: 0.5;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutText p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .aboutButton {
+    scale: 0.4;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutContent {
+    margin-left: 31px;
+    margin-right: 55px;
+  }
+
+  .aboutText p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .aboutButton {
+    scale: 0.4;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .aboutLogo {
+    top: -20px;
+    left: -20px;
+    scale: 1.5;
+  }
+
+  .aboutContent {
+    width: 90%;
+  }
+
+  .aboutContent {
+    margin-left: 22px;
+  }
+
+  .aboutText p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .aboutText {
+    margin-bottom: 0px;
+  }
+
+  .aboutButton {
+    scale: 0.4;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .aboutContent {
+    width: 95%;
+  }
+
+  .aboutContent {
+    margin-left: 10px;
+  }
+
+  .buttonText {
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+
+  .aboutText p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .aboutLogo {
+    top: -17px;
+    left: -17px;
+  }
+
+  .aboutText p {
+    font-size: 9px;
+    line-height: 17px;
+  }
+
+  .buttonText {
+    font-size: 12px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }

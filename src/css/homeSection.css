@@ -2,12 +2,12 @@
   max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
-  /* min-height: 88vh; */
+  /* height: 88vh; */
   display: flex;
   justify-content: center;
   /* align-items: flex-start; */
   align-items: center;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   /* background-color: red; */
 }
 
@@ -158,6 +158,20 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .tag {
+    font-size: 20px;
+  }
+
+  .titleHomeText {
+    font-size: 50px;
+  }
+
+  .rightSectionHome {
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 870px) {
   .rightSectionHome {
     display: none;
   }
@@ -173,6 +187,41 @@
   }
 
   .leftSectionHome {
+    padding-left: 0;
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .titleHomeText {
+    font-size: 40px;
+  }
+
+  .topSectionHome {
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tag {
+    font-size: 18px;
+  }
+
+  .titleHomeText {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .tag {
+    font-size: 15px;
+  }
+
+  .titleHomeText {
+    font-size: 25px;
+  }
+
+  .topSectionHome {
+    scale: 0.65;
   }
 }
