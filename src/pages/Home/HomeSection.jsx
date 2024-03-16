@@ -7,6 +7,9 @@ import { ImageBorder } from "../../components";
 const HomeSection = ({...props}) => {
   return (
     <section className="home" {...props}>
+      <div className="topSectionHome">
+        <ImageBorder icon={"hackerspace-logo.jpg"} />
+      </div>
       <div className="leftSectionHome">
         <TagContainer tag="p" className="subTitleHome">
           <b className="subTitleHomeText"> Welcome To </b>
