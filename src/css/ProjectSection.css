@@ -94,3 +94,39 @@
   gap: 20px;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1100px) {
+  .projectItem {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .projectItem {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .projectItem {
+    transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .projectItem {
+    transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .projectItem {
+    transform: scale(0.45);
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .projectItem {
+    transform: scale(0.4);
+  }
+}
