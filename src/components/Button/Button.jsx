@@ -12,6 +12,7 @@ const Button = ({
   ...props
 }) => {
   return (
+    <div className={className}>
     <div className="arrowButton inline-flex items-center transition-all ease-linear">
       <i className="btn arrow left opacity-10"></i>
       <i className="btn arrow left opacity-40"></i>
@@ -32,6 +33,7 @@ const Button = ({
       <i className="btn arrow right opacity-80"></i>
       <i className="btn arrow right opacity-40"></i>
       <i className="btn arrow right opacity-10"></i>
+    </div>
     </div>
   );
 };
