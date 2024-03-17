@@ -96,14 +96,15 @@
                 "link": "/gallery/#gallery"
             },
             {
-                "text": "Memebers",
-                "link": "/gallery/#memebers"
-            },
-            {
                 "text": "Photos",
                 "link": "/gallery/#photos"
             }
         ]
+    },
+    "members": {
+        "navTitle": "members",
+        "navNumber": "05",
+        "navItems": []
     },
     "contact": {
         "navTitle": "contact",

@@ -1,0 +1,86 @@
+.Card{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 450px;
+    width: 350px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 35px;
+    /* border-radius: 1rem; */
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
+    /* background-color: var(--sub-background-color); */
+    transition: all 0.3s ease;
+    background-image: url(../assets/cardBackground.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+.profileImage .imgHomeWrapper{
+    /* background-color: red; */
+    width: 200px;
+    height: 200px;
+    /* transform: scale(0.6) translateY(-80px); */
+}
+.profileImage .imgHome{
+    width: 150px;
+    height: 150px;
+}
+.cardContent{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    line-height: 35px;
+    gap: 15px;
+    
+}
+.cardContent h3{
+    font-size: 35px;
+    @apply font-audiowide;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-align: center;
+    text-wrap:  nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+.cardContent p{
+    width: 100%;
+    font-size: 25px;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-wrap:  nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cardContent .socials{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 40px;
+}
+.cardContent .socials a{
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+.cardContent .socials a:hover{
+    /* color: var(--primary-color); */
+    transform: scale(1.1);
+}
