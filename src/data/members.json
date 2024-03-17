@@ -1,8 +1,23 @@
 [
     {
-        "profilePic": "profileImg.jpg",
-        "name": "Lorem Ipsam",
-        "role": "DESIGN AND DEVELOPMET",
+        "id": "1",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam1",
+        "role": "web",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+        
+    },
+    {
+        "id": "2",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam2",
+        "role": "cdp",
         "description": "Lorem Ipsum is simply dummy text of the printing",
         "socials": {
             "instagram": "https://www.instagram.com",
@@ -12,9 +27,10 @@
         }
     },
     {
-        "profilePic": "profileImg.jpg",
-        "name": "Lorem Ipsam",
-        "role": "DESIGN AND DEVELOPMET",
+        "id": "3",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam3",
+        "role": "ds",
         "description": "Lorem Ipsum is simply dummy text of the printing",
         "socials": {
             "instagram": "https://www.instagram.com",
@@ -24,9 +40,10 @@
         }
     },
     {
-        "profilePic": "profileImg.jpg",
-        "name": "Lorem Ipsam",
-        "role": "DESIGN AND DEVELOPMET",
+        "id": "4",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam4",
+        "role": "cdp",
         "description": "Lorem Ipsum is simply dummy text of the printing",
         "socials": {
             "instagram": "https://www.instagram.com",
@@ -36,9 +53,10 @@
         }
     },
     {
-        "profilePic": "profileImg.jpg",
-        "name": "Lorem Ipsam",
-        "role": "DESIGN AND DEVELOPMET",
+        "id": "4",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam4",
+        "role": "cdp",
         "description": "Lorem Ipsum is simply dummy text of the printing",
         "socials": {
             "instagram": "https://www.instagram.com",
@@ -48,9 +66,10 @@
         }
     },
     {
-        "profilePic": "profileImg.jpg",
-        "name": "Lorem Ipsam",
-        "role": "DESIGN AND DEVELOPMET",
+        "id": "4",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam4",
+        "role": "cdp",
         "description": "Lorem Ipsum is simply dummy text of the printing",
         "socials": {
             "instagram": "https://www.instagram.com",
@@ -60,9 +79,127 @@
         }
     },
     {
-        "profilePic": "profileImg.jpg",
-        "name": "Lorem Ipsam",
-        "role": "DESIGN AND DEVELOPMET",
+        "id": "4",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam4",
+        "role": "cdp",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "4",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam4",
+        "role": "cdp",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "4",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam4",
+        "role": "cdp",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "5",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam5",
+        "role": "web",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "6",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam6",
+        "role": "cdp",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "7",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam7",
+        "role": "web",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "8",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam8",
+        "role": "cdp",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "9",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam9",
+        "role": "ds",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "10",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam10",
+        "role": "ds",
+        "description": "Lorem Ipsum is simply dummy text of the printing",
+        "socials": {
+            "instagram": "https://www.instagram.com",
+            "github": "https://www.github.com",
+            "linkedin": "https://www.linkedin.com",
+            "facebook": "https://www.facebook.com"
+        }
+    },
+    {
+        "id": "11",
+        "profilePic": "https://drive.google.com/open?id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD",
+        "name": "Lorem Ipsam11",
+        "role": "web",
         "description": "Lorem Ipsum is simply dummy text of the printing",
         "socials": {
             "instagram": "https://www.instagram.com",
