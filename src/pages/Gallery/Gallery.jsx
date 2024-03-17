@@ -5,23 +5,21 @@ import { ImageBorder } from "../../components";
 import { gallery, members } from "../../data";
 
 const Gallery = () => {
-  const [job, setJob] = useState('web')
-  const s = members.filter(types)
+  const [job, setJob] = useState("web");
+  const s = members.filter(types);
 
-  const [currentPage, setCurrentPage] = useState(1)
+  const [currentPage, setCurrentPage] = useState(1);
   const recordsPerpage = 3;
   const lastIndex = currentPage * recordsPerpage;
   const firstIndex = lastIndex - recordsPerpage;
   const records = s.slice(firstIndex, lastIndex);
-  const npage = Math.ceil(s.length / recordsPerpage)
-  const numbers = [...Array(npage + 1).keys()].slice(1)
+  const npage = Math.ceil(s.length / recordsPerpage);
+  const numbers = [...Array(npage + 1).keys()].slice(1);
 
-
-  const pos = ['web', 'cdp', 'ds']
+  const pos = ["web", "cdp", "ds"];
 
   function types(mem) {
-    if (mem.role === job)
-      return true
+    if (mem.role === job) return true;
   }
 
   function changePos(p) {
@@ -60,15 +58,18 @@ const Gallery = () => {
         </div>
 
         <div>
-          {
-            pos.map((p, x) => {
-              return (
-                <button className={`${job === p ? 'active' : ''}`} key={x} onClick={() => changePos(p)}>{p}</button>
-              )
-            })
-          }
+          {pos.map((p, x) => {
+            return (
+              <button
+                className={`${job === p ? "active" : ""}`}
+                key={x}
+                onClick={() => changePos(p)}
+              >
+                {p}
+              </button>
+            );
+          })}
         </div>
-
 
         <div className="members-contain">
           {records.map((member, index) => {
@@ -88,9 +89,14 @@ const Gallery = () => {
       <div>
         {numbers.map((n, i) => {
           return (
-            <button className={`${currentPage === n ? 'active' : ''}`} key={i} onClick={() => changePage(n)} >{n}</button>
+            <button
+              className={`${currentPage === n ? "active" : ""}`}
+              key={i}
+              onClick={() => changePage(n)}
+            >
+              {n}
+            </button>
           );
-
         })}
       </div>
 
