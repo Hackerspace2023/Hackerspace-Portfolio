@@ -74,6 +74,8 @@
     /* width: fit-content; */
     padding: 0px 100px;
     gap: 30px;
+    position: relative;
+  z-index: 1;
 }
 
 .membersContenetBorder,

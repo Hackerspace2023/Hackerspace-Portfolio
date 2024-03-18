@@ -5,6 +5,8 @@
   margin-right: auto;
   /* height: 100vh; */
   /* background-color: red; */
+  position: relative;
+  z-index: 1;
 }
 
 /*  ============= Section Gap ==================  */

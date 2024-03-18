@@ -9,6 +9,8 @@
   align-items: center;
   /* padding-top: 80px; */
   /* background-color: red; */
+  position: relative;
+  z-index: 1;
 }
 
 .topSectionHome {

@@ -4,6 +4,8 @@
     margin-left: auto;
     margin-right: auto;
     /* background-color: red; */
+    position: relative;
+  z-index: 2;
 }
 
 .gallery {
@@ -64,6 +66,8 @@
 
 .galleryPic {
     margin-bottom: 100px;
+    position: relative;
+  z-index: 1;
 }
 
 .galleryPic-contain {

@@ -21,7 +21,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="">
+    <footer className=" relative z-1">
       <Divider />
       <div className="flex gap-4 flex-col lg:flex-row md:gap-6 lg:gap-8 justify-between bg-gradient-to-b from-bg-primary to-bg-secondary p-4 md:p-6 lg:p-8">
         <div className="flex gap-4 flex-col lg:w-3/5">

@@ -7,6 +7,8 @@
   padding-top: 80px;
   /* padding-bottom: 50px; */
   position: relative;
+  position: relative;
+  z-index: 1;
 }
 
 /* ========= project section ========= */
