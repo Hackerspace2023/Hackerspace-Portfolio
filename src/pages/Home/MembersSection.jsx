@@ -1,6 +1,6 @@
 import React from "react";
 import "../../css/membersSection.css";
-import { Button, ImageBorder } from "../../components";
+import { Button, Card, ImageBorder } from "../../components";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -26,6 +26,8 @@ const MembersSection = ({...props}) => {
             </div>
 
             <div className="membersRight">
+
+
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
@@ -40,9 +42,19 @@ const MembersSection = ({...props}) => {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
+                    
                     {members.map((ele, index) => {
                         return (
                             <SwiperSlide key={index}>
+                                <div className="tab-membersContainer">
+                                    <Card data={ele} />
+                                    <Card data={ele} />
+                                </div>
+
+                                <div className="mob-membersContainer">
+                                    <Card data={ele} />
+                                </div>
+                                
                                 <div className="membersContainer">
                                     <div className="membersProfile">
                                         <ImageBorder icon={ele.profilePic} />

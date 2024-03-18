@@ -28,10 +28,10 @@ const Layout = () => {
         <div className="light" ref={light}></div>
         <div className="grid" ref={grid}></div>
       </div>
-      {/* <Navbar /> */}
-      {/* <Terminal/> */}
+      <Navbar />
+      <Terminal/>
       <Outlet />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
