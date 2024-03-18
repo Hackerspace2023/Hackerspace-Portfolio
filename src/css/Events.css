@@ -7,7 +7,7 @@
 
 .event-card{
     /* background-color: red; */
-    background-color: #0F1518;
+    background-color: rgba(0, 83, 49, 0.301);
     height: fit-content;
     width: 550px;
     /* background-image: url(../assets/events_background.png); */

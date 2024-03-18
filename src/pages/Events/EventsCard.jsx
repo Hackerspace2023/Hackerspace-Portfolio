@@ -12,7 +12,7 @@ const EventsCard = ({data}) => {
         <p className="event-time">Event Time:- {data.time}</p>
         <p className="event-location">MeghnadSaha Institute Of Technology</p>
         {/* <button className="register-button">Register</button> */}
-        {/* <Button text="Register" className="eventsButton"/> */}
+        <Button text="Register" className="eventsButton"/>
         </div>
       </div>
     </>
