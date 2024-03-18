@@ -1,74 +1,122 @@
 [
-  {
-    "name": "Dummy Event",
-    "date": "2024-06-13",
-    "type": "one-day",
-    "startDate": "2024-06-13",
-    "endDate": "2024-06-15",
-    "location": "Remote",
-    "image": "https://via.placeholder.com/400x500"
-  },
-  {
-    "name": "Another Dummy Event",
-    "date": "2022-02-15",
-    "type": "one-day",
-    "startDate": "2022-02-15",
-    "endDate": "2022-02-15",
-    "location": "Another Dummy Location",
-    "image": "https://via.placeholder.com/400x500"
-  },
-  {
-    "name": "Yet Another Dummy Event",
-    "date": "2022-03-10",
-    "type": "one-day",
-    "startDate": "2022-03-10",
-    "endDate": "2022-03-10",
-    "location": "Yet Another Dummy Location",
-    "image": "https://via.placeholder.com/400x500"
-  },
-  {
-    "name": "One More Dummy Event",
-    "date": "2022-04-20",
-    "type": "one-day",
-    "startDate": "2022-04-20",
-    "endDate": "2022-04-20",
-    "location": "Remote",
-    "image": "https://via.placeholder.com/400x500"
-  },
-  {
-    "name": "Dummy Event",
-    "date": "2022-01-01",
-    "type": "one-day",
-    "startDate": "2022-01-01",
-    "endDate": "2022-01-01",
-    "location": "Dummy Location",
-    "image": "https://via.placeholder.com/400x500"
-  },
-  {
-    "name": "Another Dummy Event",
-    "date": "2022-02-15",
-    "type": "one-day",
-    "startDate": "2022-02-15",
-    "endDate": "2022-02-15",
-    "location": "Another Dummy Location",
-    "image": "https://via.placeholder.com/400x500"
-  },
-  {
-    "name": "Yet Another Dummy Event",
-    "date": "2024-08-10",
-    "type": "consecutive",
-    "startDate": "2024-08-10",
-    "endDate": "2024-08-15",
-    "location": "Yet Another Dummy Location",
-    "image": "https://via.placeholder.com/400x500"
-  },
-  {
-    "name": "One More Dummy Event",
-    "date": "2022-04-20",
-    "type": "one-day",
-    "startDate": "2022-04-20",
-    "endDate": "2022-04-20",
-    "location": "One More Dummy Location",
-    "image": "https://via.placeholder.com/400x500"
-  }
+    {
+        "name": "Event 1",
+        "time": "2022-10-15 10:00 AM",
+        "location": "Venue 1",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 2",
+        "time": "2022-11-05 02:30 PM",
+        "location": "Venue 2",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg2.jpg",
+        "category": "past"
+    },
+    {
+        "name": "Event 3",
+        "time": "2022-12-20 07:00 PM",
+        "location": "Venue 3",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 1",
+        "time": "2022-10-15 10:00 AM",
+        "location": "Venue 1",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 2",
+        "time": "2022-11-05 02:30 PM",
+        "location": "Venue 2",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg2.jpg",
+        "category": "past"
+    },
+    {
+        "name": "Event 3",
+        "time": "2022-12-20 07:00 PM",
+        "location": "Venue 3",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 1",
+        "time": "2022-10-15 10:00 AM",
+        "location": "Venue 1",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 2",
+        "time": "2022-11-05 02:30 PM",
+        "location": "Venue 2",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg2.jpg",
+        "category": "past"
+    },
+    {
+        "name": "Event 3",
+        "time": "2022-12-20 07:00 PM",
+        "location": "Venue 3",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 1",
+        "time": "2022-10-15 10:00 AM",
+        "location": "Venue 1",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg2.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 2",
+        "time": "2022-11-05 02:30 PM",
+        "location": "Venue 2",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg2.jpg",
+        "category": "past"
+    },
+    {
+        "name": "Event 3",
+        "time": "2022-12-20 07:00 PM",
+        "location": "Venue 3",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 1",
+        "time": "2022-10-15 10:00 AM",
+        "location": "Venue 1",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg2.jpg",
+        "category": "upcoming"
+    },
+    {
+        "name": "Event 2",
+        "time": "2022-11-05 02:30 PM",
+        "location": "Venue 2",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg2.jpg",
+        "category": "past"
+    },
+    {
+        "name": "Event 3",
+        "time": "2022-12-20 07:00 PM",
+        "location": "Venue 3",
+        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
+        "image": "galleryImg1.jpg",
+        "category": "upcoming"
+    }
 ]
