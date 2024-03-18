@@ -3,8 +3,9 @@ import "../../css/homeSection.css";
 import icon from "../../assets/hackerspace-logo.jpg";
 import ellipse from "../../assets/ellipse.png";
 import { ImageBorder } from "../../components";
+import TypewriterComponent from "typewriter-effect";
 
-const HomeSection = ({...props}) => {
+const HomeSection = ({ ...props }) => {
   return (
     <section className="home" {...props}>
       <div className="leftSectionHome">
@@ -12,7 +13,13 @@ const HomeSection = ({...props}) => {
           <b className="subTitleHomeText"> Welcome To </b>
         </TagContainer>
         <TagContainer tag="h1" className="titleHome">
-          <h1 className="titleHomeText">Hacker Space</h1>
+          <h1 className="titleHomeText">
+            <TypewriterComponent
+              onInit={(typewriter) => {
+                typewriter.typeString("HackerSpace").start();
+              }}
+            />
+          </h1>
         </TagContainer>
         <TagContainer tag="p" className="subTitleHome bottomTitleHome">
           <b className="subTitleHomeText"> Let's hack the future </b>
