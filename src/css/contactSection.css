@@ -204,7 +204,128 @@
 }
 
 @media screen and (max-width: 850px) {
+    .circleIcon[data-icon="twitter"] {
+        left: 10px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        left: 430px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        left: 170px;
+        top: 270px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        left: 660px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        left: 570px;
+        top: 300px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .circleIcon[data-icon="twitter"] {
+        left: -30px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        left: 420px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        top: 270px;
+        left: 150px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        top: 300px;
+        left: 520px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .circleIcon[data-icon="twitter"] {
+        left: 30px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        left: 400px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        top: 280px;
+        left: 90px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        top: 340px;
+        left: 420px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .circleIcon[data-icon="twitter"] {
+        left: 30px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        left: 370px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        top: 280px;
+        left: 60px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        top: 340px;
+        left: 400px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .circleIcon[data-icon="twitter"] {
+        left: -40px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        left: 310px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        top: 280px;
+        left: 30px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        top: 340px;
+        left: 340px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .circleIcon[data-icon="twitter"] {
+        left: -40px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        left: 290px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        top: 280px;
+        left: 30px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        top: 340px;
+        left: 320px;
+    }
+}
+@media screen and (max-width: 420px) {
     .contactContainer {
-        display: none;
+        scale: 0.3;
     }
 }
