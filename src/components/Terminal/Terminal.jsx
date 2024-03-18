@@ -28,6 +28,7 @@ const Terminal = () => {
     }
     setTerminal(e.target.value);
   };
+
   const handleClick = (item) => {
     navigate(`${item}`);
     window.scrollTo(0, 0);
