@@ -5,6 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { CgSpinner } from "react-icons/cg";
 import { footer } from "../../data";
+import icon from "../../assets/hackerspace-logo.jpg";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -24,12 +25,15 @@ const Footer = () => {
       <Divider />
       <div className="flex gap-4 flex-col lg:flex-row md:gap-6 lg:gap-8 justify-between bg-gradient-to-b from-bg-primary to-bg-secondary p-4 md:p-6 lg:p-8">
         <div className="flex gap-4 flex-col lg:w-3/5">
+          <div className="flex">
+          <img className="" src={icon} alt="" style={{width:"10%", borderRadius:'15%'}} />
+          <div className="ms-4">
           <h3 className="text-4xl font-audiowide">HackerSpace</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-            quidem! Consequatur vitae facilis perspiciatis libero id, nam
-            assumenda similique, incidunt sint maxime eos!
+          <p className="text-primary mt-2">
+            Let's Hack The Future
           </p>
+          </div>
+          </div>
           <form
             className="flex flex-col sm:flex-row gap-4"
             onSubmit={handleSubscribe}
