@@ -2,17 +2,21 @@ import React from "react";
 import "../../css/Events.css";
 import { Button } from "../../components";
 
-const EventsCard = ({data}) => {
+const EventsCard = ({ data }) => {
   return (
     <>
       <div className="event-card">
-        <img src={data.image} alt="Event" className="event-image" />
-        <div className="event-content">
-        <h2 className="event-name">{data.name}</h2>
-        <p className="event-time">Event Time:- {data.time}</p>
-        <p className="event-location">MeghnadSaha Institute Of Technology</p>
-        {/* <button className="register-button">Register</button> */}
-        <Button text="Register" className="eventsButton"/>
+        <div className="event-card2">
+          <div className="event-cardImg">
+            <img src={data.image} alt="Event" className="event-image" />
+          </div>
+          <div className="event-content">
+            <h3 className="event-name">{data.name}</h3>
+            <p className="event-time">{data.description}</p>
+          </div>
+          <div className="mob-btn">
+              <Button text="Register" className="eventsButton linkBtn3" />
+          </div>
         </div>
       </div>
     </>

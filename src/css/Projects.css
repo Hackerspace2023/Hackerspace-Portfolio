@@ -1,21 +1,23 @@
-.Projects .aboutDescription{
+.Projects .aboutDescription {
     position: relative;
     z-index: 2;
 }
-.Projects .categoryOptions{
+
+.Projects .categoryOptions {
     width: 90%;
     overflow: scroll;
 }
-.Projects .event-time{
-    text-wrap: nowrap !important;
+
+.Projects .event-time {
+    /* text-wrap: nowrap !important; */
 }
-.Projects .event-name
-{
+
+.Projects .event-name {
     text-align: center;
 }
+
 @media only screen and (max-width: 600px) {
-    .aboutDescription
-    {
+    .aboutDescription {
         font-size: 15px;
     }
 }
