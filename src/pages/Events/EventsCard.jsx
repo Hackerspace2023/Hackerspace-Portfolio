@@ -19,7 +19,6 @@ const EventsCard = ({ data }) => {
           </div>
         </div>
       </div>
-      {/* test */}
     </>
   );
 };
