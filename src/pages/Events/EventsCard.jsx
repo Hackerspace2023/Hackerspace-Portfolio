@@ -15,10 +15,11 @@ const EventsCard = ({ data }) => {
             <p className="event-time">{data.description}</p>
           </div>
           <div className="mob-btn">
-              <Button text="Register" className="eventsButton linkBtn3" />
+            <Button text="Register" className="eventsButton linkBtn3" />
           </div>
         </div>
       </div>
+      {/* test */}
     </>
   );
 };
