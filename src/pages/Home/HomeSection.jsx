@@ -18,11 +18,12 @@ const HomeSection = ({ ...props }) => {
         </TagContainer>
         <TagContainer tag="h1" className="titleHome">
           <h1 className="titleHomeText">
-            <TypewriterComponent
+            {/* <TypewriterComponent
               onInit={(typewriter) => {
                 typewriter.typeString("Hackerspace").start();
               }}
-            />
+            /> */}
+            Hackerspace
           </h1>
         </TagContainer>
         <TagContainer tag="p" className="subTitleHome bottomTitleHome">
