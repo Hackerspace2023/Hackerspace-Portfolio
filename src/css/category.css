@@ -5,6 +5,8 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 50px;
+    position: relative;
+  z-index: 1;
 }
 .categoryOptions
 {

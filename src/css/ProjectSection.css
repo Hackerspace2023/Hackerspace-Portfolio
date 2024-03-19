@@ -1,17 +1,21 @@
 .projectSection {
   width: 100%;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-left: auto;
   margin-right: auto;
   /* background-color: var(--background-color); */
-  padding-top: 50px;
+  padding-top: 80px;
   /* padding-bottom: 50px; */
   position: relative;
+  position: relative;
+  z-index: 1;
 }
+
 /* ========= project section ========= */
 .projectSwiperContainer {
   margin-top: 50px;
 }
+
 .projectSectionGraphics {
   position: absolute;
   top: 0;
@@ -32,6 +36,7 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 /* ========= Project Section image ========= */
 
 .projectItemImg {
@@ -45,6 +50,7 @@
   overflow: hidden;
   z-index: 2;
 }
+
 .projectItemImg img {
   height: 100%;
   width: 100%;
@@ -62,13 +68,16 @@
   /* gap: 20px ; */
   padding-left: 20px;
 }
+
 .projectItemContent h3 {
   font-family: "Audiowide", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 60px; /* 100% */
+  line-height: 60px;
+  /* 100% */
 }
+
 .projectItemContent h4 {
   color: var(--primary-color);
   margin-top: 10px;
@@ -77,6 +86,7 @@
   font-weight: 600;
   letter-spacing: 1.5px;
 }
+
 .projectSectionText {
   color: #fff;
   font-family: "Fira Code";
@@ -86,6 +96,7 @@
   margin-top: 20px;
   line-height: 160%;
 }
+
 .buttonSection {
   margin-top: 20px;
   display: flex;
@@ -93,4 +104,41 @@
   align-items: center;
   gap: 20px;
   flex-direction: column;
+  scale: 0.7;
+}
+
+@media screen and (max-width: 1100px) {
+  .projectItem {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .projectItem {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .projectItem {
+    transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .projectItem {
+    transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .projectItem {
+    transform: scale(0.45);
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .projectItem {
+    transform: scale(0.4);
+  }
 }

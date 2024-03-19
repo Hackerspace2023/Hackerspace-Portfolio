@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; */
+    position: relative;
+  z-index: 1;
     height: 450px;
     width: 350px;
     display: flex;

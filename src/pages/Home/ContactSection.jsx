@@ -17,14 +17,14 @@ const ContactSection = ({ ...props }) => {
       <section className="contactSection" {...props}>
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
-          <h1 className="title">Connect With Us</h1>
+          <h1 className="title">Connect Us</h1>
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
         <div className="contactContainer">
           <a className="circleIcon" data-icon="twitter" href="#">
             <FaXTwitter />
           </a>
-           <a className="circleIcon" data-icon="instagram" href="#">
+            <a className="circleIcon" data-icon="instagram" href="#">
             <AiFillInstagram />
           </a>
           <a className="circleIcon" data-icon="linkedin" href="#" target="_blank">

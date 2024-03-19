@@ -10,9 +10,11 @@ const Terminal = () => {
   const [show, setShow] = useState(false);
   const data = Object.keys(nav);
   const navData = [...data.filter((item) => item !== "error")];
+  const updatedNavData = navData.map((item) => `/${item}`);
+  const [terminalData, setTerminalData] = useState(updatedNavData);
   const handleForm = (e) => {
     e.preventDefault();
-    let path = terminal.replace(/^\/|\/$/g, "")
+    let path = terminal.replace(/^\/|\/$/g, "");
     console.log(path);
     navigate(`/${path}/#${path}`);
     window.scrollTo(0, 0);
@@ -20,23 +22,35 @@ const Terminal = () => {
     setShow(false);
   };
 
+  useEffect(() => {});
+
   const handleChanges = (e) => {
     if (e.target.value === "/") {
       setShow(true);
     } else if (e.target.value === "") {
       setShow(false);
     }
+    const matchNavData = updatedNavData.filter((item) =>
+      item.includes(e.target.value)
+    );
+    if (matchNavData.length > 0) {
+      setTerminalData(matchNavData);
+    } else {
+      setTerminalData(["No match found"]);
+    }
     setTerminal(e.target.value);
   };
+
   const handleClick = (item) => {
     navigate(`${item}`);
     window.scrollTo(0, 0);
     setTerminal("");
     setShow(false);
   };
+
   return (
     <>
-      <form className="terminal" onSubmit={handleForm} >
+      <form className="terminal" onSubmit={handleForm}>
         <input
           type="text"
           onChange={handleChanges}
@@ -49,14 +63,14 @@ const Terminal = () => {
         </button>
         {show && (
           <div className="moreInfo">
-            {navData.map((item, index) => {
+            {terminalData.map((item, index) => {
               return (
                 <div
                   className="moreInfoItem"
                   key={index}
-                  onClick={()=>handleClick(item)}
+                  onClick={() => handleClick(item)}
                 >
-                  /{item}
+                  {item}
                 </div>
               );
             })}

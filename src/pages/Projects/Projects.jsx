@@ -3,7 +3,7 @@ import { projects } from "../../data";
 
 const Projects = () => {
   return (
-    <section className="px-4 md:px-6 lg:px-8 py-4 sm:py-8 lg:py-24 space-y-10">
+    <section className="px-4 md:px-6 lg:px-8 py-4 sm:py-8 lg:py-24 space-y-10 relative z-1">
       <div className="flex flex-col gap-4 sm:gap-2 mx-auto text-2xl [&>code]:text-txt-secondary w-fit sm:px-24">
         <code className="text-left sm:-ml-16">{`<h2>`}</code>
         <h1 className="font-audiowide text-center text-5xl">Our Projects</h1>

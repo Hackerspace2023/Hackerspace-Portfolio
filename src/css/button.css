@@ -2,7 +2,9 @@
   @apply h-12;
   clip-path: polygon(0% 50%, 10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%);
   background-color: var(--primary-color);
-  padding: 2px
+  padding: 2px;
+  position: relative;
+  z-index: 1;
 }
 
 .button {

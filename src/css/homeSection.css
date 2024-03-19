@@ -2,12 +2,20 @@
   max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
-  /* min-height: 88vh; */
+  /* height: 88vh; */
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding-top: 80px;
+  /* align-items: flex-start; */
+  align-items: center;
+  /* padding-top: 80px; */
   /* background-color: red; */
+  position: relative;
+  z-index: 1;
+}
+
+.topSectionHome {
+  display: none;
+  ;
 }
 
 /* ========= left Section ========= */
@@ -24,6 +32,7 @@
 .tag {
   color: var(--sub-text-color);
   font-size: 35px;
+  /* font-size: 2vw; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -35,7 +44,7 @@
 
 .subTitleHomeText {
   color: var(--primary-color);
-  font-size: 35px;
+  /* font-size: 35px; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -54,6 +63,7 @@
   text-align: center;
   @apply font-audiowide;
   font-size: 80px;
+  /* font-size: 5vw; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -83,6 +93,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  scale: 1;
 }
 
 .imgHome {
@@ -135,5 +146,84 @@
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .tag {
+    font-size: 30px;
+  }
+
+  .titleHomeText {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .tag {
+    font-size: 20px;
+  }
+
+  .titleHomeText {
+    font-size: 50px;
+  }
+
+  .rightSectionHome {
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .rightSectionHome {
+    display: none;
+  }
+
+  .topSectionHome {
+    display: block;
+    margin-bottom: 6vh;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftSectionHome {
+    padding-left: 0;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .titleHomeText {
+    font-size: 40px;
+  }
+
+  .topSectionHome {
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tag {
+    font-size: 18px;
+  }
+
+  .titleHomeText {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .tag {
+    font-size: 15px;
+  }
+
+  .titleHomeText {
+    font-size: 25px;
+  }
+
+  .topSectionHome {
+    scale: 0.65;
   }
 }

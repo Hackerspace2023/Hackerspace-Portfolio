@@ -3,6 +3,8 @@
   padding-top: 70px;
   padding-bottom: 70px;
   gap: 30px;
+  position: relative;
+  z-index: 1;
 }
 .contactSection {
   /* width: 100%; */

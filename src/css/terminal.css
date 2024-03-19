@@ -46,22 +46,60 @@
     bottom: 65px;
     background-color: var(--background-color);
     width: 50vw;
-    height: 200px;
+    max-height: 200px;
     left: calc((100% - 50vw)/2 - 38px) ;
     border-radius: 10px;
     overflow: hidden;
     overflow-y: scroll;
     border: 1px solid var(--primary-color);
 }
-.moreInfo::-webkit-scrollbar{
-    display: none;
+
+.moreInfo::-webkit-scrollbar {
+    width: 8px;
+}
+
+.moreInfo::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}
+
+.moreInfo::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.moreInfo::-webkit-scrollbar-thumb:hover {
+    background-color: var(--sub-background-color);
 }
 .moreInfoItem{
     cursor: pointer;
     padding: 15px;
     font-size: 20px;
+    transition: all 0.1s linear;
 }
 .moreInfoItem:hover{
     background-color: var(--sub-background-color);
     color: var(--primary-color);
+    padding-left: 25px;
+}
+
+@media only screen and (max-width: 870px)
+{
+    .terminal .input{
+        width: 80vw;
+    }
+    .moreInfo{
+        width: 80vw;
+        
+        left: calc((100% - 80vw)/2 - 38px) 
+    }
+}
+@media only screen and (max-width: 588px)
+{
+    .terminal .input{
+        width: 70vw;
+    }
+    .moreInfo{
+        width: 70vw;
+        left: calc((100% - 70vw)/2 - 38px) 
+    }
 }
