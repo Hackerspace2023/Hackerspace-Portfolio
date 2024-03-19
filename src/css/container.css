@@ -15,6 +15,7 @@
   position: relative;
   color: var(--text-color);
   /* z-index: -2; */
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {

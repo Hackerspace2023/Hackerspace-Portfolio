@@ -86,3 +86,91 @@
     /* color: var(--primary-color); */
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 786px)
+{
+    .Card{
+        width: 300px;
+        height: 400px;
+    }
+    .profileImage .imgHomeWrapper{
+        width: 150px;
+        height: 150px;
+    }
+    .profileImage .imgHome{
+        width: 100px;
+        height: 100px;
+    }
+    .cardContent h3{
+        font-size: 30px;
+    }
+    .cardContent p{
+        font-size: 20px;
+    }
+    .cardContent .socials{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 680px)
+{
+    .Card{
+        width: 250px;
+        height: 350px;
+    }
+    .profileImage .imgHomeWrapper{
+        width: 100px;
+        height: 100px;
+    }
+    .profileImage .imgHome{
+        width: 80px;
+        height: 80px;
+    }
+    .cardContent h3{
+        font-size: 25px;
+    }
+    .cardContent p{
+        font-size: 15px;
+    }
+    .cardContent .socials{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 560px)
+{
+    .Card{
+        width: 400px;
+        height: 500px;
+    }
+    .profileImage .imgHomeWrapper{
+        width: 250px;
+        height: 250px;
+    }
+    .profileImage .imgHome{
+        width: 200px;
+        height: 200px;
+    }
+    .cardContent h3{
+        font-size: 30px;
+    }
+    .cardContent p{
+        font-size: 20px;
+    }
+    .cardContent .socials{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 441px)
+{
+    .Card{
+        width: 80%;
+        height: fit-content;
+    }
+    .profileImage .imgHomeWrapper{
+        width: 180px;
+        height: 180px;
+    }
+    .profileImage .imgHome{
+        width: 140px;
+        height: 140px;
+    }
+}

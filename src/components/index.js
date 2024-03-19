@@ -7,6 +7,8 @@ import Terminal from "./Terminal/Terminal";
 import Category from "./Category/Category";
 import Card from "./Cards/Card";
 import EventsCategory from "./Category/EventsCategory.jsx"
+import ProjectCategory from "./Category/ProjectCategory.jsx";
 
 
-export { Navbar, Footer, Button, ImageBorder, Divider , Terminal,Category, Card , EventsCategory};
+
+export { Navbar, Footer, Button, ImageBorder, Divider , Terminal,Category, Card , EventsCategory, ProjectCategory};
