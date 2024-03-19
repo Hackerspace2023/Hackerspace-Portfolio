@@ -1,10 +1,8 @@
 .Members {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px;
-    position: relative;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  position: relative;
   z-index: 1;
-  }
-
-  
+}
