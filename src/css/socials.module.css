@@ -1,76 +1,85 @@
 .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 10px;
-    margin-top: 20px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
   z-index: 1;
-  }
-  .socials a {
-    position: relative;
-  }
-  
+}
+
+.socials a {
+  position: relative;
+}
+
+.socialIcon {
+  font-size: 30px;
+  color: var(--primary-color);
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.socialIcon:hover {
+  background-color: var(--sub-background-color);
+}
+
+.socialName {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 4px;
+  background-color: var(--background-color);
+  border: 2px solid var(--primary-color);
+  padding: 10px;
+  border-radius: 10px;
+  text-wrap: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  letter-spacing: 1.2px;
+
+  transition: all 0.3s ease;
+}
+
+.socials a:hover .socialName {
+  opacity: 1;
+  visibility: visible;
+  top: -70px;
+}
+
+@media only screen and (max-width: 540px) {
   .socialIcon {
-    font-size: 30px;
-    color: var(--primary-color);
-    padding: 10px;
-    background-color: transparent;
-    border: 2px solid var(--primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    font-weight: 600;
+    font-size: 25px;
   }
-  .socialIcon:hover{
-    background-color: var(--sub-background-color);
-  }
-  
+
   .socialName {
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--primary-color);
-    margin-top: 4px;
-    background-color: var(--background-color);
-    border: 2px solid var(--primary-color);
-    padding: 10px;
-    border-radius: 10px;
-    text-wrap: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    letter-spacing: 1.2px;
-  
-    transition: all 0.3s ease;
+    font-size: 15px;
   }
-  .socials a:hover .socialName {
-    opacity: 1;
-    visibility: visible;
-    top: -70px;
+}
+
+@media only screen and (max-width: 482px) {
+  .socialIcon {
+    font-size: 22px;
   }
-  @media only screen and (max-width: 540px) {
-    .socialIcon {
-      font-size: 25px;
-    }
-    .socialName {
-      font-size: 15px;
-    }
+
+  .socialName {
+    font-size: 14px;
   }
-  @media only screen and (max-width: 482px) {
-    .socialIcon {
-      font-size: 22px;
-    }
-    .socialName {
-      font-size: 14px;
-    }
-    .socials {
-      max-width: 200px;
-    }
+
+  .socials {
+    max-width: 100%;
+    scale: 0.7;
   }
+}
