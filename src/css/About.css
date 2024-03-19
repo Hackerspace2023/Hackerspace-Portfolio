@@ -57,7 +57,8 @@
   max-width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  color: var(--text-color);
+  color: var(--light-text-color);
+  /* color: var(--text-color); */
 }
 
 /* ========= Journey ========= */
@@ -237,19 +238,35 @@
   .title {
     font-size: 60px;
   }
+
+  .aboutDescription {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .title {
     font-size: 50px;
   }
+
+  .aboutDescription {
+    font-size: 18px;
+  }
 }
 
-@media screen and (max-width: 870px) {}
+@media screen and (max-width: 700px) {
+  .aboutDescription {
+    font-size: 17px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .title {
     font-size: 40px;
+  }
+
+  .aboutDescription {
+    line-height: 30px;
   }
 }
 
@@ -268,6 +285,96 @@
 
   .tagAbout2 {
     right: -60px;
+  }
+
+  .aboutDescription {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 841px)
+{
+  .experienceCard .cardTitle {
+    text-align: center;
+  }
+  
+  .experienceCard .cardSubTitle {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 800px)
+{
+  .timeline ul li:nth-child(odd) {
+    float: none;
+    clear: none;
+    transform: translateX(30px);
+    /* border-radius: 20px 0px 20px 20px; */
+  }
+  
+  .timeline ul li:nth-child(even) {
+    float: none;
+    clear: none;
+    transform: translateX(30px);
+    /* border-radius: 0px 20px 20px 20px; */
+  }
+  .timeline ul li:nth-child(odd)::before {
+  transform: translate(-50%, -50%);
+  left: -33px;
+  /* margin-left: 50px; */
+  /* top: -10px; */
+}
+
+.timeline ul li:nth-child(even)::before {
+  transform: translate(-50%, -50%);
+  left: -30px;
+}
+.timeline ul li{
+  width: 100%;
+}
+.timeline .line {
+  left: 39px;
+}
+}
+
+@media only screen and (max-width: 430px)
+{
+  .timeline-content h1 {
+    font-size: 18px;
+  }
+  .timeline-content p {
+    font-size: 12px;
+  }
+  .timeline-content .date{
+    font-size: 12px;
+  }
+  .experienceCard .cardTitle{
+    font-size: 25px;
+  }
+  .experienceCard .cardSubTitle{
+    font-size: 20px;
+  }
+  .experienceCard{
+    width: 50%;
+    height: fit-content;
+  }
+}
+@media only screen and (max-width: 430px)
+{
+  .experienceCard .cardTitle{
+    font-size: 18px;
+  }
+  .experienceCard .cardSubTitle{
+    font-size: 15px;
+  }
+  .experienceCard{
+    width: fit-content;
+  }
+  .timeline ul li{
+    width: 100%;
+  }
+  .aboutDescription
+  {
+    font-size: 18px;
   }
 }
 

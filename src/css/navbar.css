@@ -21,7 +21,8 @@
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
-.navHeader{
+
+.navHeader {
   display: flex;
 }
 
@@ -30,6 +31,7 @@
   color: var(--sub-text-color);
   margin-right: 10px;
 }
+
 .sectionTitle {
   color: var(--text-color);
 }
@@ -44,7 +46,7 @@
 
 
 /* ========= navItems ========= */
-.navItems{
+.navItems {
   /* background-color: red; */
   display: flex;
   justify-content: center;
@@ -52,7 +54,8 @@
   gap: 25px;
   font-size: 22px;
 }
-.navLinks{
+
+.navLinks {
   padding: 10px;
   padding-bottom: 5px;
   color: var(--sub-text-color);
@@ -61,7 +64,8 @@
   position: relative;
   transition: var(--transition);
 }
-.navLinks::after{
+
+.navLinks::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -71,18 +75,46 @@
   background-color: var(--text-color);
   transition: var(--transition);
 }
-.navLinks:hover{
+
+.navLinks:hover {
   color: var(--text-color);
 }
-.navLinks:hover::after{
+
+.navLinks:hover::after {
   left: 0;
   width: 100%;
 }
 
 /* ========= navbar ( RESPONSIVE ) ========= */
-@media only screen and (max-width: 843px)
-{
-  .navItems{
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    font-size: 20px;
+  }
+
+  .navItems {
+    gap: 10px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .navItems {
+    gap: 8px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    font-size: 18px;
+  }
+  .navItems {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+.navItems {
     display: none;
   }
 }

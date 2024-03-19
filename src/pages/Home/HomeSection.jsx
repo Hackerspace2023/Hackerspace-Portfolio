@@ -10,6 +10,7 @@ const HomeSection = ({ ...props }) => {
     <section className="home" {...props}>
       <div className="topSectionHome">
         <ImageBorder icon={"hackerspace-logo.jpg"} />
+        {/* <ImageBorder icon={"https://raw.githubusercontent.com/youtanimstar/music-hub/main/images/1.jpg"} /> */}
       </div>
       <div className="leftSectionHome">
         <TagContainer tag="p" className="subTitleHome">
@@ -19,7 +20,7 @@ const HomeSection = ({ ...props }) => {
           <h1 className="titleHomeText">
             <TypewriterComponent
               onInit={(typewriter) => {
-                typewriter.typeString("HackerSpace").start();
+                typewriter.typeString("Hackerspace").start();
               }}
             />
           </h1>
@@ -35,6 +36,7 @@ const HomeSection = ({ ...props }) => {
           <img src={ellipse} alt="" className="ellipse-fast" />
         </div> */}
         <ImageBorder icon={"hackerspace-logo.jpg"} />
+        {/* <ImageBorder icon={"https://raw.githubusercontent.com/youtanimstar/music-hub/main/images/1.jpg"} /> */}
       </div>
     </section>
   );
