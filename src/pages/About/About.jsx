@@ -22,10 +22,7 @@ const About = ({...props}) => {
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
         <div className="aboutDescription">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been
+        A Community of students having similar interest in the field of coding, where one can learn, implement and share new skills. Here students get more exposure and get to know about the industrial experiences of working seniors. Hackerspace always maintains a friendly environment for students to develop new skills and go beyond the boundaries
         </div>
         <Journey id="journey"/>
         <Experience id="experience"/>

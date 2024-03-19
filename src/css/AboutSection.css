@@ -87,7 +87,7 @@
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  line-height: 55px;
+  line-height: 50px;
   /* line-height: 3vw; */
 }
 
@@ -115,6 +115,7 @@
   }
 
   .aboutText p {
+    line-height: 55px;
     font-size: 32px;
   }
 }
@@ -149,9 +150,15 @@
   .aboutContent {
     width: 84%;
   }
-
+  
   .aboutText p {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .aboutText p {
+    line-height: 50px;
   }
 }
 
@@ -164,6 +171,12 @@
   .aboutText p {
     font-size: 21px;
     line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .aboutText p {
+    line-height: 43px;
   }
 }
 
