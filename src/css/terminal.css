@@ -46,7 +46,7 @@
     bottom: 65px;
     background-color: var(--background-color);
     width: 50vw;
-    height: 300px;
+    max-height: 200px;
     left: calc((100% - 50vw)/2 - 38px) ;
     border-radius: 10px;
     overflow: hidden;
@@ -89,6 +89,7 @@
     }
     .moreInfo{
         width: 80vw;
+        
         left: calc((100% - 80vw)/2 - 38px) 
     }
 }
