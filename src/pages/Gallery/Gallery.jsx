@@ -5,7 +5,6 @@ import { ImageBorder } from "../../components";
 import { gallery, members } from "../../data";
 import close from "../../assets/close-button.png";
 
-
 const Gallery = () => {
   const [job, setJob] = useState("web");
   const s = members.filter(types);
@@ -33,43 +32,42 @@ const Gallery = () => {
     setCurrentPage(id);
   }
 
-  const [panel,setPanel]= useState(false)
-  const [galImgSrc,setGalImgSrc]= useState('')
-  const [blur,setBlur]=useState(false)
+  const [panel, setPanel] = useState(false);
+  const [galImgSrc, setGalImgSrc] = useState("");
+  const [blur, setBlur] = useState(false);
 
+  const getImg = (galImg) => {
+    // setPanel(true);
+    setGalImgSrc(galImg);
+    // setBlur(true);
+  };
 
-  const getImg = (galImg)=>{
-    setPanel(true)
-    setGalImgSrc(galImg)
-    setBlur(true)
-  }
-
-  function closeWin(){
-    setPanel(false)
-    setBlur(false)
+  function closeWin() {
+    setPanel(false);
+    setBlur(false);
   }
 
   return (
     <>
-    <section className={blur?'gallery':""}>
-      <div className="galleryAbout">
-        <div className="titleContainer">
-          <span className="tagAbout tagAbout1">{`<h2>`}</span>
-          <h1 className="title">Gallery</h1>
-          <span className="tagAbout tagAbout2">{`</h2>`}</span>
+      <section className={blur ? "gallery" : ""}>
+        <div className="galleryAbout">
+          <div className="titleContainer">
+            <span className="tagAbout tagAbout1">{`<h2>`}</span>
+            <h1 className="title">Gallery</h1>
+            <span className="tagAbout tagAbout2">{`</h2>`}</span>
+          </div>
+          <div className="galleryContent">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has beenLorem Ipsum is simply dummy text of
+            the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text Lorem Ipsum is simply dummy text of
+            the printing and typesetting industry. Lorem Ipsum has been
+          </div>
         </div>
-        <div className="galleryContent">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has beenLorem Ipsum is simply dummy text of the
-          printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum has been
-        </div>
-      </div>
 
-      {/* <div className="galleryMember">
+        {/* <div className="galleryMember">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Our Members</h1>
@@ -119,37 +117,49 @@ const Gallery = () => {
         })}
       </div> */}
 
-      <div className="galleryPic">
-        <div className="titleContainer">
-          <span className="tagAbout tagAbout1">{`<h2>`}</span>
-          <h1 className="title">Our Gallery</h1>
-          <span className="tagAbout tagAbout2">{`</h2>`}</span>
+        <div className="galleryPic">
+          <div className="titleContainer">
+            <span className="tagAbout tagAbout1">{`<h2>`}</span>
+            <h1 className="title">Our Gallery</h1>
+            <span className="tagAbout tagAbout2">{`</h2>`}</span>
+          </div>
+
+          <div className="galleryPic-contain">
+            {gallery.map((image, index) => {
+              return (
+                <div
+                  className="galleryPic-card"
+                  key={index}
+                  onClick={() => getImg(image.eventImage)}
+                >
+                  <img src={image.eventImage} alt="img" />
+                </div>
+              );
+            })}
+          </div>
         </div>
-        
-        <div className="galleryPic-contain">
-          {gallery.map((image, index) => {
-            return (
-              <div className="galleryPic-card" key={index} onClick={()=>getImg(image.eventImage)}>
-                <img src={image.eventImage} alt="img" />
-              </div>
-            );
-          })}
+      </section>
+      {/* <div
+        className={
+          panel
+            ? "panel open max-w-xxl rounded-lg overflow-hidden shadow-lg"
+            : "panel"
+        }
+      >
+        <div style={{ position: "relative" }}>
+          <img src={galImgSrc} alt="" />
+          <div className=" txt px-6 py-4">
+            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p className="text-white-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
-    <div className={panel? "panel open max-w-xxl rounded-lg overflow-hidden shadow-lg":'panel'}>
-      <div style={{position:'relative'}}>
-    <img src={galImgSrc} alt="" />
-    <div className=" txt px-6 py-4">
-    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p className="text-white-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  </div>
-    <img className="cb" src={close} alt="" onClick={closeWin} />
-</div>
-</>
+        <img className="cb" src={close} alt="" onClick={closeWin} />
+      </div> */}
+    </>
   );
 };
 

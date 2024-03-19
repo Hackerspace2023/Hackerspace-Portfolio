@@ -12,7 +12,7 @@ const Button = ({
   ...props
 }) => {
   return (
-    <div className={className}>
+    <div className={className} onClick={()=>window.scrollTo(0, 0)}>
     <div className="arrowButton inline-flex items-center transition-all ease-linear">
       <i className="btn arrow left opacity-10"></i>
       <i className="btn arrow left opacity-40"></i>

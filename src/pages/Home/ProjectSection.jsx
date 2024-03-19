@@ -90,6 +90,7 @@ const Testimonial = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+        <Button text="Learn More" to="/projects" className="projectSectionButton"/>
       </section>
     </>
   );
