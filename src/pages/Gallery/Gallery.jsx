@@ -49,7 +49,8 @@ const Gallery = () => {
 
   return (
     <>
-      <section className={blur ? "gallery" : ""}>
+      {/* <section className={blur ? "gallery" : ""}>/ */}
+      <section className="gallery">
         <div className="galleryAbout">
           <div className="titleContainer">
             <span className="tagAbout tagAbout1">{`<h2>`}</span>
@@ -66,7 +67,6 @@ const Gallery = () => {
             the printing and typesetting industry. Lorem Ipsum has been
           </div>
         </div>
-
         {/* <div className="galleryMember">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
@@ -116,7 +116,6 @@ const Gallery = () => {
           );
         })}
       </div> */}
-
         <div className="galleryPic">
           <div className="titleContainer">
             <span className="tagAbout tagAbout1">{`<h2>`}</span>

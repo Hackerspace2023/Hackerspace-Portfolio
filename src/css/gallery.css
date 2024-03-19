@@ -5,21 +5,21 @@
     margin-right: auto;
     /* background-color: red; */
     position: relative;
-  z-index: 2;
+    z-index: 2;
 }
 
 .gallery {
     /* margin-top: 100px; */
-    /* padding-top: 80px; */
-    filter: blur(20px);
+    padding-top: 80px;
+    /* filter: blur(20px);
     pointer-events: none;
-    user-select: none;
+    user-select: none; */
 }
 
 .galleryAbout {
     margin-bottom: 100px;
     position: relative;
-  z-index: 2;
+    z-index: 2;
 }
 
 .galleryContent {
@@ -74,7 +74,7 @@
 .galleryPic {
     margin-bottom: 100px;
     position: relative;
-  z-index: 1;
+    z-index: 1;
 }
 
 .galleryPic-contain {
@@ -114,7 +114,7 @@
 }
 
 
-.panel.open{
+.panel.open {
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -127,12 +127,13 @@
     visibility: visible;
     display: flex;
 }
-.panel{
+
+.panel {
     visibility: hidden;
     display: none;
 }
 
-.cb{
+.cb {
     position: fixed;
     top: 10%;
     right: 22%;
@@ -142,7 +143,7 @@
     /* visibility: hidden; */
 }
 
-.txt{
+.txt {
     background-color: #222222;
     position: absolute;
     bottom: 0px;
@@ -150,37 +151,33 @@
     z-index: 9999;
 }
 
-@media only screen and (max-width: 682px)
-{
-    .galleryContent
-    {
+@media only screen and (max-width: 682px) {
+    .galleryContent {
         font-size: 20px;
         line-height: 40px;
     }
-    .galleryPic-card{
+
+    .galleryPic-card {
         width: 90%;
     }
 }
-@media only screen and (max-width: 577px)
-{
-    .galleryContent
-    {
+
+@media only screen and (max-width: 577px) {
+    .galleryContent {
         font-size: 18px;
         line-height: 35px;
     }
 }
-@media only screen and (max-width: 444px)
-{
-    .galleryContent
-    {
+
+@media only screen and (max-width: 444px) {
+    .galleryContent {
         font-size: 16px;
         line-height: 30px;
     }
 }
-@media only screen and (max-width: 357px)
-{
-    .galleryContent
-    {
+
+@media only screen and (max-width: 357px) {
+    .galleryContent {
         font-size: 12px;
         line-height: 30px;
     }

@@ -6,7 +6,7 @@
     margin-right: auto;
     padding-top: 80px;
     position: relative;
-  z-index: 1;
+    z-index: 1;
 }
 
 .contactContainer {
@@ -74,7 +74,7 @@
         left: 95px;
         top: -20px;
     }
-    
+
     .circleIcon[data-icon="linkedin"] {
         padding: 70px;
         top: 35px;
@@ -286,6 +286,7 @@
         left: 400px;
     }
 }
+
 @media screen and (max-width: 590px) {
     .circleIcon[data-icon="twitter"] {
         left: -40px;
@@ -305,6 +306,7 @@
         left: 340px;
     }
 }
+
 @media screen and (max-width: 520px) {
     .circleIcon[data-icon="twitter"] {
         left: -40px;
@@ -371,7 +373,7 @@
         top: 340px;
         left: 240px;
     }
-    
+
     .contactContainer {
         scale: 0.5;
     }
