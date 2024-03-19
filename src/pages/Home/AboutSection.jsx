@@ -1,15 +1,11 @@
-import React from 'react'
-
+import React from "react";
 
 import { Button } from "../../components";
 import "../../css/AboutSection.css";
-import { useDispatch } from 'react-redux';
-import { updateTitle } from '../../features/navSlice';
+import { useDispatch } from "react-redux";
+import { updateTitle } from "../../features/navSlice";
 
-
-const AboutSection = ({...props}) => {
-  
-  
+const AboutSection = ({ ...props }) => {
   return (
     <section className="about" {...props}>
       <div className="titleContainer">
@@ -19,20 +15,22 @@ const AboutSection = ({...props}) => {
       </div>
 
       <div className="mob-aboutContent">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been
-        </div>
+        A Community of students having similar interest in the field of coding,
+        where one can learn, implement and share new skills. Here students get
+        more exposure and get to know about the industrial experiences of
+        working seniors. Hackerspace always maintains a friendly environment for
+        students to develop new skills and go beyond the boundaries
+      </div>
 
       <div className="aboutContent">
         <div className="aboutText">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been Ipsum has been the industrys standard dummy text
-            Lorem Ipsum is simply dummy text of the printing
+            A Community of students having similar interest in the field of
+            coding, where one can learn, implement and share new skills. Here
+            students get more exposure and get to know about the industrial
+            experiences of working seniors. Hackerspace always maintains a
+            friendly environment for students to develop new skills and go
+            beyond the boundaries
           </p>
         </div>
         <div className="aboutLogo"></div>
