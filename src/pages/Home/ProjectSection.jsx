@@ -42,6 +42,37 @@ const Testimonial = () => {
               style={{ height: "fit-content", width: "fit-content" }}
               key={index}
             >
+              <div className="mob-projectItem">
+                <div className="projectItemContent mob-projectItemContent">
+                  <div className="projectItemImg mob-projectItemImg">
+                    <img src={project.image} alt={project.name} />
+                  </div>
+                  <div className="mob-projectContent">
+                    <h3>{project.name}</h3>
+                    <h4>{project.domain}</h4>
+                    <p className="mob-projectSectionText">
+                      {project.description}
+                    </p>
+                  </div>
+                    <div className="mob-btn">
+                      <div className="mob-buttonSection">
+                        <Button
+                          text="Github"
+                          to={project.repo}
+                          className="linkBtn1"
+                        ></Button>
+                      </div>
+                      <div className="mob-buttonSection">
+                        <Button
+                          text="Link"
+                          to={project.url}
+                          className="linkBtn2"
+                        ></Button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
               <div className="projectItem">
                 <div className="projectItemContent">
                   <h3>{project.name}</h3>
