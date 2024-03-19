@@ -21,8 +21,8 @@
   top: 0;
   right: 0;
 }
-.projectSectionButton
-{
+
+.projectSectionButton {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -138,7 +138,7 @@
     height: 600px;
     clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
     background-color: var(--primary-color);
-    padding: 5px;
+    padding: 2px;
   }
 
   .mob-projectItemContent {
@@ -157,7 +157,7 @@
     /* overflow: hidden; */
     background-color: var(--primary-color);
     clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 20%);
-    padding: 4px;
+    padding: 2px;
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -201,13 +201,13 @@
   }
 
   .linkBtn1 {
-    scale: 0.7;
+    scale: 0.8;
     position: relative;
     left: -20px;
   }
 
   .linkBtn2 {
-    scale: 0.7;
+    scale: 0.8;
     position: relative;
     left: -30px;
   }
@@ -217,10 +217,10 @@
 
   .mob-projectItem {
     width: 350px;
-    height: 450px;
+    height: 500px;
     clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
     background-color: var(--primary-color);
-    padding: 5px;
+    padding: 2px;
   }
 
   .mob-projectItemContent {
@@ -235,11 +235,11 @@
 
   .mob-projectItemImg {
     width: 300px;
-    height: 150px;
+    height: 200px;
     /* overflow: hidden; */
     background-color: var(--primary-color);
-    clip-path: polygon(11% 0, 100% 1%, 100% 80%, 89% 100%, 0 100%, 0 23%);
-    padding: 4px;
+clip-path: polygon(14% 0, 100% 1%, 100% 77%, 86% 100%, 0 100%, 0 25%);
+    padding: 2px;
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -248,7 +248,7 @@
   .mob-projectItemImg img {
     height: 100%;
     width: 100%;
-    clip-path: polygon(11% 0, 100% 1%, 100% 80%, 89% 100%, 0 100%, 0 23%);
+clip-path: polygon(14% 0, 100% 1%, 100% 77%, 86% 100%, 0 100%, 0 25%);
   }
 
   .mob-projectContent {
@@ -295,15 +295,15 @@
   }
 
   .linkBtn1 {
-    scale: 0.5;
+    scale: 0.7;
     position: relative;
-    left: -35px;
+    left: -50px;
   }
 
   .linkBtn2 {
-    scale: 0.5;
+    scale: 0.7;
     position: relative;
-    left: -30px;
+    left: -60px;
   }
 }
 

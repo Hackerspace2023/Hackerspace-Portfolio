@@ -64,7 +64,7 @@ const Testimonial = () => {
                       </div>
                       <div className="mob-buttonSection">
                         <Button
-                          text="Link"
+                          text="Preview"
                           to={project.url}
                           className="linkBtn2"
                         ></Button>
@@ -80,7 +80,7 @@ const Testimonial = () => {
                   <p className="projectSectionText">{project.description}</p>
                   <div className="buttonSection">
                     <Button text="Github" to={project.repo}></Button>
-                    <Button text="Link" to={project.url}></Button>
+                    <Button text="Preview" to={project.url}></Button>
                   </div>
                 </div>
                 <div className="projectItemImg">
@@ -90,7 +90,7 @@ const Testimonial = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <Button text="Learn More" to="/projects" className="projectSectionButton"/>
+        <Button text="Learn More" to={"/projects"} className="projectSectionButton"/>
       </section>
     </>
   );

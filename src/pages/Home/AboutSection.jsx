@@ -15,11 +15,14 @@ const AboutSection = ({ ...props }) => {
       </div>
 
       <div className="mob-aboutContent">
-        A Community of students having similar interest in the field of coding,
-        where one can learn, implement and share new skills. Here students get
-        more exposure and get to know about the industrial experiences of
-        working seniors. Hackerspace always maintains a friendly environment for
-        students to develop new skills and go beyond the boundaries
+        <div>
+          A Community of students having similar interest in the field of
+          coding, where one can learn, implement and share new skills. Here
+          students get more exposure and get to know about the industrial
+          experiences of working seniors. Hackerspace always maintains a
+          friendly environment for students to develop new skills and go beyond
+          the boundaries
+        </div>
       </div>
 
       <div className="aboutContent">
@@ -38,6 +41,7 @@ const AboutSection = ({ ...props }) => {
           <Button text="Learn More" to={"/about"} />
         </div>
       </div>
+      <Button text="Learn More" to={"/about"} className="aboutSectionButton"/>
     </section>
   );
 };
