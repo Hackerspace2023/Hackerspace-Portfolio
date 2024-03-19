@@ -73,3 +73,65 @@
 .event-card .eventsButton{
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 1200px)
+{
+    .event-card
+    {
+        width: 350px;
+    }
+    .event-card  .eventsButton{
+        transform: scale(0.8);
+    }
+}
+@media only screen and (max-width: 755px)
+{
+    .event-card
+    {
+        width: 250px;
+        height: fit-content;
+    }
+    .event-card  .eventsButton{
+        transform: scale(0.7);
+    }
+    .event-card .event-name{
+        font-size: 35px;
+    }
+    .event-card .event-time{
+        text-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 558px)
+{
+    .event-card
+    {
+        width: 80%;
+        height: fit-content;
+    }
+    .event-card  .eventsButton{
+        transform: scale(1);
+    }
+    .event-card .event-name{
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width: 448px)
+{
+    .event-card
+    {
+        width: 90%;
+        height: fit-content;
+    }
+    .event-card  .eventsButton{
+        /* transform: scale(0.8); */
+    }
+    .event-card .event-name{
+        font-size: 45px;
+    }
+    .Events .categoryOptionItem {
+        width: fit-content;
+    }
+    .Events .categoryOptions{
+        flex-direction: column;
+    }
+}
