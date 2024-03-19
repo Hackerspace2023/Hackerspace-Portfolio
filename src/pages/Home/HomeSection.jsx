@@ -19,7 +19,7 @@ const HomeSection = ({ ...props }) => {
           <h1 className="titleHomeText">
             <TypewriterComponent
               onInit={(typewriter) => {
-                typewriter.typeString("HackerSpace").start();
+                typewriter.typeString("Hackerspace").start();
               }}
             />
           </h1>
