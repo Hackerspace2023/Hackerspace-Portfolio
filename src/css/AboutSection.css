@@ -109,6 +109,10 @@
   justify-content: center;
 }
 
+.aboutSectionButton {
+  display: none;
+}
+
 @media screen and (max-width: 1560px) {
   .aboutContent {
     width: 87%;
@@ -238,6 +242,14 @@
     margin-right: auto;
     color: var(--light-text-color);
     /* color: var(--text-color); */
+  }
+
+  .aboutSectionButton {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
   }
 }
 

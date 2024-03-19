@@ -132,3 +132,15 @@
     opacity: 0.8;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .arrowButton {
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .arrowButton {
+    scale: 0.7;
+  }
+}

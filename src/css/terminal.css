@@ -1,6 +1,7 @@
-.terminal{
+.terminal {
     position: fixed;
-    bottom: 40px;
+    /* bottom: 40px; */
+    bottom: 25px;
     left: 0px;
     width: 100%;
     z-index: 999;
@@ -10,9 +11,10 @@
     align-items: center;
     /* background-color: red; */
     gap: 20px;
-    
+
 }
-.terminal .input{
+
+.terminal .input {
     color: var(--primary-color);
     width: 50vw;
     font-size: 22px;
@@ -21,12 +23,13 @@
     outline: none;
     padding-left: 20px;
     background: #00000038;
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     border: 2px solid var(--primary-color);
 
 }
-.terminal .submit{
+
+.terminal .submit {
     /* background: red; */
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
@@ -35,19 +38,21 @@
     border-radius: 10px;
     cursor: pointer;
     background: #00000038;
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
 }
-.terminal .submit:hover{
+
+.terminal .submit:hover {
     background-color: var(--sub-background-color);
 }
-.moreInfo{
+
+.moreInfo {
     position: absolute;
     bottom: 65px;
     background-color: var(--background-color);
     width: 50vw;
     max-height: 200px;
-    left: calc((100% - 50vw)/2 - 38px) ;
+    left: calc((100% - 50vw)/2 - 38px);
     border-radius: 10px;
     overflow: hidden;
     overflow-y: scroll;
@@ -70,36 +75,55 @@
 .moreInfo::-webkit-scrollbar-thumb:hover {
     background-color: var(--sub-background-color);
 }
-.moreInfoItem{
+
+.moreInfoItem {
     cursor: pointer;
     padding: 15px;
     font-size: 20px;
     transition: all 0.1s linear;
 }
-.moreInfoItem:hover{
+
+.moreInfoItem:hover {
     background-color: var(--sub-background-color);
     color: var(--primary-color);
     padding-left: 25px;
 }
 
-@media only screen and (max-width: 870px)
-{
-    .terminal .input{
-        width: 80vw;
+@media only screen and (max-width: 1000px) {
+    .terminal .input {
+        font-size: 18px;
+        width: 55vw;
     }
-    .moreInfo{
-        width: 80vw;
-        
-        left: calc((100% - 80vw)/2 - 38px) 
+
+    .terminal .submit {
+        font-size: 24px;
     }
 }
-@media only screen and (max-width: 588px)
-{
-    .terminal .input{
-        width: 70vw;
+
+@media only screen and (max-width: 870px) {
+    .terminal .input {
+        width: 80vw;
     }
-    .moreInfo{
+
+    .moreInfo {
+        width: 80vw;
+
+        left: calc((100% - 80vw)/2 - 38px)
+    }
+}
+
+@media only screen and (max-width: 588px) {
+    .terminal .input {
         width: 70vw;
-        left: calc((100% - 70vw)/2 - 38px) 
+        font-size: 15px;
+    }
+
+    .terminal .submit {
+        font-size: 19px;
+    }
+
+    .moreInfo {
+        width: 70vw;
+        left: calc((100% - 70vw)/2 - 38px)
     }
 }
