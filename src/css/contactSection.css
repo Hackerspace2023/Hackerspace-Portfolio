@@ -324,8 +324,55 @@
         left: 320px;
     }
 }
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 490px) {
+    .circleIcon[data-icon="twitter"] {
+        top: -220px;
+        left: -70px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        top: 0px;
+        left: 250px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        top: 200px;
+        left: -20px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        top: 340px;
+        left: 270px;
+    }
+
     .contactContainer {
-        scale: 0.3;
+        scale: 0.55;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .circleIcon[data-icon="twitter"] {
+        top: -250px;
+        left: -100px;
+    }
+
+    .circleIcon[data-icon="linkedin"] {
+        top: -50px;
+        left: 220px;
+    }
+
+    .circleIcon[data-icon="instagram"] {
+        top: 180px;
+        left: -60px;
+    }
+
+    .circleIcon[data-icon="mail"] {
+        top: 340px;
+        left: 240px;
+    }
+    
+    .contactContainer {
+        scale: 0.5;
     }
 }

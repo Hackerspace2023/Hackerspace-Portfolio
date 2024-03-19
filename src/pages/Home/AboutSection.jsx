@@ -17,6 +17,14 @@ const AboutSection = ({...props}) => {
         <h1 className="title">About Us</h1>
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
       </div>
+
+      <div className="mob-aboutContent">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been
+        </div>
+
       <div className="aboutContent">
         <div className="aboutText">
           <p>

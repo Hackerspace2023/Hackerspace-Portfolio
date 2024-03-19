@@ -56,7 +56,8 @@
   max-width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  color: var(--text-color);
+  color: var(--light-text-color);
+  /* color: var(--text-color); */
 }
 
 /* ========= Journey ========= */
@@ -236,19 +237,35 @@
   .title {
     font-size: 60px;
   }
+
+  .aboutDescription {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .title {
     font-size: 50px;
   }
+
+  .aboutDescription {
+    font-size: 18px;
+  }
 }
 
-@media screen and (max-width: 870px) {}
+@media screen and (max-width: 700px) {
+  .aboutDescription {
+    font-size: 17px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .title {
     font-size: 40px;
+  }
+
+  .aboutDescription {
+    line-height: 30px;
   }
 }
 
@@ -267,5 +284,9 @@
 
   .tagAbout2 {
     right: -60px;
+  }
+
+  .aboutDescription {
+    font-size: 14px;
   }
 }
