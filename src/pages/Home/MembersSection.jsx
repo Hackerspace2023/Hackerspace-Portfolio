@@ -88,6 +88,7 @@ const MembersSection = ({...props}) => {
                     })}
                 </Swiper>
             </div>
+            <Button text="View All" link="/members" className="membersSectionButton"/>
         </section>
     );
 };

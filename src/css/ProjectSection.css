@@ -21,6 +21,13 @@
   top: 0;
   right: 0;
 }
+.projectSectionButton
+{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
 
 .projectItem {
   height: 500px;
