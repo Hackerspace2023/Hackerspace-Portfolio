@@ -27,6 +27,11 @@
     text-align: center;
     font-size: 22px;
     line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .galleryMember {
@@ -143,4 +148,40 @@
     bottom: 0px;
     border-radius: 1%;
     z-index: 9999;
+}
+
+@media only screen and (max-width: 682px)
+{
+    .galleryContent
+    {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .galleryPic-card{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 577px)
+{
+    .galleryContent
+    {
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+@media only screen and (max-width: 444px)
+{
+    .galleryContent
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 357px)
+{
+    .galleryContent
+    {
+        font-size: 12px;
+        line-height: 30px;
+    }
 }
