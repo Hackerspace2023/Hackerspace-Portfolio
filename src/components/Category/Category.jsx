@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import { Fragment, useState } from "react";
 import "../../css/category.css";
 
 const Category = ({ data, category, renderComponet }) => {
@@ -12,6 +12,7 @@ const Category = ({ data, category, renderComponet }) => {
   const filteredCategories = [...new Set(trimmedCategories)];
   const [selectedId, setSelectedId] = useState(uniqueCategory[0]);
   // const separatedCategories = selectedId.split(",").map((category) => category.trim());
+
   return (
     <>
       <section className="categorySecion">
