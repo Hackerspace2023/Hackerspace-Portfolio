@@ -1,4 +1,3 @@
-import React from "react";
 import "../../css/homeSection.css";
 import ellipse from "../../assets/ellipse.png";
 

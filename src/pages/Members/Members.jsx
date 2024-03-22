@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Button, Card, Category } from "../../components";
-import { members2 } from "../../data";
+import { Card, Category } from "../../components";
+import { membersNew } from "../../data";
 import "../../css/Members.css";
 
 const Members = () => {
-  // console.log(members2);
+  // console.log(memberNew);
+
   return (
     <>
       <section className="Members">
@@ -15,13 +15,13 @@ const Members = () => {
         </div>
         <div className="aboutDescription">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
+          industry. Lorem Ipsum has been the industry{`'`}s standard dummy text
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been
         </div>
         <Category
           category="domain"
-          data={members2}
+          data={membersNew}
           renderComponet={(ele) => <Card data={ele} />}
         />
       </section>
