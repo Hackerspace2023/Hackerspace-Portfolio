@@ -18,7 +18,7 @@ import { members } from "../../data";
 const MembersSection = ({...props}) => {
 
     return (
-        <section className="members" {...props}>
+        <section className="members" {...props} data-aos="fade-up">
             <div className="titleContainer">
                 <span className="tagAbout tagAbout1">{`<h2>`}</span>
                 <h1 className="title">Our Members</h1>

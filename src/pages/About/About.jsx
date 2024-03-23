@@ -15,13 +15,13 @@ const About = ({...props}) => {
   }, [pathname]);
   return (
     <section {...props}>
-      <section className="About" id="about">
+      <section className="About" id="about" >
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">About Us</h1>
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
-        <div className="aboutDescription">
+        <div className="aboutDescription" data-aos="fade-up">
         A Community of students having similar interest in the field of coding, where one can learn, implement and share new skills. Here students get more exposure and get to know about the industrial experiences of working seniors. Hackerspace always maintains a friendly environment for students to develop new skills and go beyond the boundaries
         </div>
         <Journey id="journey"/>

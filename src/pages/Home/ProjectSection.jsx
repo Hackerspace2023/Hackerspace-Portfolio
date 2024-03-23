@@ -11,7 +11,7 @@ import "../../css/AboutSection.css";
 const Testimonial = () => {
   return (
     <>
-      <section className="projectSection">
+      <section className="projectSection" data-aos="fade-up">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Our Projects</h1>
@@ -36,6 +36,7 @@ const Testimonial = () => {
           }}
           modules={[EffectCoverflow, Autoplay]}
           loop="true"
+          
         >
           {projects.map((project, index) => (
             <SwiperSlide

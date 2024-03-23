@@ -14,7 +14,7 @@ const ContactSection = ({ ...props }) => {
       
   return (
     <>
-      <section className="contactSection" {...props}>
+      <section className="contactSection" {...props} data-aos="fade-up">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Connect Us</h1>

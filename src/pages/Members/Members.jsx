@@ -22,7 +22,7 @@ const Members = () => {
         <Category
           category="domain"
           data={membersNew}
-          renderComponet={(ele) => <Card data={ele} />}
+          renderComponet={(ele) => <Card data={ele} data-aos="fade-up"/>}
         />
       </section>
     </>
