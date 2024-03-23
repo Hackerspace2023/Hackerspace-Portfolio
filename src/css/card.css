@@ -32,6 +32,7 @@
 .profileImage .imgHome{
     width: 150px;
     height: 150px;
+    @apply object-cover bg-bg-secondary;
 }
 .cardContent{
     /* background-color: red; */
@@ -47,9 +48,8 @@
     
 }
 .cardContent h3{
-    font-size: 35px;
-    @apply font-audiowide;
-    text-transform: capitalize;
+    font-size: 30px;
+    @apply font-audiowide capitalize;
     font-weight: 500;
     color: var(--primary-color);
     text-align: center;
@@ -76,7 +76,7 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
-    font-size: 40px;
+    font-size: 35px;
 }
 .cardContent .socials a{
     color: var(--primary-color);

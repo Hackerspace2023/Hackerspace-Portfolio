@@ -7,7 +7,7 @@ import { updateTitle } from "../../features/navSlice";
 
 const AboutSection = ({ ...props }) => {
   return (
-    <section className="about" {...props}>
+    <section className="about" {...props} data-aos="fade-up">
       <div className="titleContainer">
         <span className="tagAbout tagAbout1">{`<h2>`}</span>
         <h1 className="title">About Us</h1>

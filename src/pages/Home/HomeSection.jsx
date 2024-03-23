@@ -8,21 +8,15 @@ import TypewriterComponent from "typewriter-effect";
 const HomeSection = ({ ...props }) => {
   return (
     <section className="home" {...props}>
-      <div className="topSectionHome">
+      {/* <div className="topSectionHome">
         <ImageBorder icon={"hackerspace-logo.jpg"} />
-        {/* <ImageBorder icon="https://raw.githubusercontent.com/youtanimstar/music-hub/main/images/1.jpg" /> */}
-      </div>
-      <div className="leftSectionHome">
+      </div> */}
+      <div className="leftSectionHome" data-aos="fade-right">
         <TagContainer tag="p" className="subTitleHome">
           <b className="subTitleHomeText"> Welcome To </b>
         </TagContainer>
         <TagContainer tag="h1" className="titleHome">
           <h1 className="titleHomeText">
-            {/* <TypewriterComponent
-              onInit={(typewriter) => {
-                typewriter.typeString("Hackerspace").start();
-              }}
-            /> */}
             Hackerspace
           </h1>
         </TagContainer>
@@ -30,14 +24,8 @@ const HomeSection = ({ ...props }) => {
           <b className="subTitleHomeText"> Let's hack the future </b>
         </TagContainer>
       </div>
-      <div className="rightSectionHome">
-        {/* <div className="imgHomeWrapper">
-          <img src={icon} alt="hackerspace-logo" className="imgHome" />
-          <img src={ellipse} alt="" className="ellipse-slow" />
-          <img src={ellipse} alt="" className="ellipse-fast" />
-        </div> */}
+      <div className="rightSectionHome" data-aos="fade-left">
         <ImageBorder icon={"hackerspace-logo.jpg"} />
-        {/* <ImageBorder icon={"https://raw.githubusercontent.com/youtanimstar/music-hub/main/images/1.jpg"}/> */}
       </div>
     </section>
   );

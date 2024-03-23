@@ -5,7 +5,7 @@ import "../../css/About.css";
 const Experience = ({ ...props }) => {
   return (
     <>
-      <section className="experience" {...props}>
+      <section className="experience" {...props} data-aos="fade-up">
         <div className="titleContainer">
           <span className="tagAbout tagAbout1">{`<h2>`}</span>
           <h1 className="title">Experience</h1>

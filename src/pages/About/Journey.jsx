@@ -4,13 +4,13 @@ import { journey } from "../../data";
 
 const Journey = ({ ...props }) => {
   return (
-    <section className="journey" {...props}>
-      <div className="titleContainer">
+    <section className="journey" {...props} >
+      <div className="titleContainer" data-aos="fade-up">
         <span className="tagAbout tagAbout1">{`<h2>`}</span>
         <h1 className="title">Journey</h1>
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
       </div>
-      <div className="aboutDescription">
+      <div className="aboutDescription" data-aos="fade-up">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text Lorem
         Ipsum is simply dummy text of the printing and typesetting industry.
