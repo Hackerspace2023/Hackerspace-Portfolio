@@ -12,6 +12,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
     "@splidejs/react-splide": "^0.7.12",
+    "aos": "^2.3.4",
     "dotenv": "^16.4.5",
     "prettier": "^3.2.5",
     "react": "^18.2.0",

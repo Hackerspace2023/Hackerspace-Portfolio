@@ -5,7 +5,9 @@ import App from "../App";
 import hexagon from "../assets/hexagon.png";
 import { useEffect, useRef } from "react";
 
+
 const Layout = () => {
+  
   const light = useRef();
   const grid = useRef();
   const handleMouseMove = (event) => {
