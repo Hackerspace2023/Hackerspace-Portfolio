@@ -2,57 +2,78 @@
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-0.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2023)-1.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-1.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2023)-2.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-2.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2023)-3.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-3.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2023)-4.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-4.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2023)-5.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-5.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2023)-6.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-6.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2023)-7.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
         "eventDate": "2020-01-01",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "location": "MSIT, Kolkata",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/images/hackerspace-image-7.jpeg?raw=true"
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-class(2023)-1.jpeg?raw=true"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-class(2023)-2.jpeg?raw=true"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-class(2023)-3.jpeg?raw=true"
+    },
+    {
+        "eventName": "lorem",
+        "eventDate": "2020-01-01",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-class(2023)-4.jpeg?raw=true"
     }
 ]
