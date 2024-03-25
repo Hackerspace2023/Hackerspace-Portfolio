@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from "react";
 import "../../css/eventsCategory.css";
 
-const ProjectCategory = ({ data, category, renderComponet }) => {
+const ProjectCategory = ({ data, category, domain, renderComponet }) => {
   const uniqueCategory = [...new Set(data.map((item) => item[category]))];
   const [selectedId, setSelectedId] = useState(uniqueCategory[0]);
-  
+
   return (
     <>
       <section className="categorySecion">
@@ -19,6 +19,7 @@ const ProjectCategory = ({ data, category, renderComponet }) => {
             </div>
           ))}
         </div>
+
         <div className="categoryCardSection">
           {data
             .filter((item) => item[category] === selectedId)
