@@ -17,7 +17,10 @@ const EventsCard = ({ data }) => {
             <p className="event-time">{data.description}</p>
           </div>
           <div className="mob-btn">
-            <Button text="Register" className={`eventsButton linkBtn3 ${data.category !== "past" ? "active" : "" }`} />
+            <Button
+              text="Register"
+              className={`eventsButton linkBtn3 ${data.category !== "past" ? "active" : ""}`}
+            />
           </div>
         </div>
       </div>
