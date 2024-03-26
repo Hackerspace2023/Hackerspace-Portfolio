@@ -8,17 +8,15 @@ import TypewriterComponent from "typewriter-effect";
 const HomeSection = ({ ...props }) => {
   return (
     <section className="home" {...props}>
-      {/* <div className="topSectionHome">
+      <div className="topSectionHome">
         <ImageBorder icon={"hackerspace-logo.jpg"} />
-      </div> */}
+      </div>
       <div className="leftSectionHome" data-aos="fade-right">
         <TagContainer tag="p" className="subTitleHome">
           <b className="subTitleHomeText"> Welcome To </b>
         </TagContainer>
         <TagContainer tag="h1" className="titleHome">
-          <h1 className="titleHomeText">
-            Hackerspace
-          </h1>
+          <h1 className="titleHomeText">Hackerspace</h1>
         </TagContainer>
         <TagContainer tag="p" className="subTitleHome bottomTitleHome">
           <b className="subTitleHomeText"> Let's hack the future </b>
