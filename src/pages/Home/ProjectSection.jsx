@@ -8,6 +8,14 @@ import { Button } from "../../components";
 import "../../css/ProjectSection.css";
 import "../../css/AboutSection.css";
 
+const handleMouseEnter = (event) => {
+  event.target.play();
+};
+
+const handleMouseLeave = (event) => {
+  event.target.pause();
+};
+
 const Testimonial = () => {
   return (
     <>
@@ -36,7 +44,6 @@ const Testimonial = () => {
           }}
           modules={[EffectCoverflow, Autoplay]}
           loop="true"
-          
         >
           {projects.map((project, index) => (
             <SwiperSlide
@@ -46,7 +53,15 @@ const Testimonial = () => {
               <div className="mob-projectItem">
                 <div className="projectItemContent mob-projectItemContent">
                   <div className="projectItemImg mob-projectItemImg">
-                    <img src={project.image} alt={project.name} />
+                    {/* <img src={project.image} alt={project.name} /> */}
+                    <video
+                      src={project.video}
+                      alt={project.name}
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}
+                      muted
+                      loop
+                    ></video>
                   </div>
                   <div className="mob-projectContent">
                     <h3>{project.name}</h3>
@@ -55,22 +70,22 @@ const Testimonial = () => {
                       {project.description}
                     </p>
                   </div>
-                    <div className="mob-btn">
-                      <div className="mob-buttonSection">
-                        <Button
-                          text="Github"
-                          to={project.repo}
-                          className="linkBtn1"
-                        ></Button>
-                      </div>
-                      <div className="mob-buttonSection">
-                        <Button
-                          text="Preview"
-                          to={project.url}
-                          className="linkBtn2"
-                        ></Button>
-                      </div>
+                  <div className="mob-btn">
+                    <div className="mob-buttonSection">
+                      <Button
+                        text="Github"
+                        to={project.repo}
+                        className="linkBtn1"
+                      ></Button>
                     </div>
+                    <div className="mob-buttonSection">
+                      <Button
+                        text="Preview"
+                        to={project.url}
+                        className="linkBtn2"
+                      ></Button>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -86,12 +101,24 @@ const Testimonial = () => {
                 </div>
                 <div className="projectItemImg">
                   <img src={project.image} alt={project.name} />
+                  {/* <video
+                    src={project.video}
+                    alt={project.name}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    muted
+                    loop
+                  ></video> */}
                 </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-        <Button text="Learn More" to={"/projects"} className="projectSectionButton"/>
+        <Button
+          text="Learn More"
+          to={"/projects"}
+          className="projectSectionButton"
+        />
       </section>
     </>
   );

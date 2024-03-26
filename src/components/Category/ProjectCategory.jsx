@@ -23,7 +23,7 @@ const ProjectCategory = ({ data, category, domain, renderComponet }) => {
             <div
               key={index}
               onClick={() => handelClick(item, index)}
-              className="categoryOptionItem"
+              className="categoryOptionItem projectOptionItem"
             >
               {item}
             </div>

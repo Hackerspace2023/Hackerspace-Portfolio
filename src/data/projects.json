@@ -5,6 +5,7 @@
     "tag": "Web Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": true,
     "repo": "",
     "url": ""
@@ -15,6 +16,7 @@
     "tag": "App Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
@@ -25,26 +27,29 @@
     "tag": "DS",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": true,
     "repo": "",
     "url": ""
   },
   {
     "name": "Project 4",
-    "domain": "Artificial Intelligence",
+    "domain": "AI/ML",
     "tag": "AI/ML",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
   },
   {
-    "name": "Project 5",
+    "name": "CYBERFICTION",
     "domain": "UI/UX Design",
     "tag": "UI/UX",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "description": "This is a clone of CYBERFICTION Website.",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/CYBERFICTION.jpeg?raw=true",
+    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/CYBERFICTION.mp4?raw=true",
     "showOnHighlights": true,
     "repo": "",
     "url": ""
@@ -55,6 +60,7 @@
     "tag": "Cloud",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": true,
     "repo": "",
     "url": ""
@@ -65,6 +71,7 @@
     "tag": "Game Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
@@ -75,6 +82,7 @@
     "tag": "VR/AR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
@@ -85,6 +93,7 @@
     "tag": "App Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": true,
     "repo": "",
     "url": ""
@@ -95,6 +104,7 @@
     "tag": "DS",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
@@ -105,6 +115,7 @@
     "tag": "Web Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": true,
     "repo": "",
     "url": ""
@@ -115,6 +126,7 @@
     "tag": "App Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
@@ -125,6 +137,7 @@
     "tag": "DS",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": true,
     "repo": "",
     "url": ""
@@ -135,6 +148,7 @@
     "tag": "Web Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
+    "video": "",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
