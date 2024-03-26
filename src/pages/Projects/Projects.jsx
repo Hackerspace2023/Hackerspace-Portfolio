@@ -165,7 +165,8 @@ const Projects = () => {
         Lorem Ipsum has been
       </div>
       <ProjectCategory
-        category="domain"
+        category="tag"
+        domain="domain"
         data={projects}
         renderComponet={(ele) => <ProjectCard data={ele} />}
       />
