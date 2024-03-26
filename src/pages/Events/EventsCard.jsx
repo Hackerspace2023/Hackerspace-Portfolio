@@ -8,10 +8,10 @@ const EventsCard = ({ data }) => {
       <div className="event-card">
         <div className="event-card2">
           <div className="event-cardImg">
-            <img src={data.image} alt="Event" className="event-image" />
+            <img src={data.eventImage} alt="Event" className="event-image" />
           </div>
           <div className="event-content">
-            <h3 className="event-name">{data.name}</h3>
+            <h3 className="event-name">{data.eventName}</h3>
             <p className="event-time">{data.description}</p>
           </div>
           <div className="mob-btn">
