@@ -46,7 +46,7 @@
 .event-time {
     color: #fff;
     font-family: "Fira Code";
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     line-height: 160%;
     text-align: center;
@@ -64,10 +64,16 @@
     z-index: 2;
 }
 
-.event-cardImg img {
-    height: 100%;
+.event-image {
     width: 100%;
     clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-cardImg img {
+    width: 100%;
 }
 
 .mob-btn {
@@ -97,9 +103,18 @@
     scale: 0.7;
     position: relative;
     left: 60px;
+    display: none;
+}
+
+.eventsButton.linkBtn3.active {
+    display: block;
 }
 
 @media screen and (max-width: 600px) {
+    .event-name {
+        font-size: 25px;
+    }
+
     .event-card {
         width: 350px;
         height: 450px;
@@ -130,16 +145,10 @@
         z-index: 2;
     }
 
-    .event-cardImg img {
-        height: 100%;
-        width: 100%;
-        clip-path: polygon(11% 0, 100% 1%, 100% 80%, 89% 100%, 0 100%, 0 23%);
-    }
-
     .event-time {
         color: #fff;
         font-family: "Fira Code";
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 20px;
         line-height: 160%;
     }

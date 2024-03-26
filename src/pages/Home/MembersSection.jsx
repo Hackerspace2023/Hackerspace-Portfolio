@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { members } from "../../data";
+import { founders } from "../../data";
 
 const MembersSection = ({...props}) => {
 
@@ -43,7 +43,7 @@ const MembersSection = ({...props}) => {
                     className="mySwiper"
                 >
                     
-                    {members.map((ele, index) => {
+                    {founders.map((ele, index) => {
                         return (
                             <SwiperSlide key={index}>
                                 <div className="tab-membersContainer">
@@ -57,26 +57,26 @@ const MembersSection = ({...props}) => {
                                 
                                 <div className="membersContainer">
                                     <div className="membersProfile">
-                                        <ImageBorder icon={ele.profilePic} />
+                                        <ImageBorder icon={ele.image} />
                                     </div>
                                     <div className="membersContenetBorder">
                                         <div className="membersContenet">
                                             <div className="membersContenetAbout">
                                                 <h2>{ele.name}</h2>
-                                                <h3>{ele.role}</h3>
+                                                <h3>{ele.stream}</h3>
                                                 <p>{ele.description}</p>
                                             </div>
                                             <div className="membersConteneLinks">
-                                                <a href={ele.socials.instagram}>
+                                                <a href={ele.linkedIn}>
                                                     <FaLinkedin className="linkedinBtn" />
                                                 </a>
-                                                <a href={ele.socials.instagram}>
+                                                <a href={ele.instagram}>
                                                     <FaGithub className="gitBtn" />
                                                 </a>
-                                                <a href={ele.socials.instagram}>
+                                                <a href={ele.instagram}>
                                                     <RiInstagramFill className="instaBtn" />
                                                 </a>
-                                                <a href={ele.socials.instagram}>
+                                                <a href={ele.facebook}>
                                                     <FaFacebook className="fbBtn" />
                                                 </a>
                                             </div>

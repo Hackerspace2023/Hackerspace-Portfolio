@@ -27,7 +27,6 @@ const Contact = () => {
   return (
     <>
       <section>
-        
         <section className={Style.contactSection} id="contact">
           <div className={Style.contactCard}>
             <div className={Style.left}>
@@ -40,11 +39,22 @@ const Contact = () => {
                 className={Style.map}
                 loading="lazy"
               ></iframe>
+              <div className="venue-location">
+                <a
+                  href="https://www.google.com/maps/@22.5105556,88.4151563,3a,90y,204.34h,103.93t/data=!3m8!1e1!3m6!1sAF1QipPanWJHn1MPsns8prP_jOR0fxyPUZ1nQ47tRqw1!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPanWJHn1MPsns8prP_jOR0fxyPUZ1nQ47tRqw1%3Dw203-h100-k-no-pi-0-ya154-ro-0-fo100!7i8704!8i4352?hl=en-US&entry=ttu"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <h4 className="_leftSubTitle_j6ibm_67">
+                    See Venue in 360&deg;
+                  </h4>
+                </a>
+              </div>
             </div>
             <div className={Style.right}>
               <div className={Style.rightTitle}>Contact Form</div>
               <form action="" className={Style.form} onSubmit={handleSubmit}>
-              <ToastContainer theme="dark" style={{top: "80px"}}/>
+                <ToastContainer theme="dark" style={{ top: "80px" }} />
                 <input
                   type="text"
                   name="name"
