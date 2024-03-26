@@ -29,7 +29,6 @@
 
 .Events .categoryOptions::-webkit-scrollbar {
     display: none;
-
 }
 
 .Events .categoryOptionItem {
@@ -44,7 +43,7 @@
 
     /* background-color: red; */
     padding: 10px;
-    font-size: 22px;
+    font-size: 16px;
     border: 2px solid var(--primary-color);
     background-color: var(--sub-background-color);
     color: var(--text-color);
@@ -53,6 +52,12 @@
     letter-spacing: 2px;
     overflow: hidden;
 }
+
+/* .projectOptionItem {
+    min-width: 20px;
+    font-size: 14px;
+    text-align: center;
+} */
 
 .Events .categoryOptionItem:hover {
     background-color: var(--primary-color);

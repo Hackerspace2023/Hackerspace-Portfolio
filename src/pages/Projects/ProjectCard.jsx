@@ -16,7 +16,7 @@ const ProjectCard = ({ data }) => {
       <div className="event-card">
         <div className="event-card2">
           <div className="event-cardImg">
-            <img src={data.image} alt="Event" className="event-image" />
+            {/* <img src={data.image} alt="Event" className="event-image" /> */}
             {/* <video src={data.video} alt="Event" className="event-image"></video> */}
             <video
               src={data.video}
@@ -27,6 +27,7 @@ const ProjectCard = ({ data }) => {
               muted
               loop
             ></video>
+            
           </div>
           <div className="event-content">
             <h3 className="event-name">{data.name}</h3>
