@@ -2,6 +2,14 @@ import React from "react";
 import "../../css/Events.css";
 import { Button } from "../../components";
 
+const handleMouseEnter = (event) => {
+  event.target.play();
+};
+
+const handleMouseLeave = (event) => {
+  event.target.pause();
+};
+
 const ProjectCard = ({ data }) => {
   return (
     <>
@@ -9,6 +17,16 @@ const ProjectCard = ({ data }) => {
         <div className="event-card2">
           <div className="event-cardImg">
             <img src={data.image} alt="Event" className="event-image" />
+            {/* <video src={data.video} alt="Event" className="event-image"></video> */}
+            <video
+              src={data.video}
+              alt="Event"
+              className="event-image"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              muted
+              loop
+            ></video>
           </div>
           <div className="event-content">
             <h3 className="event-name">{data.name}</h3>
