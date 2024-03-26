@@ -18,16 +18,16 @@ const ProjectCard = ({ data }) => {
           <div className="event-cardImg">
             {/* <img src={data.image} alt="Event" className="event-image" /> */}
             {/* <video src={data.video} alt="Event" className="event-image"></video> */}
-            <video
-              src={data.video}
-              alt="Event"
-              className="event-image"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              muted
-              loop
-            ></video>
-            
+            <div className="event-image">
+              <video
+                src={data.video}
+                alt="Event"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                muted
+                loop
+              ></video>
+            </div>
           </div>
           <div className="event-content">
             <h3 className="event-name">{data.name}</h3>
