@@ -4,11 +4,11 @@ import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
 import ImageBorder from "./ImageBorder/ImageBorder";
 import Terminal from "./Terminal/Terminal";
-import Category from "./Category/Category";
+import MembersCategory from "./Category/MembersCategory.jsx";
 import Card from "./Cards/Card";
 import EventsCategory from "./Category/EventsCategory.jsx"
 import ProjectCategory from "./Category/ProjectCategory.jsx";
 
 
 
-export { Navbar, Footer, Button, ImageBorder, Divider , Terminal,Category, Card , EventsCategory, ProjectCategory};
+export { Navbar, Footer, Button, ImageBorder, Divider , Terminal,MembersCategory, Card , EventsCategory, ProjectCategory};
