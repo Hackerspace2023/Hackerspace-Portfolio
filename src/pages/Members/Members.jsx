@@ -1,9 +1,10 @@
-import { Card, Category } from "../../components";
-import { membersNew } from "../../data";
+import { Card, MembersCategory } from "../../components";
+import { membersData, membersNew } from "../../data";
 import "../../css/Members.css";
 
 const Members = () => {
   // console.log(memberNew);
+  // console.log(membersData);
 
   return (
     <>
@@ -19,9 +20,8 @@ const Members = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been
         </div>
-        <Category
-          category="domain"
-          data={membersNew}
+        <MembersCategory
+          data={membersData}
           renderComponet={(ele) => <Card data={ele} data-aos="fade-up"/>}
         />
       </section>

@@ -67,8 +67,8 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     text-wrap:  nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
 }
 .cardContent .socials{
     /* background-color: red; */
@@ -77,6 +77,12 @@
     align-items: center;
     gap: 25px;
     font-size: 35px;
+}
+.socialsIcon{
+    display: none;
+}
+.socialsIcon.active{
+    display: block;
 }
 .cardContent .socials a{
     color: var(--primary-color);

@@ -6,40 +6,33 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { Link } from "react-router-dom";
 const Card = ({ className = "", data, ...props }) => {
-  // const string = data.profilePic;
-  // const regex = /https:\/\/drive\.google\.com\/open\?id=(\w+)/;
-  // const match = string.match(regex);
-  // const extractedString = match ? match[1] : null;
-  // // console.log(extractedString);
-  // const newProfilePic = `https://drive.google.com/uc?export=view&id=1hRsohbvO2uHt3snzAaJ4zMf2zDjVdzHD`;
-  // console.log(newProfilePic);
-
+  // console.log(typeof(data.twitter));
   return (
     <>
       <div className={`Card ${className}`} {...props}>
-        {/* <img src={data.profilePic} alt={data.name} /> */}
         <ImageBorder icon={data.image} className="profileImage" />
         <div className="cardContent">
           <h3>{data.name}</h3>
-          <p>{data.domain}</p>
+          <p>
+            {data.year} Year ({data.stream})
+          </p>
           <div className="socials">
-            <a className="socialsIcon" data-icon="twitter" href="#">
+            <a className={`socialsIcon ${data.twitter!=="NULL"?"active":""}`} data-icon="twitter" href={data.twitter} target="_blank">
               <FaXTwitter />
             </a>
-            <a className="socialsIcon" data-icon="instagram" href="#">
+            <a className={`socialsIcon ${data.instagram!=="NULL"?"active":""}`} data-icon="instagram" href={data.instagram} target="_blank">
               <AiFillInstagram />
             </a>
             <a
-              className="socialsIcon"
+              className={`socialsIcon ${data.linkedin!=="NULL"?"active":""}`}
               data-icon="linkedin"
-              href="#"
+              href={data.linkedin}
               target="_blank"
             >
               <FaLinkedin />
             </a>
-            <Link className="socialsIcon" data-icon="mail" to="/contact">
-              <IoMdMail />
-            </Link>
+            <a className={`socialsIcon active `} data-icon="mail" href={`mailto:${data.email}`} target="_blank"><IoMdMail /></a>
+              
           </div>
         </div>
       </div>
