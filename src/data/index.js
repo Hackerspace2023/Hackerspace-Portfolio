@@ -6,5 +6,8 @@ import members from "./members.json";
 import membersNew from "./members-new.json";
 import gallery from "./gallery.json";
 import nav from "./nav.json";
+import allMembers from "./allMembers.json";
+import founders from "./founders.json";
 
-export { events, projects, footer, nav, journey, gallery, members, membersNew };
+
+export { events, projects, footer, nav, journey, gallery, members, membersNew, allMembers, founders };

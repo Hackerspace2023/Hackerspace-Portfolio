@@ -8,14 +8,16 @@ const EventsCard = ({ data }) => {
       <div className="event-card">
         <div className="event-card2">
           <div className="event-cardImg">
-            <img src={data.eventImage} alt="Event" className="event-image" />
+            <div className="event-image">
+              <img src={data.eventImage} alt="Event" />
+            </div>
           </div>
           <div className="event-content">
             <h3 className="event-name">{data.eventName}</h3>
             <p className="event-time">{data.description}</p>
           </div>
           <div className="mob-btn">
-            <Button text="Register" className="eventsButton linkBtn3" />
+            <Button text="Register" className={`eventsButton linkBtn3 ${data.category !== "past" ? "active" : "" }`} />
           </div>
         </div>
       </div>
