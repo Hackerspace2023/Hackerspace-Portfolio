@@ -11,7 +11,7 @@
   },
   {
     "name": "Project 2",
-    "domain": "Mobile App Development",
+    "domain": "App Development",
     "tag": "App Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
@@ -50,39 +50,9 @@
     "url": ""
   },
   {
-    "name": "Project 6",
-    "domain": "Blockchain",
-    "tag": "Blockchain",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
     "name": "Project 7",
     "domain": "Cloud Computing",
     "tag": "Cloud",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 8",
-    "domain": "Python Projects",
-    "tag": "Python",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 9",
-    "domain": "Python Projects",
-    "tag": "Python",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "showOnHighlights": true,
@@ -100,16 +70,6 @@
     "url": ""
   },
   {
-    "name": "Project 11",
-    "domain": "Python Projects",
-    "tag": "Python",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
     "name": "Project 12",
     "domain": "Virtual Reality",
     "tag": "VR/AR",
@@ -120,18 +80,8 @@
     "url": ""
   },
   {
-    "name": "Project 14",
-    "domain": "Machine Learning",
-    "tag": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
     "name": "Project 15",
-    "domain": "Mobile App Development",
+    "domain": "App Development",
     "tag": "App Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
@@ -161,7 +111,7 @@
   },
   {
     "name": "Project 18",
-    "domain": "Mobile App Development",
+    "domain": "App Development",
     "tag": "App Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
