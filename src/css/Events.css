@@ -65,7 +65,6 @@
 }
 
 .event-image {
-    height: 100%;
     width: 100%;
     clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 20%);
     display: flex;
