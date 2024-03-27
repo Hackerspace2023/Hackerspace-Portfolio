@@ -1,7 +1,7 @@
 {
     "info": {
         "title": "Poster & Video",
-        "shortForm": "P&V"
+        "shortForm": "Poster"
     },
     "data": [
         {
@@ -16,7 +16,8 @@
             "linkedin": "https://www.linkedin.com/in/krishnendu-roy-577251168/",
             "twitter": "NULL",
             "portfolio": "NULL",
-            "github": "https://github.com/krishnenduroy52"
+            "github": "https://github.com/krishnenduroy52",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnendu_Roy.jpg?raw=true"
         },
         {
             "name": "Akash Das",
@@ -30,7 +31,8 @@
             "linkedin": "https://www.linkedin.com/in/theakashdas/",
             "twitter": "NULL",
             "portfolio": "NULL",
-            "github": "https://github.com/astroidworld"
+            "github": "https://github.com/astroidworld",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Akash_Das.jpg?raw=true"
         },
         {
             "name": "Biswajit",
@@ -44,7 +46,8 @@
             "linkedin": "NULL",
             "twitter": "NULL",
             "portfolio": "NULL",
-            "github": "NULL"
+            "github": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true"
         },
         {
             "name": "Aahana Malakar",
@@ -58,7 +61,8 @@
             "linkedin": "https://www.linkedin.com/in/aahana-malakar-6b1a54274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "twitter": "NULL",
             "portfolio": "https://aahanamalakar.github.io/Portfolio/",
-            "github": "https://github.com/AahanaMalakar"
+            "github": "https://github.com/AahanaMalakar",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Aahana_Malakar.jpg?raw=true"
         },
         {
             "name": "Pushkar Pan",
@@ -72,7 +76,8 @@
             "linkedin": "https://www.linkedin.com/in/pushkar-pan-61b515281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "twitter": "NULL",
             "portfolio": "blazeio.artstation.com",
-            "github": ""
+            "github": "",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Pushkar_Pan.jpg?raw=true"
         },
         {
             "name": "Namrata Sinha Roy",
@@ -86,7 +91,8 @@
             "linkedin": "https://www.linkedin.com/in/namratasinharoy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "twitter": "NULL",
             "portfolio": "NULL",
-            "github": "NULL"
+            "github": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Namrata_Sinha_Roy.jpg?raw=true"
         },
         {
             "name": "Rahul Kumar Shaw",
@@ -100,7 +106,8 @@
             "linkedin": "https://in.linkedin.com/scrahul15",
             "twitter": "NULL",
             "portfolio": "NULL",
-            "github": "NULL"
+            "github": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Rahul_kumar_Shaw.jpg?raw=true"
         },
         {
             "name": "Tanisha Ali",
@@ -114,7 +121,8 @@
             "linkedin": "https://www.linkedin.com/in/tanisha-ali-727b02277/",
             "twitter": "https://twitter.com/AliTanisha16460/",
             "portfolio": "https://tanisha971.github.io/portfolio/",
-            "github": "https://github.com/tanisha971/"
+            "github": "https://github.com/tanisha971/",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Tanisha_Ali.jpg?raw=true"
         },
         {
             "name": "MOHD GUFRAN",
@@ -128,7 +136,8 @@
             "linkedin": "https://www.linkedin.com/gufrannzb",
             "twitter": "https://www.twitter.com/gufrannzb",
             "portfolio": "NULL",
-            "github": "NULL"
+            "github": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/MD_Gufran.jpg?raw=true"
         }
     ]
 }

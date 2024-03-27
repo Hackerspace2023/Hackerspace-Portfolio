@@ -1,7 +1,7 @@
 {
     "info": {
         "title": "Web Development",
-        "shortForm": "WD"
+        "shortForm": "Web Dev"
     },
     "data": [
         {
@@ -498,21 +498,6 @@
             "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Tanisha_Ali.jpg?raw=true",
             "domain": "Web Dev",
             "github": ""
-        },
-        {
-            "name": "MOHD GUFRAN",
-            "email": "gufrannzb@gmail.com",
-            "stream": "BCA",
-            "year": "1st",
-            "since": 2024,
-            "instagram": "https://www.instagram.com/gufrannzb",
-            "facebook": "https://www.facebook.com/gufrannzb",
-            "linkedin": "https://www.linkedin.com/gufrannzb",
-            "twitter": "https://www.twitter.com/gufrannzb",
-            "portfolio": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/MD_Gufran.jpg?raw=true",
-            "domain": "Web Dev",
-            "github": "NULL"
         }
     ]
 }

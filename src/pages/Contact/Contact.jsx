@@ -27,7 +27,6 @@ const Contact = () => {
   return (
     <>
       <section>
-        
         <section className={Style.contactSection} id="contact">
           <div className={Style.contactCard}>
             <div className={Style.left}>
@@ -45,7 +44,7 @@ const Contact = () => {
             <div className={Style.right}>
               <div className={Style.rightTitle}>Contact Form</div>
               <form action="" className={Style.form} onSubmit={handleSubmit}>
-              <ToastContainer theme="dark" style={{top: "80px"}}/>
+                <ToastContainer theme="dark" style={{ top: "80px" }} />
                 <input
                   type="text"
                   name="name"

@@ -1,128 +1,38 @@
 [
     {
-        "eventName": "Event 1",
-        "eventDate": "2020-01-01",
+        "eventName": "Orientation 2023",
+        "eventDate": "2023-08-28",
         "eventTime": "10:00 AM",
-        "location": "Venue 1",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 2",
-        "eventDate": "2020-01-01",
-        "eventTime": "02:30 PM",
-        "location": "Venue 2",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg2.jpg",
+        "location": "MSIT",
+        "description": "This was an Orientation event for the 1st and 2nd years telling them what Hackerspace is and it's motive to Hack the Future.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Orientation-1(2023).jpeg?raw=true",
         "category": "past"
     },
     {
-        "eventName": "Event 3",
-        "eventDate": "2020-01-01",
-        "eventTime": "07:00 PM",
-        "location": "Venue 3",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 1",
-        "eventDate": "2020-01-01",
-        "eventTime": "10:00 AM",
-        "location": "Venue 1",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 2",
-        "eventDate": "2020-01-01",
-        "eventTime": "02:30 PM",
-        "location": "Venue 2",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg2.jpg",
+        "eventName": "CodeCraft 1.0",
+        "eventDate": "2023-09-02",
+        "eventTime": "12:00 AM",
+        "location": "Online",
+        "description": "This was a Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-1(2023).jpeg?raw=true",
         "category": "past"
     },
     {
-        "eventName": "Event 3",
-        "eventDate": "2020-01-01",
-        "eventTime": "07:00 PM",
-        "location": "Venue 3",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 1",
-        "eventDate": "2020-01-01",
-        "eventTime": "10:00 AM",
-        "location": "Venue 1",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 2",
-        "eventDate": "2020-01-01",
-        "eventTime": "02:30 PM",
-        "location": "Venue 2",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg2.jpg",
+        "eventName": "Git GitHub Session",
+        "eventDate": "2023-10-07",
+        "eventTime": "06:30 PM",
+        "location": "Online",
+        "description": "This was a session on mastering Version Control System and Collaboration using Git and Github for Hacktoberfest 2023.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Git_GitHub(2023).jpeg?raw=true",
         "category": "past"
     },
     {
-        "eventName": "Event 3",
-        "eventDate": "2020-01-01",
-        "eventTime": "07:00 PM",
-        "location": "Venue 3",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 1",
-        "eventDate": "2020-01-01",
-        "eventTime": "10:00 AM",
-        "location": "Venue 1",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg2.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 2",
-        "eventDate": "2020-01-01",
-        "eventTime": "02:30 PM",
-        "location": "Venue 2",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg2.jpg",
-        "category": "past"
-    },
-    {
-        "eventName": "Event 3",
-        "eventDate": "2020-01-01",
-        "eventTime": "07:00 PM",
-        "location": "Venue 3",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 1",
-        "eventDate": "2020-01-01",
-        "eventTime": "10:00 AM",
-        "location": "Venue 1",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg2.jpg",
-        "category": "upcoming"
-    },
-    {
-        "eventName": "Event 2",
-        "eventDate": "2020-01-01",
-        "eventTime": "02:30 PM",
-        "location": "Venue 2",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg2.jpg",
+        "eventName": "CodeCraft 2.0",
+        "eventDate": "2024-01-14",
+        "eventTime": "03:00 PM",
+        "location": "Online",
+        "description": "This was the 2nd Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-2(2024).jpeg?raw=true",
         "category": "past"
     },
     {
