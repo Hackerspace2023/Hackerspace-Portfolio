@@ -70,44 +70,43 @@ const Footer = () => {
                 Associated With
               </h4>
               <div className="space-y-2 [&>a]:h-auto md:[&>a]:h-16 [&>a]:block hover:[&>a]:text-primary">
-                <a
-                  href="https://msit.edu.in"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="bg-white rounded-full aspect-square max-h-20 p-0.5"
-                >
-                  <img
-                    src="https://msit.techtron.net/images/technologo.png"
-                    alt="MSIT logo"
-                  />
-                </a>
-                <a
-                  href="https://ieee.org"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="max-w-[50%]"
-                >
-                  <img
-                    src="https://brand-experience.ieee.org/wp-content/uploads/2019/07/logo-masterbrand-tagline-white-transparent.png"
-                    alt="IEEE logo"
-                  />
-                </a>
-                <a target="_blank" rel="noreferrer">
-                  <img
-                    src="/static/stakeholders/msit-ieee-logo.png"
-                    alt="IEEE MSIT Student Chapter logo"
-                  />
-                </a>
-                <a
-                  href="https://technoindiagroup.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://www.technoindiagroup.com/img/logo.png"
-                    alt="Techno India logo"
-                  />
-                </a>
+                <div className="flex items-center justify-start">
+                  <a
+                    href="https://msit.edu.in"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="max-h-20 p-0.5"
+                  >
+                    <img src="MSIT_Small.png" alt="MSIT logo" />
+                  </a>
+                  <a
+                    href="https://ieee.org"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="max-w-[50%]"
+                  >
+                    <img src="IEEE_Advanced_Technology.png" alt="IEEE logo" />
+                  </a>
+                </div>
+                <div className="flex items-center justify-start">
+                  <a
+                    href="https://technoindiagroup.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="Techno_Small.png" alt="Techno India logo" />
+                  </a>
+                  <a
+                    href="https://www.computer.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="IEEE_Computer_Society.png"
+                      alt="IEEE MSIT Student Chapter logo"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             {footer.map((column, index) => (
