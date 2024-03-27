@@ -28,13 +28,14 @@ const Footer = () => {
           <div className="flex gap-4 flex-col lg:w-3/5">
             <div className="flex">
               <img
-                className=""
+                className="h-20 aspect-square rounded-xl"
                 src={icon}
-                alt=""
-                style={{ width: "10%", borderRadius: "15%" }}
+                alt="Hackerspace Logo"
               />
               <div className="ms-4">
-                <h3 className="text-4xl font-audiowide">HackerSpace</h3>
+                <h3 className="text-2xl md:text-4xl font-audiowide">
+                  HackerSpace
+                </h3>
                 <p className="text-primary mt-2">Let's Hack The Future</p>
               </div>
             </div>
@@ -63,7 +64,52 @@ const Footer = () => {
               <ToastContainer theme="dark" />
             </form>
           </div>
-          <div className="flex gap-2 flex-col sm:flex-row lg:w-2/5">
+          <div className="flex gap-2 flex-col sm:flex-row lg:w-3/5">
+            <div className="flex-1 space-y-2">
+              <h4 className="text-2xl font-audiowide text-primary">
+                Associated With
+              </h4>
+              <div className="space-y-2 [&>a]:h-auto md:[&>a]:h-16 [&>a]:block hover:[&>a]:text-primary">
+                <a
+                  href="https://msit.edu.in"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-white rounded-full aspect-square max-h-20 p-0.5"
+                >
+                  <img
+                    src="https://msit.techtron.net/images/technologo.png"
+                    alt="MSIT logo"
+                  />
+                </a>
+                <a
+                  href="https://ieee.org"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="max-w-[50%]"
+                >
+                  <img
+                    src="https://brand-experience.ieee.org/wp-content/uploads/2019/07/logo-masterbrand-tagline-white-transparent.png"
+                    alt="IEEE logo"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer">
+                  <img
+                    src="/static/stakeholders/msit-ieee-logo.png"
+                    alt="IEEE MSIT Student Chapter logo"
+                  />
+                </a>
+                <a
+                  href="https://technoindiagroup.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.technoindiagroup.com/img/logo.png"
+                    alt="Techno India logo"
+                  />
+                </a>
+              </div>
+            </div>
             {footer.map((column, index) => (
               <div className="flex-1 space-y-2" key={index}>
                 <h4 className="text-2xl font-audiowide text-primary">
@@ -91,7 +137,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex gap-2 flex-col lg:flex-row items-center lg:justify-between text-primary pt-4">
+        <div className="text-xs md:text-sm flex gap-2 flex-row justify-between text-primary pt-4">
           <div>
             <span>&copy; HackerSpace, 2024.</span>
             <br className="lg:hidden" />
