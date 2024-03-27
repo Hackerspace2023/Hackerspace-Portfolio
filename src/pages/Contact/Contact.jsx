@@ -33,13 +33,15 @@ const Contact = () => {
               <div className={Style.leftTitle}>Contact Us</div>
               <div className={Style.leftSubTitle}>with other platforms</div>
               <Socials />
-              {/* <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8322807090562!2d88.41251337441564!3d22.51047503524616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0273f14bca0c15%3A0xbd1ef59baa5eafd0!2sMeghnad%20Saha%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1709625348913!5m2!1sen!2sin"
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!4v1711550782756!6m8!1m7!1sCAoSLEFGMVFpcFBhbldKSG4xTVBzbnM4cHJQX2pPUjBmeHlQVVoxblE0N3RScXcx!2m2!1d22.5105556!2d88.41515629999999!3f204.34!4f13.930000000000007!5f0.4000000000000002"
                 style={{ border: 0 }}
-                className={Style.map}
+                allowfullscreen=""
                 loading="lazy"
-              ></iframe> */}
-              <iframe src="https://www.google.com/maps/embed?pb=!4v1711550782756!6m8!1m7!1sCAoSLEFGMVFpcFBhbldKSG4xTVBzbnM4cHJQX2pPUjBmeHlQVVoxblE0N3RScXcx!2m2!1d22.5105556!2d88.41515629999999!3f204.34!4f13.930000000000007!5f0.4000000000000002" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className={Style.map}></iframe>
+                referrerpolicy="no-referrer-when-downgrade"
+                className={Style.map}
+              ></iframe>
+              <a href="https://www.google.com/maps?ll=22.51047,88.415088&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=13627599571396767696" target="_blank" className="mapButton">View In Map</a>
             </div>
             <div className={Style.right}>
               <div className={Style.rightTitle}>Contact Form</div>
