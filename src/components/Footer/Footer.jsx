@@ -75,7 +75,7 @@ const Footer = () => {
                     href="https://msit.edu.in"
                     target="_blank"
                     rel="noreferrer"
-                    className="max-h-20 p-0.5"
+                    className="max-h-20 p-0.5 mr-8"
                   >
                     <img src="MSIT_Small.png" alt="MSIT logo" />
                   </a>
@@ -93,6 +93,7 @@ const Footer = () => {
                     href="https://technoindiagroup.com"
                     target="_blank"
                     rel="noreferrer"
+                    className="mr-8"
                   >
                     <img src="Techno_Small.png" alt="Techno India logo" />
                   </a>
