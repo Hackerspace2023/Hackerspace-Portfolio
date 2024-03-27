@@ -138,6 +138,17 @@
     margin-top: 20px;
     gap: 20px;
 }
+.membersImage .imgHomeWrapper{
+    /* background-color: red; */
+    width: 300px;
+    height: 300px;
+    /* transform: scale(0.6) translateY(-80px); */
+}
+.membersImage .imgHome{
+    width: 210px;
+    height: 210px;
+    @apply object-cover bg-bg-secondary;
+}
 
 .linkedinBtn,
 .gitBtn,
@@ -145,6 +156,10 @@
 .fbBtn {
     color: var(--primary-color);
     font-size: 40px;
+    transition: all 0.3s linear;
+}
+.linkedinBtn:hover{
+    transform: scale(1.1);
 }
 
 .swiper-button-prev,
