@@ -24,7 +24,7 @@ const MembersSection = ({ ...props }) => {
     <section className="members" {...props} data-aos="fade-up">
       <div className="titleContainer">
         <span className="tagAbout tagAbout1">{`<h2>`}</span>
-        <h1 className="title">Our Members</h1>
+        <h1 className="title">Founding Members</h1>
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
       </div>
 
