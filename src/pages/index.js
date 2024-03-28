@@ -7,6 +7,7 @@ import Gallery from "./Gallery/Gallery";
 import Projects from "./Projects/Projects";
 import Error from "./Error/Error";
 import Members from "./Members/Members";
+import Loading from "./Loading/Loading";
 
 
-export { Home, About, Blog, Contact, Events, Gallery, Projects, Error , Members};
+export { Home, About, Blog, Contact, Events, Gallery, Projects, Error , Members, Loading};
