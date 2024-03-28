@@ -1,17 +1,17 @@
 [
   {
-    "name": "Anurag Kumar Sah",
-    "email": "anuragkumarsah2024@gmail.com",
-    "description": "Building with code, we unlock potential and transform our world.",
-    "phone": 7603013100,
+    "name": "Biswajit Chattopadhyay",
+    "email": "biswajitchattopadh890@gmail.com",
+    "description": "Embrace challenges, learn constantly, and create without fear of failure.",
+    "phone": 7872501820,
     "stream": "CSE",
     "year": "4th",
     "instagram": "NULL",
     "facebook": "NULL",
-    "linkedIn": "https://www.linkedin.com/in/anurag-kumar-sah-88497b199/",
+    "linkedIn": "NULL",
     "twitter": "NULL",
     "portfolio": "NULL",
-    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anurag_Kumar_Sah.jpg?raw=true"
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true"
   },
   {
     "name": "Deblina Mandal",
@@ -28,20 +28,6 @@
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Deblina_Mandal.jpg?raw=true"
   },
   {
-    "name": "Krishnendu Roy",
-    "email": "krishnendu.kalyani1@gmail.com",
-    "description": "Code is our language, innovation our narrative, collaboration our strength.",
-    "phone": 9073712806,
-    "stream": "CSE",
-    "year": "4th",
-    "instagram": "https://www.instagram.com/krishnendu_roy52",
-    "facebook": "NULL",
-    "linkedIn": "https://www.linkedin.com/in/krishnendu-roy-577251168/",
-    "twitter": "NULL",
-    "portfolio": "NULL",
-    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnendu_Roy.jpg?raw=true"
-  },
-  {
     "name": "Akash Das",
     "email": "astroidworld@gmail.com",
     "description": "Through code, we shape ideas into reality and inspire change.",
@@ -54,6 +40,20 @@
     "twitter": "NULL",
     "portfolio": "NULL",
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Akash_Das.jpg?raw=true"
+  },
+  {
+    "name": "Krishnendu Roy",
+    "email": "krishnendu.kalyani1@gmail.com",
+    "description": "Code is our language, innovation our narrative, collaboration our strength.",
+    "phone": 9073712806,
+    "stream": "CSE",
+    "year": "4th",
+    "instagram": "https://www.instagram.com/krishnendu_roy52",
+    "facebook": "NULL",
+    "linkedIn": "https://www.linkedin.com/in/krishnendu-roy-577251168/",
+    "twitter": "NULL",
+    "portfolio": "NULL",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnendu_Roy.jpg?raw=true"
   },
   {
     "name": "Subhradeep Pal",
@@ -70,17 +70,17 @@
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Subhradeep_Pal.jpg?raw=true"
   },
   {
-    "name": "Biswajit Chattopadhyay",
-    "email": "biswajitchattopadh890@gmail.com",
-    "description": "Embrace challenges, learn constantly, and create without fear of failure.",
-    "phone": 7872501820,
+    "name": "Anurag Kumar Sah",
+    "email": "anuragkumarsah2024@gmail.com",
+    "description": "Building with code, we unlock potential and transform our world.",
+    "phone": 7603013100,
     "stream": "CSE",
     "year": "4th",
     "instagram": "NULL",
     "facebook": "NULL",
-    "linkedIn": "NULL",
+    "linkedIn": "https://www.linkedin.com/in/anurag-kumar-sah-88497b199/",
     "twitter": "NULL",
     "portfolio": "NULL",
-    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true"
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anurag_Kumar_Sah.jpg?raw=true"
   }
 ]

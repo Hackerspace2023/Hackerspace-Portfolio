@@ -275,3 +275,70 @@
         scale: 0.75 !important;
     }
 }
+
+@media only screen and (max-width: 820px)
+{
+    .membersTitle .title
+    {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 643px)
+{
+    .membersTitle .tagAbout1
+    {
+        left: -50px;
+    }
+    .membersTitle .tagAbout2
+    {
+        right: -70px;
+    }
+    .membersTitle .title
+    {
+        font-size: 30px;
+    }
+    .membersTitle .tagAbout
+    {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 450px)
+{
+    .membersTitle .tagAbout1
+    {
+        left: -20px;
+    }
+    .membersTitle .tagAbout2
+    {
+        right: -20px;
+    }
+    .membersTitle .title
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .membersTitle .tagAbout
+    {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 300px)
+{
+    .membersTitle .tagAbout1
+    {
+        left: 20px;
+    }
+    .membersTitle .tagAbout2
+    {
+        right: 20px;
+    }
+    .membersTitle .title
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .membersTitle .tagAbout
+    {
+        font-size: 15px;
+    }
+}
