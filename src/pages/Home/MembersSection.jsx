@@ -22,7 +22,7 @@ import { founders } from "../../data";
 const MembersSection = ({ ...props }) => {
   return (
     <section className="members" {...props} data-aos="fade-up">
-      <div className="titleContainer">
+      <div className="titleContainer membersTitle">
         <span className="tagAbout tagAbout1">{`<h2>`}</span>
         <h1 className="title">Founding Members</h1>
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
@@ -41,6 +41,7 @@ const MembersSection = ({ ...props }) => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
+          loop="true"
           className="mySwiper"
         >
           {founders.map((ele, index) => {

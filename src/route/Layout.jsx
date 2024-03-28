@@ -35,6 +35,16 @@ const Layout = () => {
     
   }, []);
 
+  useEffect(() => {
+    // Add event listener for mousemove event
+    document.addEventListener("mousemove", handleMouseMove);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
+
   if (isLoading) {
     return (
       <Loading progress={progress}/>

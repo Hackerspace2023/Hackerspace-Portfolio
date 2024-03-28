@@ -34,4 +34,36 @@
     letter-spacing: 2px;
     font-weight: 500;
     @apply font-audiowide;
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px)
+{
+    .loading-text{
+        font-size: 40px;
+    }
+    .loading-percentage{
+        font-size: 20px;
+    }
+    .loading-bar{
+        height: 5px;
+    }
+    .loading-bar-section{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 330px)
+{
+    .loading-text{
+        font-size: 15px;
+    }
+    .loading-percentage{
+        font-size: 15px;
+    }
+    .loading-bar{
+        height: 5px;
+    }
+    .loading-bar-section{
+        padding: 10px;
+    }
 }
