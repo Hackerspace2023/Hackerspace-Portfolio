@@ -36,12 +36,12 @@
         "category": "past"
     },
     {
-        "eventName": "Event 3",
-        "eventDate": "2020-01-01",
-        "eventTime": "07:00 PM",
-        "location": "Venue 3",
-        "description": "This is a description of the event. It can be as long as you want. It can include links to other pages, images, and more.",
-        "eventImage": "galleryImg1.jpg",
+        "eventName": "Node, SQL Session",
+        "eventDate": "2024-03-04",
+        "eventTime": "04:15 PM",
+        "location": "MSIT",
+        "description": "Hackerspace Backend Bonanza is a comprehensive coding workshop series, offering hands-on learning and mentorship to elevate participants' backend development skills.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Node_Sql(2024).jpeg?raw=true",
         "category": "upcoming"
     }
 ]
