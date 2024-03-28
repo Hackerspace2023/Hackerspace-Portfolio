@@ -6,6 +6,7 @@
         "location": "MSIT",
         "description": "This was an Orientation event for the 1st and 2nd years telling them what Hackerspace is and it's motive to Hack the Future.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Orientation-1(2023).jpeg?raw=true",
+        "registrationLink": "",
         "category": "past"
     },
     {
@@ -15,6 +16,7 @@
         "location": "Online",
         "description": "This was a Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-1(2023).jpeg?raw=true",
+        "registrationLink": "",
         "category": "past"
     },
     {
@@ -24,6 +26,7 @@
         "location": "Online",
         "description": "This was a session on mastering Version Control System and Collaboration using Git and Github for Hacktoberfest 2023.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Git_GitHub(2023).jpeg?raw=true",
+        "registrationLink": "",
         "category": "past"
     },
     {
@@ -33,6 +36,7 @@
         "location": "Online",
         "description": "This was the 2nd Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-2(2024).jpeg?raw=true",
+        "registrationLink": "",
         "category": "past"
     },
     {
@@ -42,6 +46,7 @@
         "location": "MSIT",
         "description": "Hackerspace Backend Bonanza is a comprehensive coding workshop series, offering hands-on learning and mentorship to elevate participants' backend development skills.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Node_Sql(2024).jpeg?raw=true",
+        "registrationLink": "https://forms.gle/gtkRC2YQvJexegbJ9",
         "category": "upcoming"
     }
 ]
