@@ -24,7 +24,7 @@ const Layout = () => {
         }
         return prev + 1;
       });
-    }, 99);
+    }, 50);
   }, []);
 
 
