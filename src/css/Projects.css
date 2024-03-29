@@ -7,11 +7,14 @@
     z-index: 2;
 }
 
-.Projects .categoryOptions {
+/* .Projects .categoryOptions {
     width: 1000px;
     overflow: scroll;
-}
+} */
 
+.projectOptionItem{
+    /* min-width: 20px; */
+}
 .Projects .event-time {
     /* text-wrap: nowrap !important; */
 }
