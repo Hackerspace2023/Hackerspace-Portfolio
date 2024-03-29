@@ -18,7 +18,7 @@ const ProjectCategory = ({ data, category, domain, renderComponet }) => {
   return (
     <>
       <section className="categorySecion">
-        <div className="categoryOptions">
+        <div className="categoryOptions projectCategory">
           {uniqueCategory.map((item, index) => (
             <div
               key={index}

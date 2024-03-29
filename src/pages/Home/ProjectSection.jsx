@@ -70,6 +70,9 @@ const Testimonial = () => {
                       {project.description}
                     </p>
                   </div>
+                  <a href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors" className="contributors">
+                    <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" />
+                  </a>
                   <div className="mob-btn">
                     <div className="mob-buttonSection">
                       <Button
@@ -94,6 +97,9 @@ const Testimonial = () => {
                   <h3>{project.name}</h3>
                   <h4>{project.domain}</h4>
                   <p className="projectSectionText">{project.description}</p>
+                  <a href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors" className="contributors">
+                    <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" />
+                  </a>
                   <div className="buttonSection">
                     <Button text="Github" to={project.repo}></Button>
                     <Button text="Preview" to={project.url}></Button>
