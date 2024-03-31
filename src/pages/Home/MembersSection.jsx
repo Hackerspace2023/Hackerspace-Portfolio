@@ -49,6 +49,7 @@ const MembersSection = ({ ...props }) => {
               <SwiperSlide key={index}>
                 <div className="tab-membersContainer">
                   <Card data={ele} />
+                
                   <Card data={ele} />
                 </div>
 
