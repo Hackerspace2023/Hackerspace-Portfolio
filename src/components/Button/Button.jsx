@@ -36,6 +36,16 @@ const Button = ({
         </HashLink>
       )
     }
+    else
+    {
+      return (
+        <Link to={link} className="button" title={title} {...props}>
+          <p className="buttonText">{text}</p>
+          {children && <i>{children}</i>}
+        </Link>
+      )
+    
+    }
   }
   return (
     <div className={className} onClick={()=>window.scrollTo(0, 0)}>
