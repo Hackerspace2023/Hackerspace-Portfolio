@@ -1,26 +1,22 @@
 /* ========= Top space ========= */
 .home{
-  padding-top: 110px;
+  /* padding-top: 110px; */
 }
 .home {
   max-width: 1320px;
+  min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  /* height: 88vh; */
   display: flex;
   justify-content: center;
-  /* align-items: flex-start; */
   align-items: center;
-  /* padding-top: 70px; */
-  /* background-color: red; */
   position: relative;
   z-index: 1;
-  
+  /* background-color: red; */
 }
 
 .topSectionHome {
   display: none;
-  ;
 }
 
 /* ========= left Section ========= */
@@ -36,9 +32,6 @@
 
 .tag {
   color: var(--sub-text-color);
-  /* font-size: 40px; */
-  /* background-color: red; */
-  /* font-size: 2vw; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -48,13 +41,12 @@
   gap: 20px;
 }
 .tagSubTitle{
-  /* background-color: red; */
   font-size: 20px;
 }
 
-.subTitleHome {
-  /* white-space: nowrap; */
-}
+/* .subTitleHome {
+  
+} */
 
 .subTitleHomeText {
   color: var(--primary-color);
@@ -71,7 +63,6 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0px;
-  /* background: red; */
 }
 
 .titleHomeText {
@@ -79,14 +70,10 @@
   text-align: left;
   @apply font-audiowide;
   font-size: 80px;
-  /* font-size: 5vw; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /* margin-top: 20px; */
-  /* margin-bottom: 20px; */
   margin-left: 25px;
-  /* padding-right: 10px; */
 }
 
 
@@ -227,9 +214,7 @@
   .leftSectionHome
   {
     padding-left: 0;
-    /* background-color: red; */
     align-items: center;
-    /* width: 80%; */
     width: 100%;
   }
   .titleHome{
@@ -278,7 +263,6 @@
   }
   .rightSectionHome{
     height: fit-content;
-    /* background: red; */
   }
 }
 @media only screen and (max-width: 540px)
@@ -302,7 +286,6 @@
   }
   .leftSectionHome{
     align-items: flex-start;
-    /* margin-left: 50px; */
     width: fit-content;
     gap: 10px;
   }

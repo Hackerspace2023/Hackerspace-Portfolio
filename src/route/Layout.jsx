@@ -10,8 +10,10 @@ const Layout = () => {
   const light = useRef();
   const grid = useRef();
   const handleMouseMove = (event) => {
-    light.current.style.left = `${event.clientX}px`;
-    light.current.style.top = `${event.clientY}px`;
+    if (light.current) {
+      light.current.style.left = `${event.clientX}px`;
+      light.current.style.top = `${event.clientY}px`;
+    }
   };
   const [progress, setProgress] = useState(0);
 
