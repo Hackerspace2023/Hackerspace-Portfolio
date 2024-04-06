@@ -70,7 +70,7 @@ const ProjectSection = () => {
                       {project.description}
                     </p>
                   </div>
-                  <a href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors" className="contributors">
+                  <a href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors" className="mob-contributors">
                     <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" />
                   </a>
                   <div className="mob-btn">

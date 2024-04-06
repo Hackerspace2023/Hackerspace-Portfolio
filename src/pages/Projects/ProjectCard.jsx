@@ -36,7 +36,7 @@ const ProjectCard = ({ data }) => {
           </div>
           <a
             href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors"
-            className="contributors"
+            className="mob-contributors"
           >
             <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" />
           </a>
