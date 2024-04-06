@@ -8,7 +8,7 @@
 }
 .categoryTitle{
   /* background-color: red; */
-  font-size: 35px;
+  /* font-size: 35px; */
   color: var(--primary-color);
   @apply font-audiowide;
   width: fit-content;

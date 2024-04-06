@@ -10,7 +10,7 @@ const MembersCategory = ({ data, renderComponet }) => {
   const [selectedMembers, setSelectedMembers] = useState(members[0]);
 
   const handleOptionClick = (ele,index) => {
-    console.log(ele);
+    // console.log(ele);
     setInfoTitle(ele);
     setSelectedOption(ele.title);
     setSelectedMembers(members[index])
