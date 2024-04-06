@@ -1,11 +1,9 @@
 .About {
-  max-width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 80px;
   position: relative;
   z-index: 1;
   /* overflow-x: hidden; */
+  margin-bottom: 50px;
 }
 
 .titleContainer {
@@ -64,6 +62,9 @@
 /* ========= Journey ========= */
 .journey {
   /* background-color: red; */
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 80px;
   padding-bottom: 50px;
 }
@@ -292,174 +293,192 @@
   }
 }
 
-@media only screen and (max-width: 841px)
-{
+@media only screen and (max-width: 841px) {
   .experienceCard .cardTitle {
     text-align: center;
   }
-  
+
   .experienceCard .cardSubTitle {
     text-align: center;
   }
 }
-@media only screen and (max-width: 800px)
-{
+
+@media only screen and (max-width: 800px) {
   .timeline ul li:nth-child(odd) {
     float: none;
     clear: none;
     transform: translateX(30px);
     /* border-radius: 20px 0px 20px 20px; */
   }
-  
+
   .timeline ul li:nth-child(even) {
     float: none;
     clear: none;
     transform: translateX(30px);
     /* border-radius: 0px 20px 20px 20px; */
   }
+
   .timeline ul li:nth-child(odd)::before {
-  transform: translate(-50%, -50%);
-  left: -33px;
-  /* margin-left: 50px; */
-  /* top: -10px; */
+    transform: translate(-50%, -50%);
+    left: -33px;
+    /* margin-left: 50px; */
+    /* top: -10px; */
+  }
+
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+
+  .timeline ul li {
+    width: 100%;
+  }
+
+  .timeline .line {
+    left: 39px;
+  }
 }
 
-.timeline ul li:nth-child(even)::before {
-  transform: translate(-50%, -50%);
-  left: -30px;
-}
-.timeline ul li{
-  width: 100%;
-}
-.timeline .line {
-  left: 39px;
-}
-}
-
-@media only screen and (max-width: 430px)
-{
+@media only screen and (max-width: 430px) {
   .timeline-content h1 {
     font-size: 18px;
   }
+
   .timeline-content p {
     font-size: 12px;
   }
-  .timeline-content .date{
+
+  .timeline-content .date {
     font-size: 12px;
   }
-  .experienceCard .cardTitle{
+
+  .experienceCard .cardTitle {
     font-size: 25px;
   }
-  .experienceCard .cardSubTitle{
+
+  .experienceCard .cardSubTitle {
     font-size: 20px;
   }
-  .experienceCard{
+
+  .experienceCard {
     width: 50%;
     height: fit-content;
   }
 }
-@media only screen and (max-width: 430px)
-{
-  .experienceCard .cardTitle{
+
+@media only screen and (max-width: 430px) {
+  .experienceCard .cardTitle {
     font-size: 18px;
   }
-  .experienceCard .cardSubTitle{
+
+  .experienceCard .cardSubTitle {
     font-size: 15px;
   }
-  .experienceCard{
+
+  .experienceCard {
     width: fit-content;
   }
-  .timeline ul li{
+
+  .timeline ul li {
     width: 100%;
   }
-  .aboutDescription
-  {
+
+  .aboutDescription {
     font-size: 18px;
   }
 }
 
-@media only screen and (max-width: 841px)
-{
+@media only screen and (max-width: 841px) {
   .experienceCard .cardTitle {
     text-align: center;
   }
-  
+
   .experienceCard .cardSubTitle {
     text-align: center;
   }
 }
-@media only screen and (max-width: 800px)
-{
+
+@media only screen and (max-width: 800px) {
   .timeline ul li:nth-child(odd) {
     float: none;
     clear: none;
     transform: translateX(30px);
     /* border-radius: 20px 0px 20px 20px; */
   }
-  
+
   .timeline ul li:nth-child(even) {
     float: none;
     clear: none;
     transform: translateX(30px);
     /* border-radius: 0px 20px 20px 20px; */
   }
+
   .timeline ul li:nth-child(odd)::before {
-  transform: translate(-50%, -50%);
-  left: -33px;
-  /* margin-left: 50px; */
-  /* top: -10px; */
+    transform: translate(-50%, -50%);
+    left: -33px;
+    /* margin-left: 50px; */
+    /* top: -10px; */
+  }
+
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+
+  .timeline ul li {
+    width: 100%;
+  }
+
+  .timeline .line {
+    left: 39px;
+  }
 }
 
-.timeline ul li:nth-child(even)::before {
-  transform: translate(-50%, -50%);
-  left: -30px;
-}
-.timeline ul li{
-  width: 100%;
-}
-.timeline .line {
-  left: 39px;
-}
-}
-
-@media only screen and (max-width: 430px)
-{
+@media only screen and (max-width: 430px) {
   .timeline-content h1 {
     font-size: 18px;
   }
+
   .timeline-content p {
     font-size: 12px;
   }
-  .timeline-content .date{
+
+  .timeline-content .date {
     font-size: 12px;
   }
-  .experienceCard .cardTitle{
+
+  .experienceCard .cardTitle {
     font-size: 25px;
   }
-  .experienceCard .cardSubTitle{
+
+  .experienceCard .cardSubTitle {
     font-size: 20px;
   }
-  .experienceCard{
+
+  .experienceCard {
     width: 50%;
     height: fit-content;
   }
 }
-@media only screen and (max-width: 430px)
-{
-  .experienceCard .cardTitle{
+
+@media only screen and (max-width: 430px) {
+  .experienceCard .cardTitle {
     font-size: 18px;
   }
-  .experienceCard .cardSubTitle{
+
+  .experienceCard .cardSubTitle {
     font-size: 15px;
   }
-  .experienceCard{
+
+  .experienceCard {
     width: fit-content;
   }
-  .timeline ul li{
+
+  .timeline ul li {
     width: 100%;
   }
-  .aboutDescription
-  {
+
+  .aboutDescription {
     font-size: 18px;
   }
 }

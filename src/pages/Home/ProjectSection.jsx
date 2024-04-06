@@ -16,7 +16,7 @@ const handleMouseLeave = (event) => {
   event.target.pause();
 };
 
-const Testimonial = () => {
+const ProjectSection = () => {
   return (
     <>
       <section className="projectSection" data-aos="fade-up">
@@ -130,4 +130,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default ProjectSection;
