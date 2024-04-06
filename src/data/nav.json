@@ -4,6 +4,22 @@
         "navNumber": "01",
         "navItems": [
             {
+                "text": "Home",
+                "link": "/#home"
+            },
+            {
+                "text": "About",
+                "link": "/#about"
+            },
+            {
+                "text": "Projects",
+                "link": "/#projects"
+            },
+            {
+                "text": "Members",
+                "link": "/#members"
+            },
+            {
                 "text": "Contact",
                 "link": "/#contact"
             }
@@ -26,8 +42,8 @@
                 "link": "/about/#experience"
             },
             {
-                "text": "Projects",
-                "link": "/about/#projects"
+                "text": "Members",
+                "link": "/about/#members"
             }
         ]
     },

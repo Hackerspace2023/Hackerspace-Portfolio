@@ -18,8 +18,8 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
-    background-color: var(--sub-background-color);
-    border: 2px solid var(--primary-color);
+    /* background-color: var(--sub-background-color); */
+    /* border: 2px solid var(--primary-color); */
     gap: 20px;
     /* flex-wrap: wrap; */
     overflow-x: scroll;
@@ -38,8 +38,8 @@
     /* background-color: red; */
     padding: 10px;
     font-size: 22px;
-    border: 2px solid var(--primary-color);
-    background-color: var(--sub-background-color);
+    border-bottom: 2px solid var(--primary-color);
+    /* background-color: var(--sub-background-color); */
     color: var(--text-color);
     cursor: pointer;
     font-weight: 500;
