@@ -29,9 +29,10 @@ const ProjectCategory = ({ data, category, domain, renderComponet }) => {
             </div>
           ))}
         </div>
-        <div className="categoryTitle">
+        <h2 className="categoryTitle">{selectedDomain}</h2>
+        {/* <div className="categoryTitle">
           <CostumeHeading data={selectedDomain} />
-        </div>
+        </div> */}
         <div className="categoryCardSection">
           {data
             .filter((item) => item[category] === selectedId)
