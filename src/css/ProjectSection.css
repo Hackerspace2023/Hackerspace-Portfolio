@@ -364,9 +364,21 @@
     transform: scale(0.45);
   }
 }
+@media screen and (max-width: 450px) {
+  .mob-projectItem
+  {
+    transform: scale(0.9);
+  }
+}
 
 @media screen and (max-width: 385px) {
   .projectItem {
     transform: scale(0.4);
+  }
+}
+@media screen and (max-width: 356px) {
+  .mob-projectItem
+  {
+    transform: scale(0.7);
   }
 }

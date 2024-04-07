@@ -159,10 +159,9 @@ const Projects = () => {
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
       </div>
       <div className="aboutDescription">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text Lorem
-        Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been
+      Step into our Project Section, a dynamic showcase of the innovative and groundbreaking work being done at Hackerspace. This is where ideas come to life, transformed from mere concepts into tangible projects through the power of code.
+      <br/>
+      We invite you to explore these projects, learn from them, and perhaps even find inspiration for your next coding endeavor.
       </div>
       <ProjectCategory
         category="tag"

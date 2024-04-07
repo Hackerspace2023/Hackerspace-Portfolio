@@ -31,10 +31,11 @@ const MembersSection = ({ ...props }) => {
       <div className="membersRight">
         <Swiper
           spaceBetween={30}
+          
           centeredSlides={true}
           autoplay={{
             delay: 2500,
-            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
           }}
           pagination={{
             clickable: true,
@@ -47,11 +48,9 @@ const MembersSection = ({ ...props }) => {
           {founders.map((ele, index) => {
             return (
               <SwiperSlide key={index}>
-                <div className="tab-membersContainer">
+                {/* <div className="tab-membersContainer">
                   <Card data={ele} />
-                
-                  <Card data={ele} />
-                </div>
+                </div> */}
 
                 <div className="mob-membersContainer">
                   <Card data={ele} />
