@@ -49,7 +49,7 @@ const ProjectCard = ({ data }) => {
               ))}
           </div>
           <div className="mob-btn">
-            <Button text="Link" className="eventsButton linkBtn1" />
+            <Button text="Preview" className="eventsButton linkBtn1" />
           </div>
           {/* <a href={data.url} target="_blank" className="projectButton">PREVIEW</a> */}
         </div>

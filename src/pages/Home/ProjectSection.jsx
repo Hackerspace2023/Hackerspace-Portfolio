@@ -80,23 +80,14 @@ const ProjectSection = () => {
                       <img key={contributor.name} src={contributor.image} alt={contributor.name} />
                     ))}
                   </div>
-                  {/* <div className="mob-btn">
-                    <div className="mob-buttonSection">
-                      <Button
-                        text="Github"
-                        to={project.repo}
-                        className="linkBtn1"
-                      ></Button>
-                    </div>
-                    <div className="mob-buttonSection">
-                      <Button
-                        text="Preview"
-                        to={project.url}
-                        className="linkBtn2"
-                      ></Button>
-                    </div>
-                  </div> */}
-                  <a href={project.url} target="_blank" className="projectButton">PREVIEW</a>
+                  <div className="mob-btn">
+                    <Button
+                      text="Preview"
+                      to={project.url}
+                      className="previewBtn"
+                    ></Button>
+                  </div>
+                  {/* <a href={project.url} target="_blank" className="projectButton">PREVIEW</a> */}
                 </div>
               </div>
 
@@ -114,11 +105,10 @@ const ProjectSection = () => {
                       <img key={contributor.name} src={contributor.image} alt={contributor.name} />
                     ))}
                   </div>
-                  {/* <div className="buttonSection">
-                    <Button text="Github" to={project.repo}></Button>
+                  <div className="buttonSection">
                     <Button text="Preview" to={project.url}></Button>
-                  </div> */}
-                  <a href={project.url} target="_blank" className="projectButton">PREVIEW</a>
+                  </div>
+                  {/* <a href={project.url} target="_blank" className="projectButton">PREVIEW</a> */}
                 </div>
                 <div className="projectItemImg">
                   <img src={project.image} alt={project.name} />

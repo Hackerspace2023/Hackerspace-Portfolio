@@ -87,7 +87,7 @@
 .linkBtn1 {
     scale: 0.7;
     position: relative;
-    left: 87px;
+    left: 67px;
 }
 
 .buttonLink.active{
@@ -150,7 +150,7 @@
     .linkBtn1 {
         scale: 0.8;
         position: relative;
-        left: 12px;
+        left: -9px;
     }
 
     .event-content {
