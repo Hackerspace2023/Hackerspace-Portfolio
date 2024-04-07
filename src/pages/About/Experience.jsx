@@ -15,7 +15,7 @@ const Experience = ({ ...props }) => {
         <div className="experienceContainer">
           <div className="experienceCard">
             <div className="cardTitle">Project<br/> Completed</div>
-            <div className="cardSubTitle">50+</div>
+            <div className="cardSubTitle">30+</div>
           </div>
           <div className="experienceCard">
             <div className="cardTitle">Members <br/>No.</div>
