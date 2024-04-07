@@ -2,7 +2,7 @@
   {
     "name": "Project 1",
     "domain": "Web Development",
-    "tag": "Web Dev",
+    "tag": "Web",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",
@@ -13,7 +13,7 @@
   {
     "name": "Project 2",
     "domain": "App Development",
-    "tag": "App Dev",
+    "tag": "App",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",
@@ -45,8 +45,8 @@
   },
   {
     "name": "CYBERFICTION",
-    "domain": "UI/UX Design",
-    "tag": "UI/UX",
+    "domain": "Web Development",
+    "tag": "Web",
     "description": "This is a clone of CYBERFICTION Website.",
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/CYBERFICTION.jpeg?raw=true",
     "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/CYBERFICTION.mp4?raw=true",
@@ -63,7 +63,7 @@
   {
     "name": "Project 10",
     "domain": "Game Development",
-    "tag": "Game Dev",
+    "tag": "Game",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",
@@ -74,7 +74,7 @@
   {
     "name": "Project 15",
     "domain": "App Development",
-    "tag": "App Dev",
+    "tag": "App",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",
@@ -96,7 +96,7 @@
   {
     "name": "Project 17",
     "domain": "Web Development",
-    "tag": "Web Dev",
+    "tag": "Web",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",
@@ -107,7 +107,7 @@
   {
     "name": "Project 18",
     "domain": "App Development",
-    "tag": "App Dev",
+    "tag": "App",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",
@@ -129,7 +129,7 @@
   {
     "name": "Project 20",
     "domain": "Web Development",
-    "tag": "Web Dev",
+    "tag": "Web",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",

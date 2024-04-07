@@ -25,12 +25,12 @@ const MembersCategory = ({ data, renderComponet }) => {
   return (
     <>
       <section className="categorySecion">
-        <div className=" text-2xl  font-medium text-center text-white mr-auto ml-auto w-fit">
+        <div className=" text-2xl  font-medium text-center text-white mr-auto ml-auto w-fit categoryBox">
           <ul className="flex align-middle justify-center flex-wrap -mb-px">
             {infoData.map((ele, index) => (
               <li className="me-2" key={index}>
                 <div
-                  className={`inline-block p-4 pb-3 border-b-2 border-transparent rounded-t-lg ${ele.title === selectedOption ? "text-primary border-b-primary" : "text-white"} hover:border-primary  hover:text-primary cursor-pointer`}
+                  className={`inline-block categoryHeading p-4 pb-3 border-b-2 border-transparent rounded-t-lg ${ele.title === selectedOption ? "text-primary border-b-primary" : "text-white"} hover:border-primary  hover:text-primary cursor-pointer`}
                   aria-current="page"
                   key={index}
                   onClick={() => handleOptionClick(ele, index)}
