@@ -1,5 +1,45 @@
 [
   {
+    "title": "Useful Links",
+    "items": [
+      {
+        "text": "Home",
+        "link": "/",
+        "type": "internal"
+      },
+      {
+        "text": "About Us",
+        "link": "/about",
+        "type": "internal"
+      },
+      {
+        "text": "Projects",
+        "link": "/projects",
+        "type": "internal"
+      },
+      {
+        "text": "Events",
+        "link": "/events",
+        "type": "internal"
+      },
+      {
+        "text": "Gallery",
+        "link": "/gallery",
+        "type": "internal"
+      },
+      {
+        "text": "Members",
+        "link": "/members",
+        "type": "internal"
+      },
+      {
+        "text": "Contact Us",
+        "link": "/contact",
+        "type": "internal"
+      }
+    ]
+  },
+  {
     "title": "Follow Us",
     "items": [
       {
@@ -21,29 +61,44 @@
         "text": "Twitter",
         "link": "https://twitter.com/_hackerspace_",
         "type": "external"
+      },
+      {
+        "text": "YouTube",
+        "link": "https://youtube.com/@CodingCommunityMSITHackerspace",
+        "type": "external"
       }
     ]
   },
   {
-    "title": "Languages",
+    "title": "Domains",
     "items": [
       {
-        "text": "C & C++",
+        "text": "Web Developement",
         "link": "/",
         "type": "internal"
       },
       {
-        "text": "HTML, CSS, JS",
+        "text": "App Developement",
         "link": "/",
         "type": "internal"
       },
       {
-        "text": "Java",
+        "text": "Data Science",
         "link": "/",
         "type": "internal"
       },
       {
-        "text": "Python",
+        "text": "Machine Learning",
+        "link": "/",
+        "type": "internal"
+      },
+      {
+        "text": "Artificial Intelligence",
+        "link": "/",
+        "type": "internal"
+      },
+      {
+        "text": "Cloud Computing",
         "link": "/",
         "type": "internal"
       }
