@@ -84,6 +84,14 @@
     .categoryTitle {
         font-size: 32px;
     }
+
+    .categoryBox {
+        font-size: 20px;
+    }
+    
+    .categoryHeading {
+        padding: 8px 8px 9px 8px;
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -99,6 +107,14 @@
 
     .categoryTitle {
         font-size: 32px;
+    }
+
+    .categoryBox {
+        font-size: 18px;
+    }
+    
+    .categoryHeading {
+        padding: 4px 5px 4px 5px;
     }
 }
 

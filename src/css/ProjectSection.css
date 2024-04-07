@@ -73,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .mob-contributors img {
@@ -236,20 +236,11 @@
     position: relative;
   }
 
-  .mob-buttonSection {
-    width: 50%;
-  }
-
-  .linkBtn1 {
+  .previewBtn {
+    left: ;
     scale: 0.7;
     position: relative;
-    left: -20px;
-  }
-
-  .linkBtn2 {
-    scale: 0.7;
-    position: relative;
-    left: -30px;
+    left: 65px;
   }
 }
 
@@ -331,25 +322,29 @@
     position: relative;
   }
 
-  .mob-buttonSection {
-    width: 50%;
-  }
-
-  .linkBtn1 {
-    scale: 0.5;
+  .previewBtn {
+    scale: 0.7;
     position: relative;
-    left: -35px;
-  }
-
-  .linkBtn2 {
-    scale: 0.5;
-    position: relative;
-    left: -30px;
+    left: -10px;
   }
 
   .mob-contributors {
     margin-top: 5px;
-    height: 30px;
+    height: 40px;
+  }
+
+  .mob-projectContent {
+    width: 100%;
+    margin: 0px;
+    margin-top: 15px;
+  }
+
+  .mob-projectSectionText {
+    margin-top: 15px;
+  }
+
+  .mob-btn {
+    margin-top: 0px;
   }
 }
 
@@ -364,21 +359,9 @@
     transform: scale(0.45);
   }
 }
-@media screen and (max-width: 450px) {
-  .mob-projectItem
-  {
-    transform: scale(0.9);
-  }
-}
 
 @media screen and (max-width: 385px) {
   .projectItem {
     transform: scale(0.4);
-  }
-}
-@media screen and (max-width: 356px) {
-  .mob-projectItem
-  {
-    transform: scale(0.7);
   }
 }
