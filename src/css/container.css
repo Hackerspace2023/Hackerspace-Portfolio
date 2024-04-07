@@ -95,6 +95,20 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 20px;
 }
 
+.QR{
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  /* border: 2px solid var(--primary-color); */
+}
+@media only screen and (max-width: 1023px) {
+  .QR{
+    display: none;
+  }
+}
 @media only screen and (max-width: 870px) {
   #hex-grid .grid {
     display: none;
