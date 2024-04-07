@@ -65,24 +65,10 @@ const MembersCategory = ({ data, renderComponet }) => {
               </a>
             </li> */}
             {infoData.map((ele, index) => (
-              // <div
-              //   className={`categoryOptionItem membersCategory ${ele.title === selectedOption ? "active" : ""}`}
-              //   key={index}
-              //   onClick={() => handleOptionClick(ele, index)}
-              // >
-              //   {ele.shortForm}
-              // </div>
-              <li class="me-2">
-                <div
-                  class={`inline-block p-4 pb-3 border-b-2 border-transparent rounded-t-lg ${ele.title === selectedOption ? "text-primary border-b-primary" : "text-white"} hover:border-primary  hover:text-primary cursor-pointer`}
-                  aria-current="page"
-                  key={index}
-                  onClick={() => handleOptionClick(ele, index)}
-                >
-                  {ele.shortForm}
-                </div>
-              </li>
-            ))}
+            <div className={`categoryOptionItem membersCategory ${ele.title === selectedOption ? 'active' : ''}`} key={index} onClick={()=>handleOptionClick(ele,index)}>
+              {ele.shortForm}
+            </div>
+          ))}
           </ul>
         </div>
 
