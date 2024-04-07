@@ -25,6 +25,7 @@ const EventsCard = ({ data }) => {
                 className={`eventsButton linkBtn3 ${data.category !== "past" ? "active" : ""}`}
               />
             </a>
+            {/* <a href={data.} target="_blank" className="projectButton">PREVIEW</a> */}
           </div>
         </div>
       </div>
