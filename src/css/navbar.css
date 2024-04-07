@@ -87,7 +87,28 @@
   width: 100%;
 }
 
+.navBtn {
+  position: relative;
+  /* background-color: red; */
+  width: 150px;
+  height: 70%;
+}
+
+.btnContact {
+  scale: 0.8;
+  position: absolute;
+  top: 0px;
+  right: -30px;
+}
+
 /* ========= navbar ( RESPONSIVE ) ========= */
+@media only screen and (max-width: 1200px) {
+  .btnContact {
+    top: 0px;
+    right: -55px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .navbar {
     font-size: 20px;
@@ -106,17 +127,25 @@
   }
 }
 
+@media only screen and (max-width: 780px) {
+  .navItems {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btnContact {
+    top: 0px;
+    right: -75px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .navbar {
     font-size: 18px;
   }
+
   .navItems {
     font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 780px) {
-.navItems {
-    display: none;
   }
 }

@@ -15,7 +15,8 @@ const Layout = () => {
   };
   const [progress, setProgress] = useState(0);
 
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     setInterval(() => {
       setProgress((prev) => {

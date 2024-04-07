@@ -16,7 +16,7 @@ const handleMouseLeave = (event) => {
   event.target.pause();
 };
 
-const Testimonial = () => {
+const ProjectSection = () => {
   return (
     <>
       <section className="projectSection" data-aos="fade-up">
@@ -70,9 +70,15 @@ const Testimonial = () => {
                       {project.description}
                     </p>
                   </div>
-                  <a href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors" className="contributors">
-                    <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" />
-                  </a>
+                  <div
+                    // href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors"
+                    className="mob-contributors"
+                  >
+                    {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
+                    {project.contributors && project.contributors.map(contributor => (
+                      <img key={contributor.name} src={contributor.image} alt={contributor.name} />
+                    ))}
+                  </div>
                   <div className="mob-btn">
                     <div className="mob-buttonSection">
                       <Button
@@ -97,9 +103,15 @@ const Testimonial = () => {
                   <h3>{project.name}</h3>
                   <h4>{project.domain}</h4>
                   <p className="projectSectionText">{project.description}</p>
-                  <a href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors" className="contributors">
-                    <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" />
-                  </a>
+                  <div
+                    // href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors"
+                    className="contributors"
+                  >
+                    {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
+                    {project.contributors && project.contributors.map(contributor => (
+                      <img key={contributor.name} src={contributor.image} alt={contributor.name} />
+                    ))}
+                  </div>
                   <div className="buttonSection">
                     <Button text="Github" to={project.repo}></Button>
                     <Button text="Preview" to={project.url}></Button>
@@ -130,4 +142,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default ProjectSection;

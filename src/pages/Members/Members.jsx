@@ -15,10 +15,7 @@ const Members = () => {
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
         <div className="aboutDescription">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry{`'`}s standard dummy text
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been
+        Our members actively participate in discussions, forums, and events fostering a vibrant teaching and learning environment.
         </div>
         <MembersCategory
           data={membersData}

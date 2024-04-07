@@ -6,8 +6,9 @@ import Journey from "./Journey";
 import MembersSection from "../Home/MembersSection";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import ProjectSection from "../Home/ProjectSection";
 
-const About = ({...props}) => {
+const About = ({ ...props }) => {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -22,11 +23,11 @@ const About = ({...props}) => {
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
         <div className="aboutDescription" data-aos="fade-up">
-        A Community of students having similar interest in the field of coding, where one can learn, implement and share new skills. Here students get more exposure and get to know about the industrial experiences of working seniors. Hackerspace always maintains a friendly environment for students to develop new skills and go beyond the boundaries
+          A Community of students having similar interest in the field of coding, where one can learn, implement and share new skills. Here students get more exposure and get to know about the industrial experiences of working seniors. Hackerspace always maintains a friendly environment for students to develop new skills and go beyond the boundaries
         </div>
-        <Journey id="journey"/>
-        <Experience id="experience"/>
-        <MembersSection id="members" style={{paddingBottom: "50px"}}/>
+        <Journey id="journey" />
+        <Experience id="experience" />
+        <ProjectSection id="projects" />
       </section>
     </section>
   );
