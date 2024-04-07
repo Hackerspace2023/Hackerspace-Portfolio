@@ -66,7 +66,7 @@ const ProjectSection = () => {
                   </div>
                   <div className="mob-projectContent">
                     <h3>{project.name}</h3>
-                    <h4>{project.domain}</h4>
+                    {/* <h4>{project.domain}</h4> */}
                     <p className="mob-projectSectionText">
                       {project.description}
                     </p>
@@ -77,7 +77,7 @@ const ProjectSection = () => {
                   >
                     {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
                     {project.contributors && project.contributors.map(contributor => (
-                      <img key={contributor.name} src={contributor.image} alt={contributor.name} />
+                      <div className="contributorsImg"><img key={contributor.name} src={contributor.image} alt={contributor.name} /></div>
                     ))}
                   </div>
                   <div className="mob-btn">
@@ -102,7 +102,7 @@ const ProjectSection = () => {
                   >
                     {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
                     {project.contributors && project.contributors.map(contributor => (
-                      <img key={contributor.name} src={contributor.image} alt={contributor.name} />
+                      <div className="contributorsImg"><img key={contributor.name} src={contributor.image} alt={contributor.name} /></div>
                     ))}
                   </div>
                   <div className="buttonSection">

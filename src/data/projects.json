@@ -1,14 +1,54 @@
 [
   {
-    "name": "Project 1",
+    "name": "CYBERFICTION",
     "domain": "Web Development",
     "tag": "Web",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
+    "description": "This is a clone of CYBERFICTION Website.",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/CYBERFICTION.jpeg?raw=true",
+    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/CYBERFICTION.mp4?raw=true",
+    "contributors": [
+      {
+        "name": "Sayan Sanpui",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayan_Sanpui.jpg?raw=true"
+      }
+    ],
     "showOnHighlights": true,
     "repo": "",
-    "url": ""
+    "url": "https://sayansanpui.github.io/CYBERFICTION/"
+  },
+  {
+    "name": "ALGOANALYSIS",
+    "domain": "Data structures & Algorithms",
+    "tag": "DSA",
+    "description": "This project which provide a platform for analyzing and visualizing algorithms",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/AlgoAnalysis.jpeg?raw=true",
+    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/AlgoAnalysis.mp4?raw=true",
+    "contributors": [
+      {
+        "name": "̌Arnab Manna",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Arnab_Manna.jpg?raw=true"
+      }
+    ],
+    "showOnHighlights": true,
+    "repo": "",
+    "url": "https://algo-analysis.netlify.app/"
+  },
+  {
+    "name": "SuSwasthaAI",
+    "domain": "Artificial Intelligence & Machine Learning",
+    "tag": "AI/ML",
+    "description": "This project offers health advice through AI chatbots, providing remedies & connecting users with nearby doctors.",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/SuSwasthaAI.jpeg?raw=true",
+    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/SuSwasthaAI.mp4?raw=true",
+    "contributors": [
+      {
+        "name": "̌Akash Das",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Akash_Das.jpg?raw=true"
+      }
+    ],
+    "showOnHighlights": true,
+    "repo": "",
+    "url": "NULL"
   },
   {
     "name": "Project 2",
@@ -33,103 +73,9 @@
     "url": ""
   },
   {
-    "name": "Project 4",
-    "domain": "AI/ML",
-    "tag": "AI/ML",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "CYBERFICTION",
-    "domain": "Web Development",
-    "tag": "Web",
-    "description": "This is a clone of CYBERFICTION Website.",
-    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/CYBERFICTION.jpeg?raw=true",
-    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/CYBERFICTION.mp4?raw=true",
-    "contributors": [
-      {
-        "name": "Sayan Sanpui",
-        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayan_Sanpui.jpg?raw=true"
-      }
-    ],
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
     "name": "Project 10",
     "domain": "Game Development",
     "tag": "Game",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 15",
-    "domain": "App Development",
-    "tag": "App",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 16",
-    "domain": "Data Science",
-    "tag": "DS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 17",
-    "domain": "Web Development",
-    "tag": "Web",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 18",
-    "domain": "App Development",
-    "tag": "App",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 19",
-    "domain": "Data Science",
-    "tag": "DS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 20",
-    "domain": "Web Development",
-    "tag": "Web",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",

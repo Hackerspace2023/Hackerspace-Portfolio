@@ -47,7 +47,7 @@
     color: #fff;
     font-family: "Fira Code";
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 5px;
     line-height: 160%;
     text-align: center;
 }
@@ -103,8 +103,11 @@
 
 .eventsButton.linkBtn3.active {
     display: block;
-}
 
+}
+.mob-btn.active {
+    display: block;
+}
 
 @media screen and (max-width: 600px) {
     .event-name {
@@ -145,14 +148,18 @@
         color: #fff;
         font-family: "Fira Code";
         font-size: 13px;
-        margin-top: 20px;
+        margin-top: 0px;
         line-height: 160%;
+    }
+
+    .event-name {
+        line-height: 45px;
     }
 
     .mob-btn {
         width: 100%;
         /* background-color: green; */
-        margin-top: 20px;
+        margin-top: 10px;
         display: flex;
         position: relative;
     }
