@@ -25,12 +25,12 @@ const MembersCategory = ({ data, renderComponet }) => {
   return (
     <>
       <section className="categorySecion">
-        <div class=" text-2xl  font-medium text-center text-white mr-auto ml-auto w-fit">
-          <ul class="flex flex-wrap -mb-px">
+        <div className=" text-2xl  font-medium text-center text-white mr-auto ml-auto w-fit">
+          <ul className="flex align-middle justify-center flex-wrap -mb-px">
             {infoData.map((ele, index) => (
-              <li class="me-2">
+              <li className="me-2" key={index}>
                 <div
-                  class={`inline-block p-4 pb-3 border-b-2 border-transparent rounded-t-lg ${ele.title === selectedOption ? "text-primary border-b-primary" : "text-white"} hover:border-primary  hover:text-primary cursor-pointer`}
+                  className={`inline-block p-4 pb-3 border-b-2 border-transparent rounded-t-lg ${ele.title === selectedOption ? "text-primary border-b-primary" : "text-white"} hover:border-primary  hover:text-primary cursor-pointer`}
                   aria-current="page"
                   key={index}
                   onClick={() => handleOptionClick(ele, index)}
@@ -47,7 +47,7 @@ const MembersCategory = ({ data, renderComponet }) => {
             <div role="status">
               <svg
                 aria-hidden="true"
-                class="w-20 h-20 text-gray-200 animate-spin-fast dark:text-gray-800 fill-primary"
+                className="w-20 h-20 text-gray-200 animate-spin-fast dark:text-gray-800 fill-primary"
                 viewBox="0 0 100 101"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ const MembersCategory = ({ data, renderComponet }) => {
                   fill="currentFill"
                 />
               </svg>
-              <span class="sr-only">Loading...</span>
+              <span className="sr-only">Loading...</span>
             </div>
           ) : (
             selectedMembers.map((ele, index) => (
