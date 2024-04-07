@@ -94,6 +94,17 @@
     display: none;
 }
 
+.linkBtn3 {
+    scale: 0.7;
+    position: relative;
+    left: 60px;
+    display: none;
+}
+
+.eventsButton.linkBtn3.active {
+    display: block;
+}
+
 
 @media screen and (max-width: 600px) {
     .event-name {
@@ -151,6 +162,12 @@
         scale: 0.8;
         position: relative;
         left: -9px;
+    }
+
+    .linkBtn3 {
+        /* scale: 0.5; */
+        position: relative;
+        left: -15px;
     }
 
     .event-content {
