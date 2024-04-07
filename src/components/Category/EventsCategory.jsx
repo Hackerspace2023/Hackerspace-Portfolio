@@ -28,7 +28,7 @@ const EventsCategory = ({ data, category, renderComponet }) => {
               key={index}
               onClick={() => handelClick(item, index)}
             >
-              {item.toUpperCase()}
+              {item}
             </div>
           </li>
           ))}
