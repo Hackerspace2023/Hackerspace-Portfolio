@@ -84,31 +84,10 @@
     position: relative;
 }
 
-.mob-buttonSection {
-    width: 50%;
-}
-
 .linkBtn1 {
     scale: 0.7;
     position: relative;
-    left: -20px;
-}
-
-.linkBtn2 {
-    scale: 0.7;
-    position: relative;
-    left: -30px;
-}
-
-.linkBtn3 {
-    scale: 0.7;
-    position: relative;
-    left: 60px;
-    display: none;
-}
-
-.eventsButton.linkBtn3.active {
-    display: block;
+    left: 87px;
 }
 
 @media screen and (max-width: 600px) {
@@ -162,31 +141,26 @@
         position: relative;
     }
 
-    .mob-buttonSection {
-        width: 50%;
-    }
 
     .linkBtn1 {
-        scale: 0.5;
+        scale: 0.8;
         position: relative;
-        left: -35px;
-    }
-
-    .linkBtn2 {
-        scale: 0.5;
-        position: relative;
-        left: -30px;
-    }
-
-    .linkBtn3 {
-        scale: 0.5;
-        position: relative;
-        left: -15px;
+        left: 12px;
     }
 
     .event-content {
         width: 100%;
         margin: 10px 0px;
         margin-top: 30px;
+    }
+
+    .event-content {
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .event-time {
+        font-size: 13px;
     }
 }

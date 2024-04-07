@@ -48,14 +48,10 @@ const ProjectCard = ({ data }) => {
                 />
               ))}
           </div>
-          {/* <div className="mob-btn">
-            
+          <div className="mob-btn">
+            <Button text="Link" className="eventsButton linkBtn1" />
           </div>
-          <div className="mob-buttonSection">
-              
-            </div> */}
-          {/* <Button text="Link" className="eventsButton linkBtn2" /> */}
-          <a href={data.url} target="_blank" className="projectButton">PREVIEW</a>
+          {/* <a href={data.url} target="_blank" className="projectButton">PREVIEW</a> */}
         </div>
       </div>
     </>
