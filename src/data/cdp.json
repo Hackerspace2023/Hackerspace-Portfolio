@@ -5,6 +5,21 @@
     },
     "data": [
         {
+            "name": "Biswajit",
+            "email": "biswajitchattopadh890@gmail.com",
+            "stream": "CSE",
+            "year": "4th",
+            "since": 2022,
+            "domain": "CDP",
+            "instagram": "NULL",
+            "facebook": "NULL",
+            "linkedin": "NULL",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image":"https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true",
+            "github": "NULL"
+        },
+        {
             "name": "Anurag Kumar Sah",
             "email": "anuragkumarsah2024@gmail.com",
             "stream": "CSE",
@@ -48,21 +63,6 @@
             "portfolio": "NULL",
             "image":"https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnendu_Roy.jpg?raw=true",
             "github": "https://github.com/krishnenduroy52"
-        },
-        {
-            "name": "Biswajit",
-            "email": "biswajitchattopadh890@gmail.com",
-            "stream": "CSE",
-            "year": "4th",
-            "since": 2022,
-            "domain": "CDP",
-            "instagram": "NULL",
-            "facebook": "NULL",
-            "linkedin": "NULL",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "image":"https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true",
-            "github": "NULL"
         },
         {
             "name": "Devasmita Kundu",
