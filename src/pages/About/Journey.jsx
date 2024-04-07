@@ -11,10 +11,7 @@ const Journey = ({ ...props }) => {
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
       </div>
       <div className="aboutDescription" data-aos="fade-up">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text Lorem
-        Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been
+      Explore our Journey section, a vivid timeline of Hackerspace's evolution. It captures our milestones, achievements, and defining moments, reflecting our growth and relentless pursuit of knowledge. Each timeline entry marks a step in our collective coding journey. Navigate through this timeline to witness Hackerspace's evolution and envision our future.
       </div>
 
       <div className="timeline">
