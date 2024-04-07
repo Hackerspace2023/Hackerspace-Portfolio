@@ -111,6 +111,11 @@
     display: block;
 }
 
+.buttonLink.active{
+    display: none;
+}
+
+
 @media screen and (max-width: 600px) {
     .event-name {
         font-size: 25px;

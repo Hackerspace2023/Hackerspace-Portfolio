@@ -41,6 +41,7 @@ const ProjectSection = () => {
           pagination={true}
           autoplay={{
             delay: 1500,
+            pauseOnMouseEnter: true,
           }}
           modules={[EffectCoverflow, Autoplay]}
           loop="true"
@@ -79,7 +80,7 @@ const ProjectSection = () => {
                       <img key={contributor.name} src={contributor.image} alt={contributor.name} />
                     ))}
                   </div>
-                  <div className="mob-btn">
+                  {/* <div className="mob-btn">
                     <div className="mob-buttonSection">
                       <Button
                         text="Github"
@@ -94,7 +95,8 @@ const ProjectSection = () => {
                         className="linkBtn2"
                       ></Button>
                     </div>
-                  </div>
+                  </div> */}
+                  <a href={project.url} target="_blank" className="projectButton">PREVIEW</a>
                 </div>
               </div>
 
@@ -112,10 +114,11 @@ const ProjectSection = () => {
                       <img key={contributor.name} src={contributor.image} alt={contributor.name} />
                     ))}
                   </div>
-                  <div className="buttonSection">
+                  {/* <div className="buttonSection">
                     <Button text="Github" to={project.repo}></Button>
                     <Button text="Preview" to={project.url}></Button>
-                  </div>
+                  </div> */}
+                  <a href={project.url} target="_blank" className="projectButton">PREVIEW</a>
                 </div>
                 <div className="projectItemImg">
                   <img src={project.image} alt={project.name} />
