@@ -48,6 +48,7 @@ const ProjectCard = ({ data }) => {
               <Button text="Link" className="eventsButton linkBtn2" />
             </div>
           </div>
+          
         </div>
       </div>
     </>
