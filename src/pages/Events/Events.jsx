@@ -108,7 +108,6 @@ const Events = () => {
         Hackerspace keenly engages in hosting various hackathons, coding contests, and workshops to engage students in coding projects, skill development, and networking opportunities.
         </div>
         <EventsCategory category="category" data={events} renderComponet={(ele)=><EventsCard data={ele}/>}/>
-        {/* <EventsCard/> */}
     </section>
   );
 };
