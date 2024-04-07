@@ -18,6 +18,7 @@
 .membersCategory{
   /* background-color: red; */
   min-width: fit-content;
+  /* gap: 10px; */
 }
 .membersOptions
 {

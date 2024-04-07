@@ -35,6 +35,7 @@ const Card = ({ className = "", data, ...props }) => {
               
           </div>
         </div>
+        
       </div>
     </>
   );

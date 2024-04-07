@@ -13,6 +13,9 @@ export default {
         "txt-primary": "#ffffff",
         "txt-secondary": "#7e7e7e",
       },
+      animation: {
+        'spin-fast': 'spin 0.5s linear infinite',
+      },
       fontFamily: {
         firacode: ["Fira Code", ...defaultTheme.fontFamily.mono],
         audiowide: ["AudioWide", ...defaultTheme.fontFamily.sans],
