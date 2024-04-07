@@ -8,23 +8,23 @@ import { footer } from "../../data";
 import icon from "../../assets/hackerspace-logo.jpg";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
-  const [loading, setLoading] = useState(false);
+  // const [email, setEmail] = useState("");
+  // const [loading, setLoading] = useState(false);
 
-  const handleSubscribe = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-    toast.success("Subscribed successfully!");
-    setEmail("");
-    setLoading(false);
-  };
+  // const handleSubscribe = async (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   await new Promise((resolve) => setTimeout(resolve, 2000));
+  //   toast.success("Subscribed successfully!");
+  //   setEmail("");
+  //   setLoading(false);
+  // };
 
   return (
     <footer className=" relative z-1">
       <Divider />
       <div className="bg-gradient-to-b from-bg-primary to-bg-secondary p-8 pb-4">
-        <div className="flex gap-4 flex-col lg:flex-row md:gap-6 lg:gap-8 justify-between">
+        <div className="flex gap-4 flex-col lg:flex-row md:gap-6 lg:gap-8 justify-between pb-10">
           <div className="flex gap-4 flex-col lg:w-3/5">
             <div className="flex">
               <img
@@ -39,7 +39,7 @@ const Footer = () => {
                 <p className="text-primary mt-2">Let's Hack The Future</p>
               </div>
             </div>
-            <form
+            {/*  <form
               className="flex flex-col sm:flex-row gap-4"
               onSubmit={handleSubscribe}
             >
@@ -61,11 +61,49 @@ const Footer = () => {
                   "Subscribe"
                 )}
               </button>
-              <ToastContainer theme="dark" />
-            </form>
+              <ToastContainer theme="dark" /> 
+            </form>*/}
+            <div className="flex items-center gap-6 py-4">
+              <a href="https://msit.edu.in" target="_blank" rel="noreferrer">
+                <img
+                  src="/static/powered-by/msit-logo.png"
+                  alt="MSIT logo"
+                  className="max-h-12 object-contain bg-white rounded-full p-0.5 pb-1 aspect-square"
+                />
+              </a>
+              <a href="https://ieee.org" target="_blank" rel="noreferrer">
+                <img
+                  src="/static/powered-by/ieee-logo.png"
+                  alt="IEEE logo"
+                  className="max-h-12 object-contain"
+                />
+              </a>
+              <a
+                href="https://technoindiagroup.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="Techno_Small.png"
+                  alt="Techno India logo"
+                  className="h-12 object-contain"
+                />
+              </a>
+              <a
+                href="https://www.computer.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="IEEE_Computer_Society.png"
+                  alt="IEEE MSIT Student Chapter logo"
+                  className="h-12 object-contain"
+                />
+              </a>
+            </div>
           </div>
           <div className="flex gap-2 flex-col sm:flex-row lg:w-3/5">
-            <div className="flex-1 space-y-2">
+            {/* <div className="flex-1 space-y-2">
               <h4 className="text-2xl font-audiowide text-primary">
                 Associated With
               </h4>
@@ -109,7 +147,7 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
             {footer.map((column, index) => (
               <div className="flex-1 space-y-2" key={index}>
                 <h4 className="text-2xl font-audiowide text-primary">
