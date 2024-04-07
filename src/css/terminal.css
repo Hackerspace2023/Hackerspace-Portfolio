@@ -1,7 +1,7 @@
 .terminal {
     position: fixed;
     /* bottom: 40px; */
-    bottom: 25px;
+    bottom: 40px;
     left: 0px;
     width: 100%;
     z-index: 999;
@@ -22,9 +22,9 @@
     border-radius: 10px;
     outline: none;
     padding-left: 20px;
-    background: #00000038;
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+    background: #000000;
+    /* backdrop-filter: blur(18px); */
+    /* -webkit-backdrop-filter: blur(18px); */
     border: 2px solid var(--primary-color);
 
 }
@@ -37,13 +37,16 @@
     padding: 12px;
     border-radius: 10px;
     cursor: pointer;
-    background: #00000038;
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+    background: #000000;
+    /* backdrop-filter: blur(18px); */
+    /* -webkit-backdrop-filter: blur(18px); */
+    transition: all 0.1s linear;
 }
 
 .terminal .submit:hover {
-    background-color: var(--sub-background-color);
+    /* background-color: var(--sub-background-color); */
+    /* background-color: #ffffff59; */
+    transform: scale(1.05);
 }
 
 .moreInfo {
@@ -84,6 +87,11 @@
 }
 
 .moreInfoItem:hover {
+    background-color: var(--sub-background-color);
+    color: var(--primary-color);
+    padding-left: 25px;
+}
+.moreInfoItem.active{
     background-color: var(--sub-background-color);
     color: var(--primary-color);
     padding-left: 25px;
