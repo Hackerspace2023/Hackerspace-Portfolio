@@ -66,7 +66,7 @@ const MembersSection = ({ ...props }) => {
                       <div className="membersContenetAbout">
                         <h2>{ele.name}</h2>
                         <h3>{ele.stream} ({ele.year})</h3>
-                        <p>{ele.description}</p>
+                        <p>"{ele.description}"</p>
                       </div>
                       <div className="membersConteneLinks">
                         <a
