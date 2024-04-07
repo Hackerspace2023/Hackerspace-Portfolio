@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../css/terminal.css";
 import { IoSend } from "react-icons/io5";
@@ -11,18 +11,20 @@ const Terminal = () => {
   const data = Object.keys(nav);
   const navData = [...data.filter((item) => item !== "error")];
   const updatedNavData = navData.map((item) => `/${item}`);
+  // console.log(updatedNavData);
   const [terminalData, setTerminalData] = useState(updatedNavData);
+  const [selectedRoute, setSelectedRoute] = useState("");
+  const ref = useRef();
   const handleForm = (e) => {
     e.preventDefault();
     let path = terminal.replace(/^\/|\/$/g, "");
     console.log(path);
-    navigate(`/${path}/#${path}`);
+    navigate(`/${path}`);
     window.scrollTo(0, 0);
     setTerminal("");
     setShow(false);
   };
 
-  useEffect(() => {});
 
   const handleChanges = (e) => {
     if (e.target.value === "/") {
@@ -66,7 +68,7 @@ const Terminal = () => {
             {terminalData.map((item, index) => {
               return (
                 <div
-                  className="moreInfoItem"
+                  className={`moreInfoItem ${selectedRoute === item? "active":""}`}
                   key={index}
                   onClick={() => handleClick(item)}
                 >
