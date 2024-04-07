@@ -210,7 +210,7 @@
   .home
   {
     flex-direction: column-reverse;
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
   .leftSectionHome
   {
@@ -244,7 +244,12 @@
 {
   .home{
     padding-top: 100px;
+    min-height: 0vh;
     gap: 50px;
+    height: fit-content;
+    /* height: 20vh !important; */
+    /* background-color: red; */
+    /* justify-content: flex-end; */
   }
   .titleHomeText
   {
