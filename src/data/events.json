@@ -1,21 +1,31 @@
 [
     {
-        "eventName": "Orientation 2023",
-        "eventDate": "2023-08-28",
-        "eventTime": "10:00 AM",
+        "eventName": "Orientation 2024",
+        "eventDate": "2024-04-08",
+        "eventTime": "03:45 PM",
         "location": "MSIT",
-        "description": "This was an Orientation event for the 1st and 2nd years telling them what Hackerspace is and it's motive to Hack the Future.",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Orientation-1(2023).jpeg?raw=true",
-        "registrationLink": "",
+        "description": "This was an Orientation event for the 1st years telling them what Hackerspace is and it's motive to Hack the Future.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Orientation-2(2024)-1.jpeg?raw=true",
+        "registrationLink": "NULL",
+        "category": "upcoming"
+    },
+    {
+        "eventName": "Node, SQL Session",
+        "eventDate": "2024-03-04",
+        "eventTime": "04:15 PM",
+        "location": "MSIT",
+        "description": "Hackerspace Backend Bonanza is a comprehensive coding workshop series, offering hands-on learning and mentorship to elevate participants' backend development skills.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Node_Sql(2024).jpeg?raw=true",
+        "registrationLink": "https://forms.gle/gtkRC2YQvJexegbJ9",
         "category": "past"
     },
     {
-        "eventName": "CodeCraft 1.0",
-        "eventDate": "2023-09-02",
-        "eventTime": "12:00 AM",
+        "eventName": "CodeCraft 2.0",
+        "eventDate": "2024-01-14",
+        "eventTime": "03:00 PM",
         "location": "Online",
-        "description": "This was a Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-1(2023).jpeg?raw=true",
+        "description": "This was the 2nd Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-2(2024).jpeg?raw=true",
         "registrationLink": "",
         "category": "past"
     },
@@ -30,23 +40,23 @@
         "category": "past"
     },
     {
-        "eventName": "CodeCraft 2.0",
-        "eventDate": "2024-01-14",
-        "eventTime": "03:00 PM",
+        "eventName": "CodeCraft 1.0",
+        "eventDate": "2023-09-02",
+        "eventTime": "12:00 AM",
         "location": "Online",
-        "description": "This was the 2nd Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-2(2024).jpeg?raw=true",
+        "description": "This was a Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-1(2023).jpeg?raw=true",
         "registrationLink": "",
         "category": "past"
     },
     {
-        "eventName": "Node, SQL Session",
-        "eventDate": "2024-03-04",
-        "eventTime": "04:15 PM",
+        "eventName": "Orientation 2023",
+        "eventDate": "2023-08-28",
+        "eventTime": "10:00 AM",
         "location": "MSIT",
-        "description": "Hackerspace Backend Bonanza is a comprehensive coding workshop series, offering hands-on learning and mentorship to elevate participants' backend development skills.",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Node_Sql(2024).jpeg?raw=true",
-        "registrationLink": "https://forms.gle/gtkRC2YQvJexegbJ9",
-        "category": "upcoming"
+        "description": "This was an Orientation event for the 1st and 2nd years telling them what Hackerspace is and it's motive to Hack the Future.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Orientation-1(2023).jpeg?raw=true",
+        "registrationLink": "",
+        "category": "past"
     }
 ]

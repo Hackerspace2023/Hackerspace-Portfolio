@@ -24,7 +24,7 @@ const MembersSection = ({ ...props }) => {
     <section className="members" {...props} data-aos="fade-up">
       <div className="titleContainer membersTitle">
         <span className="tagAbout tagAbout1">{`<h2>`}</span>
-        <h1 className="title">Founding Members</h1>
+        <h1 className="title">Founders</h1>
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
       </div>
 
@@ -49,6 +49,7 @@ const MembersSection = ({ ...props }) => {
               <SwiperSlide key={index}>
                 <div className="tab-membersContainer">
                   <Card data={ele} />
+                
                   <Card data={ele} />
                 </div>
 
@@ -65,7 +66,7 @@ const MembersSection = ({ ...props }) => {
                       <div className="membersContenetAbout">
                         <h2>{ele.name}</h2>
                         <h3>{ele.stream} ({ele.year})</h3>
-                        <p>{ele.description}</p>
+                        <p>"{ele.description}"</p>
                       </div>
                       <div className="membersConteneLinks">
                         <a

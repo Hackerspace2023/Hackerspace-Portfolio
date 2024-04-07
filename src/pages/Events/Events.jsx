@@ -105,13 +105,9 @@ const Events = () => {
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
         <div className="aboutDescription">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been
+        Hackerspace keenly engages in hosting various hackathons, coding contests, and workshops to engage students in coding projects, skill development, and networking opportunities.
         </div>
         <EventsCategory category="category" data={events} renderComponet={(ele)=><EventsCard data={ele}/>}/>
-        {/* <EventsCard/> */}
     </section>
   );
 };

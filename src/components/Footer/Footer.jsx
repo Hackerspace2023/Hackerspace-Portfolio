@@ -165,9 +165,9 @@ const Footer = () => {
                         {item.text}
                       </a>
                     ) : (
-                      <Link to={item.link} key={index}>
+                      <p to={item.link} key={index}>
                         {item.text}
-                      </Link>
+                      </p>
                     )
                   )}
                 </div>

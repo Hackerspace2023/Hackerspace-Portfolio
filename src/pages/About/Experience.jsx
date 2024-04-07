@@ -15,19 +15,19 @@ const Experience = ({ ...props }) => {
         <div className="experienceContainer">
           <div className="experienceCard">
             <div className="cardTitle">Project<br/> Completed</div>
-            <div className="cardSubTitle">1000+</div>
+            <div className="cardSubTitle">30+</div>
           </div>
           <div className="experienceCard">
             <div className="cardTitle">Members <br/>No.</div>
-            <div className="cardSubTitle">1000+</div>
+            <div className="cardSubTitle">70+</div>
           </div>
           <div className="experienceCard">
             <div className="cardTitle">Ongoing<br/> Projects</div>
-            <div className="cardSubTitle">1000+</div>
+            <div className="cardSubTitle">10+</div>
           </div>
           <div className="experienceCard">
             <div className="cardTitle">Years of<br/> Experience</div>
-            <div className="cardSubTitle">1000+</div>
+            <div className="cardSubTitle">2+</div>
           </div>
         </div>
         <Divider />

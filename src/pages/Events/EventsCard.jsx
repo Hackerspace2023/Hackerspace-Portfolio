@@ -18,12 +18,12 @@ const EventsCard = ({ data }) => {
           </div>
           <div className="mob-btn">
             <a href={data.registrationLink} target="_blank">
-            <Button
-              text="Register"
-              type="a"
-              link={data.registrationLink}
-              className={`eventsButton linkBtn3 ${data.category !== "past" ? "active" : ""}`}
-            />
+              <Button
+                text="Register"
+                type="a"
+                link={data.registrationLink}
+                className={`eventsButton linkBtn3 ${data.category !== "past" ? "active" : ""}`}
+              />
             </a>
           </div>
         </div>

@@ -50,17 +50,12 @@
     "description": "This is a clone of CYBERFICTION Website.",
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/CYBERFICTION.jpeg?raw=true",
     "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/CYBERFICTION.mp4?raw=true",
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 7",
-    "domain": "Cloud Computing",
-    "tag": "Cloud",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
+    "contributors": [
+      {
+        "name": "Sayan Sanpui",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayan_Sanpui.jpg?raw=true"
+      }
+    ],
     "showOnHighlights": true,
     "repo": "",
     "url": ""
@@ -69,17 +64,6 @@
     "name": "Project 10",
     "domain": "Game Development",
     "tag": "Game Dev",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 12",
-    "domain": "Virtual Reality",
-    "tag": "VR/AR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
     "video": "",

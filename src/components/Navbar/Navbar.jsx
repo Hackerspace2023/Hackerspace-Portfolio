@@ -12,24 +12,23 @@ const Navbar = () => {
   const location = useLocation();
 
   // geting the initial navigation state
-  const navTitle = useSelector((state)=>state.nav.navTitle);
-  const navNumber = useSelector((state)=>state.nav.navNumber);
-  const navItems = useSelector((state)=>state.nav.navItems);
+  const navTitle = useSelector((state) => state.nav.navTitle);
+  const navNumber = useSelector((state) => state.nav.navNumber);
+  const navItems = useSelector((state) => state.nav.navItems);
 
   // if the page is routes changed
 
   useEffect(() => {
     let newPath = "";
-    if(location.pathname === "/")
-    {
+    if (location.pathname === "/") {
       newPath = "home";
     }
-    else{
+    else {
       newPath = location.pathname.replace(/^\/|\/$/g, "");
     }
     dispatch(updateTitle(newPath));
   }, [location]);
-  
+
 
   return (
     <>
@@ -38,10 +37,13 @@ const Navbar = () => {
           <div className="sectionNumber">//{navNumber}.</div>
           <div className="sectionTitle">{`${navTitle}`}</div>
         </div>
-        <div className="navItems">
+        {/* <div className="navItems">
           {
-            navItems.map((ele,index)=>(<NavItem key={index} text={ele.text} link={ele.link}/>))
+            navItems.map((ele, index) => (<NavItem key={index} text={ele.text} link={ele.link} />))
           }
+        </div> */}
+        <div className="navBtn">
+          <Button text="Contact" to="/contact" className="btnContact" />
         </div>
       </nav>
     </>

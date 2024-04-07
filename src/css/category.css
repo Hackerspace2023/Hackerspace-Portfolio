@@ -1,15 +1,14 @@
-.categorySecion
-{
+.categorySecion {
     /* background-color: red; */
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 50px;
     position: relative;
-  z-index: 1;
+    z-index: 1;
 }
-.categoryOptions
-{
+
+.categoryOptions {
     display: flex;
     /* justify-content: center;
     align-items: center; */
@@ -18,18 +17,20 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
-    background-color: var(--sub-background-color);
-    border: 2px solid var(--primary-color);
+    /* background-color: var(--sub-background-color); */
+    /* border: 2px solid var(--primary-color); */
     gap: 20px;
     /* flex-wrap: wrap; */
     overflow-x: scroll;
     text-transform: uppercase;
 }
-.categoryOptions::-webkit-scrollbar{
+
+.categoryOptions::-webkit-scrollbar {
     display: none;
 
 }
-.categoryOptionItem{
+
+.categoryOptionItem {
     min-width: 200px;
     height: 50px;
     width: fit-content;
@@ -38,20 +39,22 @@
     /* background-color: red; */
     padding: 10px;
     font-size: 22px;
-    border: 2px solid var(--primary-color);
-    background-color: var(--sub-background-color);
+    border-bottom: 2px solid var(--primary-color);
+    /* background-color: var(--sub-background-color); */
     color: var(--text-color);
     cursor: pointer;
     font-weight: 500;
     letter-spacing: 2px;
     overflow: hidden;
 }
-.categoryOptionItem:hover{
+
+.categoryOptionItem:hover {
     background-color: var(--primary-color);
     color: var(--background-color);
-    
+
 }
-.categoryCardSection{
+
+.categoryCardSection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,4 +63,56 @@
     flex-wrap: wrap;
     gap: 30px;
     /* background-color: red; */
+}
+
+.categoryTitle {
+    font-size: 35px;
+}
+
+@media screen and (max-width: 1140px) {
+    .categoryOptions {
+        gap: 15px;
+    }
+
+    .categoryOptionItem {
+        height: 45px;
+        padding: 9px;
+        font-size: 20px;
+    }
+
+    .categoryTitle {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .categoryOptions {
+        gap: 10px;
+    }
+
+    .categoryOptionItem {
+        height: 35px;
+        padding: 7px;
+        font-size: 15px;
+    }
+
+    .categoryTitle {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .categoryOptions {
+        gap: 8px;
+    }
+
+    .categoryOptionItem {
+        height: 28px;
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .categoryTitle {
+        font-size: 25px;
+    }
 }

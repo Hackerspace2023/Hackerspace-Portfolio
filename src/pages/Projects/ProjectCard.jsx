@@ -34,12 +34,15 @@ const ProjectCard = ({ data }) => {
             <p className="event-time">{data.description}</p>
             {/* <button className="register-button">Register</button> */}
           </div>
-          <a
-            href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors"
-            className="contributors"
+          <div
+            // href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors"
+            className="mob-contributors"
           >
-            <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" />
-          </a>
+            {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
+            {data.contributors && data.contributors.map(contributor => (
+              <img key={contributor.name} src={contributor.image} alt={contributor.name} />
+            ))}
+          </div>
           <div className="mob-btn">
             <div className="mob-buttonSection">
               <Button text="Github" className="eventsButton linkBtn1" />
