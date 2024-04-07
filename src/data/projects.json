@@ -50,6 +50,12 @@
     "description": "This is a clone of CYBERFICTION Website.",
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/CYBERFICTION.jpeg?raw=true",
     "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/CYBERFICTION.mp4?raw=true",
+    "contributors": [
+      {
+        "name": "Sayan Sanpui",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayan_Sanpui.jpg?raw=true"
+      }
+    ],
     "showOnHighlights": true,
     "repo": "",
     "url": ""
