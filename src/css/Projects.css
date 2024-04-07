@@ -22,9 +22,42 @@
 .Projects .event-name {
     text-align: center;
 }
+.projectButton{
+    background-color: var(--primary-color);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--background-color);
+    /* font-weight: 600; */
+    @apply font-audiowide;
+    letter-spacing: 2px;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+.projectButton:hover{
+    background-color: var(--sub-background-color);
+    color: var(--primary-color);
+
+}
 
 @media only screen and (max-width: 600px) {
     .aboutDescription {
         font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .Projects .event-card
+    {
+        transform: scale(0.8);
+    }
+}
+@media only screen and (max-width: 314px) {
+    .Projects .event-card
+    {
+        transform: scale(0.6);
     }
 }

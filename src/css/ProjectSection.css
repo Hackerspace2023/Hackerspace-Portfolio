@@ -67,12 +67,13 @@
   /* background-color: red; */
   width: 100%;
   margin-top: 20px;
-  height: 40px;
+  height: 50px;
   width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .mob-contributors img {
@@ -80,6 +81,7 @@
   height: 100%;
   object-fit: contain;
   border-radius: 50%;
+  border: 2px solid var(--primary-color);
 }
 
 /* ========= Project Section image ========= */
