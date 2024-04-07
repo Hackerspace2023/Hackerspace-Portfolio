@@ -35,6 +35,7 @@
     @apply font-audiowide;
     letter-spacing: 2px;
     border: 2px solid var(--primary-color);
+    cursor: pointer;
 }
 .projectButton:hover{
     background-color: var(--sub-background-color);
