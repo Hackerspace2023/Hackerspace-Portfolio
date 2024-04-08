@@ -100,12 +100,12 @@ const Footer = () => {
                   className="h-12 object-contain"
                 />
               </a>
-              
-              
+
+
             </div>
-            
+
           </div>
-          <img src="https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/QR/link.jpg?raw=true" alt="QR_CODE" className="QR"/>
+          <img src="https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/QR/link1.jpg?raw=true" alt="QR_CODE" className="QR" />
           <div className="flex gap-2 flex-col sm:flex-row lg:w-3/5">
             {/* <div className="flex-1 space-y-2">
               <h4 className="text-2xl font-audiowide text-primary">
