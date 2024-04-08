@@ -63,28 +63,6 @@
     "url": "NULL"
   },
   {
-    "name": "Project 2",
-    "domain": "App Development",
-    "tag": "App",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": false,
-    "repo": "",
-    "url": ""
-  },
-  {
-    "name": "Project 3",
-    "domain": "Data Science",
-    "tag": "DS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
-    "showOnHighlights": true,
-    "repo": "",
-    "url": ""
-  },
-  {
     "name": "Saber Z",
     "domain": "Game Development",
     "tag": "Game",
