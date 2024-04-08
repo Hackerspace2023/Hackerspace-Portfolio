@@ -44,6 +44,18 @@
       {
         "name": "̌Akash Das",
         "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Akash_Das.jpg?raw=true"
+      },
+      {
+        "name": "̌Krishnendu Roy",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnendu_Roy.jpg?raw=true"
+      },
+      {
+        "name": "̌Anurag Kumar Sah",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anurag_Kumar_Sah.jpg?raw=true"
+      },
+      {
+        "name": "̌Anwesha Sen",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anwesha_Sen.jpg?raw=true"
       }
     ],
     "showOnHighlights": true,
@@ -73,14 +85,52 @@
     "url": ""
   },
   {
-    "name": "Project 10",
+    "name": "Saber Z",
     "domain": "Game Development",
     "tag": "Game",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
+    "description": "Saber Z: An exhilarating two-player combat game with strategic depth.",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/Screenshot%20from%202024-04-08%2010-20-24.png?raw=true",
+    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/Fighting_Game.mp4?raw=true",
+    "contributors": [
+      {
+        "name": "̌Akash Das",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Akash_Das.jpg?raw=true"
+      },
+      {
+        "name": "̌Deep Das",
+        "image": "https://avatars.githubusercontent.com/u/107903218?v=4"
+      },
+      {
+        "name": "Sayan Sanpui",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayan_Sanpui.jpg?raw=true"
+      },
+      {
+        "name": "Arkid Mondal",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Arkid_Mondal.jpg?raw=true"
+      }
+      ,
+      {
+        "name": "Dinanta Adhikary",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Dinanta_Adhikary.jpg?raw=true"
+      }
+      ,
+      {
+        "name": "Somshirsha Bhattacharya",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Somshirsha_Bhattacharya.jpg?raw=true"
+      }
+      ,
+      {
+        "name": "Debarghya Saha",
+        "image": "https://www.ateneo.edu/sites/default/files/2021-11/istockphoto-517998264-612x612.jpeg "
+      }
+      ,
+      {
+        "name": "Shekhar Hans",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Shekhar_Hans.jpg?raw=true"
+      }
+    ],
     "showOnHighlights": false,
     "repo": "",
-    "url": ""
+    "url": "https://fighting-hackerspace.netlify.app/"
   }
 ]

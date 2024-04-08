@@ -39,10 +39,12 @@ const ProjectCard = ({ data }) => {
             className="mob-contributors"
           >
             {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
+            <div className="contributersImgContainer">
             {data.contributors &&
               data.contributors.map((contributor) => (
                 <div className="contributorsImg"><img key={contributor.name} src={contributor.image} alt={contributor.name} /></div>
               ))}
+              </div>
           </div>
           <div className="mob-btn">
             <Button

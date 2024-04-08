@@ -57,7 +57,7 @@
 }
 
 .contributorsImg {
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   object-fit: contain;
   border-radius: 50%;
@@ -249,7 +249,7 @@
   }
 
   .previewBtn {
-    left: ;
+    /* left: ; */
     scale: 0.7;
     position: relative;
     left: 65px;

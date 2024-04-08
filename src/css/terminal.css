@@ -98,6 +98,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+    .terminal{
+        bottom: 55px;
+    }
     .terminal .input {
         font-size: 18px;
         width: 55vw;
