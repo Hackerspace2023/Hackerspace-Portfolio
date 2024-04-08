@@ -14,6 +14,19 @@
     background-color: var(--primary-color);
     padding: 5px;
 }
+.contributersImgContainer{
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: scroll;
+}
+.contributersImgContainer::-webkit-scrollbar {
+    display: none;
+}
+.contributorsImg{
+    margin-left: 10px;
+}
 
 .event-card2 {
     width: 100%;

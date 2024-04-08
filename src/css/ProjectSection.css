@@ -57,7 +57,7 @@
 }
 
 .contributorsImg {
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   object-fit: contain;
   border-radius: 50%;
