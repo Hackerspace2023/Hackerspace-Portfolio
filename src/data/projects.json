@@ -73,12 +73,12 @@
     "url": ""
   },
   {
-    "name": "Project 10",
+    "name": "Saber Z",
     "domain": "Game Development",
     "tag": "Game",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop",
-    "video": "",
+    "description": "Saber Z: An exhilarating two-player combat game with strategic depth.",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/Screenshot%20from%202024-04-08%2010-20-24.png?raw=true",
+    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/Fighting_Game.mp4?raw=true",
     "showOnHighlights": false,
     "repo": "",
     "url": ""
