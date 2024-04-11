@@ -2,7 +2,6 @@ import { Fragment, useEffect, useState } from "react";
 import "../../css/category.css";
 
 const MembersCategory = ({ data, renderComponet }) => {
-  // console.log("from membersCategory",data);
   const infoData = data.map((ele) => ele.info);
   const members = data.map((ele) => ele.data);
   const [infoTitle, setInfoTitle] = useState(infoData[0]);
@@ -10,7 +9,6 @@ const MembersCategory = ({ data, renderComponet }) => {
   const [selectedMembers, setSelectedMembers] = useState(members[0]);
   const [loading, setLoading] = useState(false);
   const handleOptionClick = (ele, index) => {
-    console.log(ele);
     setInfoTitle(ele);
     setSelectedOption(ele.title);
     setSelectedMembers(members[index]);

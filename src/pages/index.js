@@ -9,5 +9,15 @@ import Error from "./Error/Error";
 import Members from "./Members/Members";
 import Loading from "./Loading/Loading";
 
-
-export { Home, About, Blog, Contact, Events, Gallery, Projects, Error , Members, Loading};
+export {
+  Home,
+  About,
+  Blog,
+  Contact,
+  Events,
+  Gallery,
+  Projects,
+  Error,
+  Members,
+  Loading,
+};

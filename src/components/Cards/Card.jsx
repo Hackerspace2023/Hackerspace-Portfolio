@@ -6,7 +6,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { Link } from "react-router-dom";
 const Card = ({ className = "", data, ...props }) => {
-  // console.log(typeof(data.twitter));
   return (
     <>
       <div className={`Card ${className}`} {...props}>
@@ -17,25 +16,40 @@ const Card = ({ className = "", data, ...props }) => {
             {data.year} Year ({data.stream})
           </p>
           <div className="socials">
-            <a className={`socialsIcon ${data.twitter!=="NULL"?"active":""}`} data-icon="twitter" href={data.twitter} target="_blank">
+            <a
+              className={`socialsIcon ${data.twitter !== "NULL" ? "active" : ""}`}
+              data-icon="twitter"
+              href={data.twitter}
+              target="_blank"
+            >
               <FaXTwitter />
             </a>
-            <a className={`socialsIcon ${data.instagram!=="NULL"?"active":""}`} data-icon="instagram" href={data.instagram} target="_blank">
+            <a
+              className={`socialsIcon ${data.instagram !== "NULL" ? "active" : ""}`}
+              data-icon="instagram"
+              href={data.instagram}
+              target="_blank"
+            >
               <AiFillInstagram />
             </a>
             <a
-              className={`socialsIcon ${data.linkedin!=="NULL"?"active":""}`}
+              className={`socialsIcon ${data.linkedin !== "NULL" ? "active" : ""}`}
               data-icon="linkedin"
               href={data.linkedin}
               target="_blank"
             >
               <FaLinkedin />
             </a>
-            <a className={`socialsIcon active `} data-icon="mail" href={`mailto:${data.email}`} target="_blank"><IoMdMail /></a>
-              
+            <a
+              className={`socialsIcon active `}
+              data-icon="mail"
+              href={`mailto:${data.email}`}
+              target="_blank"
+            >
+              <IoMdMail />
+            </a>
           </div>
         </div>
-        
       </div>
     </>
   );

@@ -7,14 +7,11 @@ const ProjectCategory = ({ data, category, domain, renderComponet }) => {
   const uniqueDomain = [...new Set(data.map((item) => item[domain]))];
   const [selectedId, setSelectedId] = useState(uniqueCategory[0]);
   const [selectedDomain, setSelectedDomain] = useState(uniqueDomain[0]);
-  // const [selectedOption, setSelectedOption] = useState(infoData[0].title);
   const [loading, setLoading] = useState(false);
-  console.log(uniqueCategory);
 
   const handelClick = (item, index) => {
     setSelectedId(item);
     setSelectedDomain(uniqueDomain[index]);
-    console.log(selectedId);
   };
   useEffect(() => {
     setLoading(true);
@@ -43,10 +40,9 @@ const ProjectCategory = ({ data, category, domain, renderComponet }) => {
           </ul>
         </div>
         <h2 className="categoryTitle">{selectedDomain}</h2>
-        
+
         <div className="categoryCardSection">
-          {
-            loading?(
+          {loading ? (
             <div role="status">
               <svg
                 aria-hidden="true"
@@ -66,13 +62,13 @@ const ProjectCategory = ({ data, category, domain, renderComponet }) => {
               </svg>
               <span className="sr-only">Loading...</span>
             </div>
-          ):(data
-            .filter((item) => item[category] === selectedId)
-            .map((item, index) => (
-              <Fragment key={index}>{renderComponet(item)}</Fragment>
-            )))
-          }
-          
+          ) : (
+            data
+              .filter((item) => item[category] === selectedId)
+              .map((item, index) => (
+                <Fragment key={index}>{renderComponet(item)}</Fragment>
+              ))
+          )}
         </div>
       </section>
     </>

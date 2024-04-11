@@ -7,7 +7,6 @@ const EventsCategory = ({ data, category, renderComponet }) => {
   const [loading, setLoading] = useState(false);
   const handelClick = (item, index) => {
     setSelectedId(item);
-    console.log(selectedId);
   };
   useEffect(() => {
     setLoading(true);
@@ -18,24 +17,24 @@ const EventsCategory = ({ data, category, renderComponet }) => {
   return (
     <>
       <section className="categorySecion">
-      <div className=" text-2xl  font-medium text-center text-white mr-auto ml-auto w-fit categoryBox">
+        <div className=" text-2xl  font-medium text-center text-white mr-auto ml-auto w-fit categoryBox">
           <ul className="flex align-middle justify-center flex-wrap -mb-px">
-          {uniqueCategory.map((item, index) => (
-            <li className="me-2" key={index}>
-            <div
-              className={`inline-block p-4 pb-3 categoryHeading border-b-2 border-transparent rounded-t-lg ${item === selectedId ? "text-primary border-b-primary" : "text-white"} hover:border-primary  hover:text-primary cursor-pointer`}
-              aria-current="page"
-              key={index}
-              onClick={() => handelClick(item, index)}
-            >
-              {item}
-            </div>
-          </li>
-          ))}
-        </ul>
+            {uniqueCategory.map((item, index) => (
+              <li className="me-2" key={index}>
+                <div
+                  className={`inline-block p-4 pb-3 categoryHeading border-b-2 border-transparent rounded-t-lg ${item === selectedId ? "text-primary border-b-primary" : "text-white"} hover:border-primary  hover:text-primary cursor-pointer`}
+                  aria-current="page"
+                  key={index}
+                  onClick={() => handelClick(item, index)}
+                >
+                  {item}
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="categoryCardSection">
-          {loading?(
+          {loading ? (
             <div role="status">
               <svg
                 aria-hidden="true"
@@ -55,16 +54,13 @@ const EventsCategory = ({ data, category, renderComponet }) => {
               </svg>
               <span className="sr-only">Loading...</span>
             </div>
-          ):data
-          .filter((item) => item[category] === selectedId)
-          .map((item, index) => (
-            <Fragment key={index}>{renderComponet(item)}</Fragment>
-          ))}
-          {/* {data
-            .filter((item) => item[category] === selectedId)
-            .map((item, index) => (
-              <Fragment key={index}>{renderComponet(item)}</Fragment>
-            ))} */}
+          ) : (
+            data
+              .filter((item) => item[category] === selectedId)
+              .map((item, index) => (
+                <Fragment key={index}>{renderComponet(item)}</Fragment>
+              ))
+          )}
         </div>
       </section>
     </>

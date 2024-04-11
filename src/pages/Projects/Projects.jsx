@@ -1,7 +1,7 @@
 import { Divider, ProjectCategory } from "../../components";
 import { projects } from "../../data";
 import EventsCard from "../Events/EventsCard";
-import "../../css/Projects.css"
+import "../../css/Projects.css";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -159,9 +159,13 @@ const Projects = () => {
         <span className="tagAbout tagAbout2">{`</h2>`}</span>
       </div>
       <div className="aboutDescription">
-      Step into our Project Section, a dynamic showcase of the innovative and groundbreaking work being done at Hackerspace. This is where ideas come to life, transformed from mere concepts into tangible projects through the power of code.
-      <br/>
-      We invite you to explore these projects, learn from them, and perhaps even find inspiration for your next coding endeavor.
+        Step into our Project Section, a dynamic showcase of the innovative and
+        groundbreaking work being done at Hackerspace. This is where ideas come
+        to life, transformed from mere concepts into tangible projects through
+        the power of code.
+        <br />
+        We invite you to explore these projects, learn from them, and perhaps
+        even find inspiration for your next coding endeavor.
       </div>
       <ProjectCategory
         category="tag"
