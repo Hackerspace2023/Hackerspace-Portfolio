@@ -22,13 +22,11 @@ const Navbar = () => {
     let newPath = "";
     if (location.pathname === "/") {
       newPath = "home";
-    }
-    else {
+    } else {
       newPath = location.pathname.replace(/^\/|\/$/g, "");
     }
     dispatch(updateTitle(newPath));
   }, [location]);
-
 
   return (
     <>
@@ -37,11 +35,6 @@ const Navbar = () => {
           <div className="sectionNumber">//{navNumber}.</div>
           <div className="sectionTitle">{`${navTitle}`}</div>
         </div>
-        {/* <div className="navItems">
-          {
-            navItems.map((ele, index) => (<NavItem key={index} text={ele.text} link={ele.link} />))
-          }
-        </div> */}
         <div className="navBtn">
           <Button text="Contact" to="/contact" className="btnContact" />
         </div>

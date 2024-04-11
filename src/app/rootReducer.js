@@ -1,8 +1,8 @@
 import { combineReducers } from "@reduxjs/toolkit";
-import navReducer from "../features/navSlice"
+import navReducer from "../features/navSlice";
 
 const rootReducer = combineReducers({
-    nav: navReducer,
-})
+  nav: navReducer,
+});
 
 export default rootReducer;

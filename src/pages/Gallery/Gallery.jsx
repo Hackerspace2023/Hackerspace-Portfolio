@@ -58,9 +58,20 @@ const Gallery = () => {
             <span className="tagAbout tagAbout2">{`</h2>`}</span>
           </div>
           <div className="galleryContent" data-aos="fade-up">
-          Welcome to our Gallery, a vibrant testament to the creativity and innovation that thrives within Hackerspace. Here, you'll find a curated collection of images that capture the essence of our community. From the intense focus of a late-night coding session, to the joy of solving a complex problem, to the camaraderie shared over a well-earned break, these images encapsulate the spirit of collaboration and relentless curiosity that defines us.
-          <br /> <br />
-          Each image tells a story of determination, of trial and error, of that 'eureka' moment. They represent not just our achievements, but also the journey, filled with challenges, learning, and growth. We hope that as you scroll through these images, you'll get a sense of the passion and dedication that fuels Hackerspace, and perhaps find inspiration for your own coding journey.
+            Welcome to our Gallery, a vibrant testament to the creativity and
+            innovation that thrives within Hackerspace. Here, you'll find a
+            curated collection of images that capture the essence of our
+            community. From the intense focus of a late-night coding session, to
+            the joy of solving a complex problem, to the camaraderie shared over
+            a well-earned break, these images encapsulate the spirit of
+            collaboration and relentless curiosity that defines us.
+            <br /> <br />
+            Each image tells a story of determination, of trial and error, of
+            that 'eureka' moment. They represent not just our achievements, but
+            also the journey, filled with challenges, learning, and growth. We
+            hope that as you scroll through these images, you'll get a sense of
+            the passion and dedication that fuels Hackerspace, and perhaps find
+            inspiration for your own coding journey.
           </div>
         </div>
         {/* <div className="galleryMember">

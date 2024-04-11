@@ -11,7 +11,6 @@ const Terminal = () => {
   const data = Object.keys(nav);
   const navData = [...data.filter((item) => item !== "error")];
   const updatedNavData = navData.map((item) => `/${item}`);
-  // console.log(updatedNavData);
   const [terminalData, setTerminalData] = useState(updatedNavData);
   const [selectedRoute, setSelectedRoute] = useState("");
   const ref = useRef();
@@ -24,7 +23,6 @@ const Terminal = () => {
     setTerminal("");
     setShow(false);
   };
-
 
   const handleChanges = (e) => {
     if (e.target.value === "/") {
@@ -68,7 +66,7 @@ const Terminal = () => {
             {terminalData.map((item, index) => {
               return (
                 <div
-                  className={`moreInfoItem ${selectedRoute === item? "active":""}`}
+                  className={`moreInfoItem ${selectedRoute === item ? "active" : ""}`}
                   key={index}
                   onClick={() => handleClick(item)}
                 >

@@ -73,26 +73,40 @@ const ProjectSection = () => {
                   </div>
                   <div
                     // href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors"
-                    
+
                     className="mob-contributors"
                   >
                     {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
-                    {project.contributors && project.contributors.map(contributor => (
-                      <div className="contributorsImg"><img key={contributor.name} src={contributor.image} alt={contributor.name} /></div>
-                    ))}
+                    {project.contributors &&
+                      project.contributors.map((contributor) => (
+                        <div className="contributorsImg">
+                          <img
+                            key={contributor.name}
+                            src={contributor.image}
+                            alt={contributor.name}
+                          />
+                        </div>
+                      ))}
                   </div>
                   <div className="mob-btn">
-                    <Button
-                      text="Preview"
-                      to={project.url}
-                      className="previewBtn"
-                    ></Button>
+                    {project.url === "NULL" ? (
+                      ""
+                    ) : (
+                      <>
+                        <Button
+                          type="a"
+                          text="Preview"
+                          link={project.url}
+                          className="previewBtn"
+                        />
+                      </>
+                    )}
                   </div>
                   {/* <a href={project.url} target="_blank" className="projectButton">PREVIEW</a> */}
                 </div>
               </div>
 
-              <div className="projectItem" >
+              <div className="projectItem">
                 <div className="projectItemContent">
                   <h3>{project.name}</h3>
                   <h4>{project.domain}</h4>
@@ -102,12 +116,30 @@ const ProjectSection = () => {
                     className="contributors"
                   >
                     {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
-                    {project.contributors && project.contributors.map(contributor => (
-                      <div className="contributorsImg"><img key={contributor.name} src={contributor.image} alt={contributor.name} /></div>
-                    ))}
+                    {project.contributors &&
+                      project.contributors.map((contributor) => (
+                        <div className="contributorsImg">
+                          <img
+                            key={contributor.name}
+                            src={contributor.image}
+                            alt={contributor.name}
+                          />
+                        </div>
+                      ))}
                   </div>
                   <div className="buttonSection">
-                    <Button text="Preview" to={project.url}></Button>
+                    {project.url === "NULL" ? (
+                      ""
+                    ) : (
+                      <>
+                        <Button
+                          type="a"
+                          text="Preview"
+                          link={project.url}
+                          className="previewBtn"
+                        />
+                      </>
+                    )}
                   </div>
                   {/* <a href={project.url} target="_blank" className="projectButton">PREVIEW</a> */}
                 </div>

@@ -40,20 +40,30 @@ const ProjectCard = ({ data }) => {
           >
             {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
             <div className="contributersImgContainer">
-            {data.contributors &&
-              data.contributors.map((contributor) => (
-                <div className="contributorsImg"><img key={contributor.name} src={contributor.image} alt={contributor.name} /></div>
-              ))}
-              </div>
+              {data.contributors &&
+                data.contributors.map((contributor) => (
+                  <div className="contributorsImg">
+                    <img
+                      key={contributor.name}
+                      src={contributor.image}
+                      alt={contributor.name}
+                    />
+                  </div>
+                ))}
+            </div>
           </div>
           <div className="mob-btn">
-            <Button
-              text="Preview"
-              type="a"
-              link={data.url}
-              // className="eventsButton linkBtn1"
-              className={`eventsButton linkBtn1 ${data.url !== "NULL" ? "active" : ""}`}
-            />
+            {data.url === "NULL" ? (
+              ""
+            ) : (
+              <Button
+                text="Preview"
+                type="a"
+                link={data.url}
+                // className="eventsButton linkBtn1"
+                className={`eventsButton linkBtn1 ${data.url !== "NULL" ? "active" : ""}`}
+              />
+            )}
           </div>
           {/* <a href={data.url} target="_blank" className="projectButton">PREVIEW</a> */}
         </div>

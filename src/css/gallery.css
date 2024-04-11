@@ -1,192 +1,191 @@
 .gallery {
-    /* height: 100vh; */
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: red; */
-    position: relative;
-    z-index: 2;
+  /* height: 100vh; */
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: red; */
+  position: relative;
+  z-index: 2;
 }
 
 .gallery {
-    /* margin-top: 100px; */
-    padding-top: 80px;
-    /* filter: blur(20px);
+  /* margin-top: 100px; */
+  padding-top: 80px;
+  /* filter: blur(20px);
     pointer-events: none;
     user-select: none; */
 }
 
 .galleryAbout {
-    margin-bottom: 100px;
-    position: relative;
-    z-index: 2;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 2;
 }
 
 .galleryContent {
-    margin-top: 60px;
-    text-align: center;
-    font-size: 22px;
-    line-height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1320px;
-    padding-left: 20px;
-    padding-right: 20px;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .galleryMember {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .members-contain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .members-card {
-    height: 500px;
-    width: 400px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 30px;
-    transition: 0.3s ease;
-    /* background-color: red; */
+  height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  /* background-color: red; */
 }
 
 .members-card:hover {
-    border: 2px solid var(--primary-color);
-    background-color: var(--sub-background-color);
-    transform: scale(0.9);
+  border: 2px solid var(--primary-color);
+  background-color: var(--sub-background-color);
+  transform: scale(0.9);
 }
 
 .members-card h3 {
-    font-size: 35px;
-    font-weight: 400;
-    color: var(--primary-color);
-    @apply font-audiowide;
+  font-size: 35px;
+  font-weight: 400;
+  color: var(--primary-color);
+  @apply font-audiowide;
 }
 
 .galleryPic {
-    margin-bottom: 100px;
-    position: relative;
-    z-index: 1;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 1;
 }
 
 .galleryPic-contain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .galleryPic-card {
-    height: 380px;
-    width: 630px;
-    display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    justify-items: center;
-    align-items: center;
-    gap: 30px;
-    /* background-color: red; */
-    border-radius: 30px;
-    transition: 0.3s ease;
-    cursor: pointer;
+  height: 380px;
+  width: 630px;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+  /* background-color: red; */
+  border-radius: 30px;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .galleryPic-card img {
-    height: 100%;
-    width: 100%;
-    border-radius: 30px;
-    object-fit: cover;
-    overflow: hidden;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .galleryPic-card:hover {
-    /* border: 2px solid var(--primary-color); */
-    background-color: var(--sub-background-color);
-    transform: scale(0.9);
+  /* border: 2px solid var(--primary-color); */
+  background-color: var(--sub-background-color);
+  transform: scale(0.9);
 }
 
-
 .panel.open {
-    /* display: flex;
+  /* display: flex;
     justify-content: center;
     align-items: center; */
-    z-index: 5;
-    /* background-color: #000; */
-    position: fixed;
-    top: 10%;
-    right: 22%;
-    left: 22%;
-    visibility: visible;
-    display: flex;
+  z-index: 5;
+  /* background-color: #000; */
+  position: fixed;
+  top: 10%;
+  right: 22%;
+  left: 22%;
+  visibility: visible;
+  display: flex;
 }
 
 .panel {
-    visibility: hidden;
-    display: none;
+  visibility: hidden;
+  display: none;
 }
 
 .cb {
-    position: fixed;
-    top: 10%;
-    right: 22%;
-    background-color: white;
-    border-radius: 30%;
-    cursor: pointer;
-    /* visibility: hidden; */
+  position: fixed;
+  top: 10%;
+  right: 22%;
+  background-color: white;
+  border-radius: 30%;
+  cursor: pointer;
+  /* visibility: hidden; */
 }
 
 .txt {
-    background-color: #222222;
-    position: absolute;
-    bottom: 0px;
-    border-radius: 1%;
-    z-index: 9999;
+  background-color: #222222;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 1%;
+  z-index: 9999;
 }
 
 @media only screen and (max-width: 682px) {
-    .galleryContent {
-        font-size: 20px;
-        line-height: 40px;
-    }
+  .galleryContent {
+    font-size: 20px;
+    line-height: 40px;
+  }
 
-    .galleryPic-card {
-        width: 90%;
-    }
+  .galleryPic-card {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 577px) {
-    .galleryContent {
-        font-size: 18px;
-        line-height: 35px;
-    }
+  .galleryContent {
+    font-size: 18px;
+    line-height: 35px;
+  }
 
-    .galleryPic-card {
-        height: 300px;
-    }
+  .galleryPic-card {
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 444px) {
-    .galleryContent {
-        font-size: 16px;
-        line-height: 30px;
-    }
+  .galleryContent {
+    font-size: 16px;
+    line-height: 30px;
+  }
 
-    .galleryPic-card {
-        height: 250px;
-    }
+  .galleryPic-card {
+    height: 250px;
+  }
 }
 
 @media only screen and (max-width: 357px) {
-    .galleryContent {
-        font-size: 12px;
-        line-height: 30px;
-    }
+  .galleryContent {
+    font-size: 12px;
+    line-height: 30px;
+  }
 }

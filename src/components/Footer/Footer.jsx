@@ -8,18 +8,6 @@ import { footer } from "../../data";
 import icon from "../../assets/hackerspace-logo.jpg";
 
 const Footer = () => {
-  // const [email, setEmail] = useState("");
-  // const [loading, setLoading] = useState(false);
-
-  // const handleSubscribe = async (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
-  //   await new Promise((resolve) => setTimeout(resolve, 2000));
-  //   toast.success("Subscribed successfully!");
-  //   setEmail("");
-  //   setLoading(false);
-  // };
-
   return (
     <footer className=" relative z-1">
       <Divider />
@@ -39,30 +27,6 @@ const Footer = () => {
                 <p className="text-primary mt-2">Let's Hack The Future</p>
               </div>
             </div>
-            {/*  <form
-              className="flex flex-col sm:flex-row gap-4"
-              onSubmit={handleSubscribe}
-            >
-              <input
-                type="email"
-                placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="p-2 border-2 bg-inherit border-primary focus:outline-none outline-primary rounded-lg"
-                required
-              />
-              <button
-                type="submit"
-                className="bg-primary text-bg-primary font-semibold py-2 w-32 rounded-lg text-center"
-              >
-                {loading ? (
-                  <CgSpinner className="animate-spin text-2xl inline" />
-                ) : (
-                  "Subscribe"
-                )}
-              </button>
-              <ToastContainer theme="dark" /> 
-            </form>*/}
             <div className="flex items-center gap-6 py-4">
               <a href="https://msit.edu.in" target="_blank" rel="noreferrer">
                 <img
@@ -100,58 +64,14 @@ const Footer = () => {
                   className="h-12 object-contain"
                 />
               </a>
-
-
             </div>
-
           </div>
-          <img src="https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/QR/link1.jpg?raw=true" alt="QR_CODE" className="QR" />
+          <img
+            src="https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/QR/link1.jpg?raw=true"
+            alt="QR_CODE"
+            className="QR"
+          />
           <div className="flex gap-2 flex-col sm:flex-row lg:w-3/5">
-            {/* <div className="flex-1 space-y-2">
-              <h4 className="text-2xl font-audiowide text-primary">
-                Associated With
-              </h4>
-              <div className="space-y-2 [&>a]:h-auto md:[&>a]:h-16 [&>a]:block hover:[&>a]:text-primary">
-                <div className="flex items-center justify-start">
-                  <a
-                    href="https://msit.edu.in"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="max-h-20 p-0.5 mr-8"
-                  >
-                    <img src="MSIT_Small.png" alt="MSIT logo" />
-                  </a>
-                  <a
-                    href="https://ieee.org"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="max-w-[50%]"
-                  >
-                    <img src="IEEE_Advanced_Technology.png" alt="IEEE logo" />
-                  </a>
-                </div>
-                <div className="flex items-center justify-start">
-                  <a
-                    href="https://technoindiagroup.com"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mr-8"
-                  >
-                    <img src="Techno_Small.png" alt="Techno India logo" />
-                  </a>
-                  <a
-                    href="https://www.computer.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src="IEEE_Computer_Society.png"
-                      alt="IEEE MSIT Student Chapter logo"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div> */}
             {footer.map((column, index) => (
               <div className="flex-1 space-y-2" key={index}>
                 <h4 className="text-2xl font-audiowide text-primary">

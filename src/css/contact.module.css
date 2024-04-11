@@ -7,9 +7,7 @@
   z-index: 1;
 }
 .contactSection {
-  /* width: 100%; */
   max-width: 1320px;
-  /* background-color: red; */
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -17,21 +15,18 @@
 }
 
 /* ========= Button ========= */
-.contactButton{
-    background-color: var(--primary-color);
-    padding: 10px 22px;
-    border-radius: 10px;
-    font-size: 22px;
-    font-weight: 500;
-    color: var(--background-color);
-    cursor: pointer;
+.contactButton {
+  background-color: var(--primary-color);
+  padding: 10px 22px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--background-color);
+  cursor: pointer;
 }
 
 /* ========= contact Card ========= */
 .contactCard {
-  /* background: rgba(255, 255, 255, 0.05); */
-  /* backdrop-filter: blur(20px); */
-  /* -webkit-backdrop-filter: blur(20px); */
   border-radius: 0px;
   border: 1px solid var(--primary-color);
   max-width: 1220px;
@@ -57,9 +52,6 @@
 .leftTitle {
   font-size: 50px;
   color: var(--text-color);
-  /* font-weight: 600; */
-  /* line-height: 80px; */
-  /* letter-spacing: 1.3px; */
   @apply font-audiowide;
   letter-spacing: 2px;
   color: var(--primary-color);
@@ -79,14 +71,7 @@
 /* ========= right ========= */
 .right {
   width: 50%;
-  /* background: rgba(255, 255, 255, 0.007); */
-  /* backdrop-filter: blur(20px); */
-  /* -webkit-backdrop-filter: blur(20px); */
-  /* border-radius: 10px; */
-  /* border: 1px solid rgba(255, 255, 255, 0.18); */
   border-left: 2px solid var(--primary-color);
-  /* border-top-left-radius: 50px; */
-  /* border-bottom-left-radius: 50px; */
   padding: 30px;
   display: flex;
   justify-content: flex-start;
@@ -96,9 +81,6 @@
 .rightTitle {
   font-size: 50px;
   color: var(--text-color);
-  /* font-weight: 600; */
-  /* line-height: 80px; */
-  /* letter-spacing: 1.3px; */
   @apply font-audiowide;
   letter-spacing: 2px;
   color: var(--primary-color);

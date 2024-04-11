@@ -15,7 +15,8 @@ const Members = () => {
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
         <div className="aboutDescription">
-        Our members actively participate in discussions, forums, and events fostering a vibrant teaching and learning environment.
+          Our members actively participate in discussions, forums, and events
+          fostering a vibrant teaching and learning environment.
         </div>
         <MembersCategory
           data={membersData}

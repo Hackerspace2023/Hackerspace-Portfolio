@@ -1,10 +1,10 @@
 .Projects {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .Projects .aboutDescription {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 /* .Projects .categoryOptions {
@@ -12,52 +12,49 @@
     overflow: scroll;
 } */
 
-.projectOptionItem{
-    /* min-width: 20px; */
+.projectOptionItem {
+  /* min-width: 20px; */
 }
 .Projects .event-time {
-    /* text-wrap: nowrap !important; */
+  /* text-wrap: nowrap !important; */
 }
 
 .Projects .event-name {
-    text-align: center;
+  text-align: center;
 }
-.projectButton{
-    background-color: var(--primary-color);
-    width: fit-content;
-    margin: 0 auto;
-    margin-top: 25px;
-    font-size: 25px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: var(--background-color);
-    /* font-weight: 600; */
-    @apply font-audiowide;
-    letter-spacing: 2px;
-    border: 2px solid var(--primary-color);
-    cursor: pointer;
+.projectButton {
+  background-color: var(--primary-color);
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: var(--background-color);
+  /* font-weight: 600; */
+  @apply font-audiowide;
+  letter-spacing: 2px;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
 }
-.projectButton:hover{
-    background-color: var(--sub-background-color);
-    color: var(--primary-color);
-
+.projectButton:hover {
+  background-color: var(--sub-background-color);
+  color: var(--primary-color);
 }
 
 @media only screen and (max-width: 600px) {
-    .aboutDescription {
-        font-size: 15px;
-    }
+  .aboutDescription {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 390px) {
-    .Projects .event-card
-    {
-        transform: scale(0.8);
-    }
+  .Projects .event-card {
+    transform: scale(0.8);
+  }
 }
 @media only screen and (max-width: 314px) {
-    .Projects .event-card
-    {
-        transform: scale(0.6);
-    }
+  .Projects .event-card {
+    transform: scale(0.6);
+  }
 }

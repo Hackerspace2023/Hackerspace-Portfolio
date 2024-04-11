@@ -1,5 +1,5 @@
 /* ========= Top space ========= */
-.home{
+.home {
   /* padding-top: 110px; */
 }
 .home {
@@ -41,7 +41,7 @@
   align-items: center;
   gap: 20px;
 }
-.tagSubTitle{
+.tagSubTitle {
   font-size: 20px;
 }
 
@@ -76,7 +76,6 @@
   line-height: normal;
   margin-left: 25px;
 }
-
 
 /* ========= right Section ========= */
 .rightSectionHome {
@@ -176,21 +175,17 @@
     height: 180px;
     width: 180px;
   }
-  .subTitleHomeText
-  {
-    font-size:  30px;
+  .subTitleHomeText {
+    font-size: 30px;
   }
-  .leftSectionHome
-  {
+  .leftSectionHome {
     padding-left: 30px;
   }
-  .home{
+  .home {
     padding-top: 30px;
-  
   }
 }
-@media only screen and (max-width: 900px)
-{
+@media only screen and (max-width: 900px) {
   .imgHomeWrapper {
     width: 200px;
     height: 200px;
@@ -199,36 +194,31 @@
     height: 150px;
     width: 150px;
   }
-  .titleHomeText
-  {
+  .titleHomeText {
     font-size: 50px;
   }
-  
 }
-@media only screen and (max-width: 800px)
-{
-  .home
-  {
+@media only screen and (max-width: 800px) {
+  .home {
     flex-direction: column-reverse;
     /* padding-top: 50px; */
   }
-  .leftSectionHome
-  {
+  .leftSectionHome {
     padding-left: 0;
     align-items: center;
     width: 100%;
   }
-  .titleHome{
+  .titleHome {
     flex-direction: row;
     align-items: center;
     gap: 20px;
     margin-left: 0px;
   }
-  .titleHomeText{
+  .titleHomeText {
     margin-left: 0px;
     font-size: 70px;
   }
-  .subTitleHomeText{
+  .subTitleHomeText {
     font-size: 30px;
   }
   .imgHomeWrapper {
@@ -240,9 +230,8 @@
     width: 200px;
   }
 }
-@media only screen and (max-width: 800px)
-{
-  .home{
+@media only screen and (max-width: 800px) {
+  .home {
     padding-top: 100px;
     min-height: 0vh;
     gap: 50px;
@@ -251,12 +240,10 @@
     /* background-color: red; */
     /* justify-content: flex-end; */
   }
-  .titleHomeText
-  {
+  .titleHomeText {
     font-size: 50px;
   }
-  .subTitleHomeText
-  {
+  .subTitleHomeText {
     font-size: 25px;
   }
   .imgHomeWrapper {
@@ -267,52 +254,45 @@
     height: 160px;
     width: 160px;
   }
-  .rightSectionHome{
+  .rightSectionHome {
     height: fit-content;
   }
 }
-@media only screen and (max-width: 540px)
-{
-  .titleHomeText
-  {
+@media only screen and (max-width: 540px) {
+  .titleHomeText {
     font-size: 40px;
   }
 }
-@media only screen and (max-width: 450px)
-{
-  .titleHome{
+@media only screen and (max-width: 450px) {
+  .titleHome {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 30px;
   }
-  .titleHomeText
-  {
+  .titleHomeText {
     font-size: 35px;
     margin-left: 30px;
   }
-  .leftSectionHome{
+  .leftSectionHome {
     align-items: flex-start;
     width: fit-content;
     gap: 10px;
   }
-  .subTitleHomeText{
+  .subTitleHomeText {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 390px)
-{
-  .subTitleHomeText
-  {
+@media only screen and (max-width: 390px) {
+  .subTitleHomeText {
     font-size: 18px;
   }
-  .tagSubTitle
-  {
+  .tagSubTitle {
     font-size: 12px;
   }
-  .subTitleHome{
+  .subTitleHome {
     gap: 10px;
   }
-  .titleHome{
+  .titleHome {
     gap: 10px;
   }
   .imgHomeWrapper {
@@ -324,19 +304,16 @@
     width: 150px;
   }
 }
-@media only screen and (max-width: 350px)
-{
-  .titleHome{
+@media only screen and (max-width: 350px) {
+  .titleHome {
     margin-left: 20px;
   }
-  .titleHomeText
-  {
+  .titleHomeText {
     font-size: 30px;
     margin-left: 10px;
   }
 }
-@media only screen and (max-width: 300px)
-{
+@media only screen and (max-width: 300px) {
   .imgHomeWrapper {
     width: 180px;
     height: 180px;
