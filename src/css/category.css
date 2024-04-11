@@ -1,135 +1,124 @@
 .categorySecion {
-    /* background-color: red; */
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 50px;
-    position: relative;
-    z-index: 1;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .categoryOptions {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    padding: 10px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-    /* background-color: var(--sub-background-color); */
-    /* border: 2px solid var(--primary-color); */
-    gap: 20px;
-    /* flex-wrap: wrap; */
-    overflow-x: scroll;
-    text-transform: uppercase;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  gap: 20px;
+  overflow-x: scroll;
+  text-transform: uppercase;
 }
 
 .categoryOptions::-webkit-scrollbar {
-    display: none;
-
+  display: none;
 }
 
 .categoryOptionItem {
-    min-width: 200px;
-    height: 50px;
-    width: fit-content;
-    text-overflow: ellipsis;
-    text-wrap: nowrap;
-    /* background-color: red; */
-    padding: 10px;
-    font-size: 22px;
-    border-bottom: 2px solid var(--primary-color);
-    /* background-color: var(--sub-background-color); */
-    color: var(--text-color);
-    cursor: pointer;
-    font-weight: 500;
-    letter-spacing: 2px;
-    overflow: hidden;
+  min-width: 200px;
+  height: 50px;
+  width: fit-content;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  padding: 10px;
+  font-size: 22px;
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--text-color);
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 2px;
+  overflow: hidden;
 }
 
 .categoryOptionItem:hover {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-
+  background-color: var(--primary-color);
+  color: var(--background-color);
 }
 
 .categoryCardSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    padding-bottom: 80px;
-    flex-wrap: wrap;
-    gap: 30px;
-    /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .categoryTitle {
-    text-align: center;
-    font-size: 35px;
+  text-align: center;
+  font-size: 35px;
 }
 
 @media screen and (max-width: 1140px) {
-    .categoryOptions {
-        gap: 15px;
-    }
+  .categoryOptions {
+    gap: 15px;
+  }
 
-    .categoryOptionItem {
-        height: 45px;
-        padding: 9px;
-        font-size: 20px;
-    }
+  .categoryOptionItem {
+    height: 45px;
+    padding: 9px;
+    font-size: 20px;
+  }
 
-    .categoryTitle {
-        font-size: 32px;
-    }
+  .categoryTitle {
+    font-size: 32px;
+  }
 
-    .categoryBox {
-        font-size: 20px;
-    }
-    
-    .categoryHeading {
-        padding: 8px 8px 9px 8px;
-    }
+  .categoryBox {
+    font-size: 20px;
+  }
+
+  .categoryHeading {
+    padding: 8px 8px 9px 8px;
+  }
 }
 
 @media screen and (max-width: 680px) {
-    .categoryOptions {
-        gap: 10px;
-    }
+  .categoryOptions {
+    gap: 10px;
+  }
 
-    .categoryOptionItem {
-        height: 35px;
-        padding: 7px;
-        font-size: 15px;
-    }
+  .categoryOptionItem {
+    height: 35px;
+    padding: 7px;
+    font-size: 15px;
+  }
 
-    .categoryTitle {
-        font-size: 32px;
-    }
+  .categoryTitle {
+    font-size: 32px;
+  }
 
-    .categoryBox {
-        font-size: 18px;
-    }
-    
-    .categoryHeading {
-        padding: 4px 5px 4px 5px;
-    }
+  .categoryBox {
+    font-size: 18px;
+  }
+
+  .categoryHeading {
+    padding: 4px 5px 4px 5px;
+  }
 }
 
 @media screen and (max-width: 441px) {
-    .categoryOptions {
-        gap: 8px;
-    }
+  .categoryOptions {
+    gap: 8px;
+  }
 
-    .categoryOptionItem {
-        height: 28px;
-        padding: 6px;
-        font-size: 12px;
-    }
+  .categoryOptionItem {
+    height: 28px;
+    padding: 6px;
+    font-size: 12px;
+  }
 
-    .categoryTitle {
-        font-size: 25px;
-    }
+  .categoryTitle {
+    font-size: 25px;
+  }
 }

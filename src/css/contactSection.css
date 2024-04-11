@@ -1,380 +1,380 @@
 /* ====================== Contact Section ====================== */
 .contactSection {
-    /* background-color: red; */
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px;
-    position: relative;
-    z-index: 1;
+  /* background-color: red; */
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
 }
 
 .contactContainer {
-    /* background-color: green; */
-    position: relative;
-    width: 100%;
-    height: 550px;
-    margin-bottom: 50px;
+  /* background-color: green; */
+  position: relative;
+  width: 100%;
+  height: 550px;
+  margin-bottom: 50px;
 }
 
 .circleIcon {
-    /* background-color: blue; */
-    padding: 90px;
-    color: var(--primary-color);
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 50%;
-    border: 2px solid var(--primary-color);
-    transition: var(--transition) !important;
-    position: absolute;
+  /* background-color: blue; */
+  padding: 90px;
+  color: var(--primary-color);
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  transition: var(--transition) !important;
+  position: absolute;
 }
 
 .circleIcon svg {
-    transition: all 0.1s ease !important;
+  transition: all 0.1s ease !important;
 }
 
 .circleIcon:hover {
-    /* background-color: var(--primary-color); */
-    /* color: var(--background-color); */
-    /* background-color: var(--text-color); */
-    transform: scale(0.9);
-    background-color: var(--sub-background-color);
+  /* background-color: var(--primary-color); */
+  /* color: var(--background-color); */
+  /* background-color: var(--text-color); */
+  transform: scale(0.9);
+  background-color: var(--sub-background-color);
 }
 
 .circleIcon[data-icon="twitter"] {
-    left: 95px;
-    top: 35px;
+  left: 95px;
+  top: 35px;
 }
 
 .circleIcon[data-icon="instagram"] {
-    padding: 50px;
-    left: 396px;
-    top: 306px;
+  padding: 50px;
+  left: 396px;
+  top: 306px;
 }
 
 .circleIcon[data-icon="linkedin"] {
-    padding: 70px;
-    top: 67px;
-    left: 610px;
+  padding: 70px;
+  top: 67px;
+  left: 610px;
 }
 
 .circleIcon[data-icon="mail"] {
-    padding: 50px;
-    top: 198px;
-    /* right: 154px; */
-    left: 910px;
+  padding: 50px;
+  top: 198px;
+  /* right: 154px; */
+  left: 910px;
 }
 
 @media screen and (max-width: 1250px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 95px;
-        top: -20px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 95px;
+    top: -20px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        padding: 70px;
-        top: 35px;
-        left: 610px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    padding: 70px;
+    top: 35px;
+    left: 610px;
+  }
 
-    .contactContainer {
-        scale: 0.9;
-    }
+  .contactContainer {
+    scale: 0.9;
+  }
 }
 
 @media screen and (max-width: 1220px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 95px;
-        top: -20px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 95px;
+    top: -20px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        padding: 70px;
-        top: 0px;
-        left: 570px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    padding: 70px;
+    top: 0px;
+    left: 570px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        padding: 50px;
-        left: 365px;
-        top: 306px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    padding: 50px;
+    left: 365px;
+    top: 306px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        padding: 50px;
-        top: 200px;
-        /* right: 154px; */
-        left: 880px;
-    }
+  .circleIcon[data-icon="mail"] {
+    padding: 50px;
+    top: 200px;
+    /* right: 154px; */
+    left: 880px;
+  }
 
-    .contactContainer {
-        scale: 0.8;
-    }
+  .contactContainer {
+    scale: 0.8;
+  }
 }
 
 @media screen and (max-width: 1205px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 45px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 45px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        left: 345px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    left: 345px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 540px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 540px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        left: 880px;
-    }
+  .circleIcon[data-icon="mail"] {
+    left: 880px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
-    /* .circleIcon[data-icon="mail"] {
+  /* .circleIcon[data-icon="mail"] {
         left: 880px;
     } */
 
-    .circleIcon[data-icon="twitter"] {
-        left: 10px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 10px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        left: 300px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    left: 300px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 520px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 520px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        left: 820px;
-    }
+  .circleIcon[data-icon="mail"] {
+    left: 820px;
+  }
 
-    .contactContainer {
-        scale: 0.7;
-    }
+  .contactContainer {
+    scale: 0.7;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 10px;
-        top: -110px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 10px;
+    top: -110px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        left: 250px;
-        top: 225px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    left: 250px;
+    top: 225px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 460px;
-        top: -50px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 460px;
+    top: -50px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        left: 745px;
-    }
+  .circleIcon[data-icon="mail"] {
+    left: 745px;
+  }
 
-    .contactContainer {
-        /* scale: 0.6; */
-    }
+  .contactContainer {
+    /* scale: 0.6; */
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 10px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 10px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        left: 230px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    left: 230px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 420px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 420px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        left: 660px;
-    }
+  .circleIcon[data-icon="mail"] {
+    left: 660px;
+  }
 }
 
 @media screen and (max-width: 850px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 10px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 10px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 430px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 430px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        left: 170px;
-        top: 270px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    left: 170px;
+    top: 270px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        left: 660px;
-    }
+  .circleIcon[data-icon="mail"] {
+    left: 660px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        left: 570px;
-        top: 300px;
-    }
+  .circleIcon[data-icon="mail"] {
+    left: 570px;
+    top: 300px;
+  }
 }
 
 @media screen and (max-width: 740px) {
-    .circleIcon[data-icon="twitter"] {
-        left: -30px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: -30px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 420px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 420px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        top: 270px;
-        left: 150px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    top: 270px;
+    left: 150px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        top: 300px;
-        left: 520px;
-    }
+  .circleIcon[data-icon="mail"] {
+    top: 300px;
+    left: 520px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 30px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 30px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 400px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 400px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        top: 280px;
-        left: 90px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    top: 280px;
+    left: 90px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        top: 340px;
-        left: 420px;
-    }
+  .circleIcon[data-icon="mail"] {
+    top: 340px;
+    left: 420px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-    .circleIcon[data-icon="twitter"] {
-        left: 30px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: 30px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 370px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 370px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        top: 280px;
-        left: 60px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    top: 280px;
+    left: 60px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        top: 340px;
-        left: 400px;
-    }
+  .circleIcon[data-icon="mail"] {
+    top: 340px;
+    left: 400px;
+  }
 }
 
 @media screen and (max-width: 590px) {
-    .circleIcon[data-icon="twitter"] {
-        left: -40px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: -40px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 310px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 310px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        top: 280px;
-        left: 30px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    top: 280px;
+    left: 30px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        top: 340px;
-        left: 340px;
-    }
+  .circleIcon[data-icon="mail"] {
+    top: 340px;
+    left: 340px;
+  }
 }
 
 @media screen and (max-width: 520px) {
-    .circleIcon[data-icon="twitter"] {
-        left: -40px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    left: -40px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        left: 290px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    left: 290px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        top: 280px;
-        left: 30px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    top: 280px;
+    left: 30px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        top: 340px;
-        left: 320px;
-    }
+  .circleIcon[data-icon="mail"] {
+    top: 340px;
+    left: 320px;
+  }
 }
 
 @media screen and (max-width: 490px) {
-    .circleIcon[data-icon="twitter"] {
-        top: -220px;
-        left: -70px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    top: -220px;
+    left: -70px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        top: 0px;
-        left: 250px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    top: 0px;
+    left: 250px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        top: 200px;
-        left: -20px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    top: 200px;
+    left: -20px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        top: 340px;
-        left: 270px;
-    }
+  .circleIcon[data-icon="mail"] {
+    top: 340px;
+    left: 270px;
+  }
 
-    .contactContainer {
-        scale: 0.55;
-    }
+  .contactContainer {
+    scale: 0.55;
+  }
 }
 
 @media screen and (max-width: 410px) {
-    .circleIcon[data-icon="twitter"] {
-        top: -250px;
-        left: -100px;
-    }
+  .circleIcon[data-icon="twitter"] {
+    top: -250px;
+    left: -100px;
+  }
 
-    .circleIcon[data-icon="linkedin"] {
-        top: -50px;
-        left: 220px;
-    }
+  .circleIcon[data-icon="linkedin"] {
+    top: -50px;
+    left: 220px;
+  }
 
-    .circleIcon[data-icon="instagram"] {
-        top: 180px;
-        left: -60px;
-    }
+  .circleIcon[data-icon="instagram"] {
+    top: 180px;
+    left: -60px;
+  }
 
-    .circleIcon[data-icon="mail"] {
-        top: 340px;
-        left: 240px;
-    }
+  .circleIcon[data-icon="mail"] {
+    top: 340px;
+    left: 240px;
+  }
 
-    .contactContainer {
-        scale: 0.5;
-    }
+  .contactContainer {
+    scale: 0.5;
+  }
 }

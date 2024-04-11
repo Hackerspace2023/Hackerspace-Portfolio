@@ -1,208 +1,206 @@
 .Events {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px;
-    position: relative;
-    z-index: 1;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
 }
 
 .event-card {
-    width: 500px;
-    height: 600px;
-    clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
-    background-color: var(--primary-color);
-    padding: 5px;
+  width: 500px;
+  height: 600px;
+  clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
+  background-color: var(--primary-color);
+  padding: 5px;
 }
-.contributersImgContainer{
-    width: fit-content;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    overflow-x: scroll;
+.contributersImgContainer {
+  width: fit-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow-x: scroll;
 }
 .contributersImgContainer::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-.contributorsImg{
-    margin-left: 10px;
+.contributorsImg {
+  margin-left: 10px;
 }
 
 .event-card2 {
-    width: 100%;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
+  background-color: #000;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.event-content {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-name {
+  font-family: "Audiowide", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.event-time {
+  color: #fff;
+  font-family: "Fira Code";
+  font-size: 18px;
+  margin-top: 5px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.event-cardImg {
+  width: 450px;
+  height: 250px;
+  /* overflow: hidden; */
+  background-color: var(--primary-color);
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 20%);
+  padding: 4px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.event-image {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-cardImg img {
+  width: 100%;
+}
+
+.mob-btn {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+
+.linkBtn1 {
+  scale: 0.7;
+  position: relative;
+  left: 67px;
+}
+
+.buttonLink.active {
+  display: none;
+}
+
+.linkBtn3 {
+  scale: 0.7;
+  position: relative;
+  left: 60px;
+  display: none;
+}
+
+.eventsButton.linkBtn3.active {
+  display: block;
+}
+.mob-btn.active {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .event-name {
+    font-size: 25px;
+  }
+
+  .event-card {
+    width: 350px;
+    height: 450px;
+    clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
+    background-color: var(--primary-color);
+    padding: 5px;
+  }
+
+  .event-card2 {
     height: 100%;
+    width: 100%;
     clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
     background-color: #000;
     display: flex;
     justify-content: start;
-    flex-direction: column;
     padding: 20px;
-}
+  }
 
-.event-content {
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.event-name {
-    font-family: "Audiowide", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 60px;
-}
-
-.event-time {
-    color: #fff;
-    font-family: "Fira Code";
-    font-size: 18px;
-    margin-top: 5px;
-    line-height: 160%;
-    text-align: center;
-}
-
-.event-cardImg {
-    width: 450px;
-    height: 250px;
+  .event-cardImg {
+    width: 300px;
+    height: 150px;
     /* overflow: hidden; */
     background-color: var(--primary-color);
-    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 20%);
+    clip-path: polygon(11% 0, 100% 1%, 100% 80%, 89% 100%, 0 100%, 0 23%);
     padding: 4px;
     position: relative;
     overflow: hidden;
     z-index: 2;
-}
+  }
 
-.event-image {
+  .event-time {
+    color: #fff;
+    font-family: "Fira Code";
+    font-size: 13px;
+    margin-top: 0px;
+    line-height: 160%;
+  }
+
+  .event-name {
+    line-height: 45px;
+  }
+
+  .mob-btn {
     width: 100%;
-    height: 100%;
-    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 20%);
+    /* background-color: green; */
+    margin-top: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    position: relative;
+  }
 
-.event-cardImg img {
+  .linkBtn1 {
+    scale: 0.8;
+    position: relative;
+    left: -9px;
+  }
+
+  .linkBtn3 {
+    /* scale: 0.5; */
+    position: relative;
+    left: -15px;
+  }
+
+  .event-content {
     width: 100%;
-}
+    margin: 10px 0px;
+    margin-top: 30px;
+  }
 
-.mob-btn {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    position: relative;
-}
+  .event-content {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
 
-.linkBtn1 {
-    scale: 0.7;
-    position: relative;
-    left: 67px;
-}
-
-.buttonLink.active{
-    display: none;
-}
-
-.linkBtn3 {
-    scale: 0.7;
-    position: relative;
-    left: 60px;
-    display: none;
-}
-
-.eventsButton.linkBtn3.active {
-    display: block;
-
-}
-.mob-btn.active {
-    display: block;
-}
-
-@media screen and (max-width: 600px) {
-    .event-name {
-        font-size: 25px;
-    }
-
-    .event-card {
-        width: 350px;
-        height: 450px;
-        clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
-        background-color: var(--primary-color);
-        padding: 5px;
-    }
-
-    .event-card2 {
-        height: 100%;
-        width: 100%;
-        clip-path: polygon(14% 0, 100% 0, 100% 88%, 85% 100%, 0 100%, 0 12%);
-        background-color: #000;
-        display: flex;
-        justify-content: start;
-        padding: 20px;
-    }
-
-    .event-cardImg {
-        width: 300px;
-        height: 150px;
-        /* overflow: hidden; */
-        background-color: var(--primary-color);
-        clip-path: polygon(11% 0, 100% 1%, 100% 80%, 89% 100%, 0 100%, 0 23%);
-        padding: 4px;
-        position: relative;
-        overflow: hidden;
-        z-index: 2;
-    }
-
-    .event-time {
-        color: #fff;
-        font-family: "Fira Code";
-        font-size: 13px;
-        margin-top: 0px;
-        line-height: 160%;
-    }
-
-    .event-name {
-        line-height: 45px;
-    }
-
-    .mob-btn {
-        width: 100%;
-        /* background-color: green; */
-        margin-top: 10px;
-        display: flex;
-        position: relative;
-    }
-
-
-    .linkBtn1 {
-        scale: 0.8;
-        position: relative;
-        left: -9px;
-    }
-
-    .linkBtn3 {
-        /* scale: 0.5; */
-        position: relative;
-        left: -15px;
-    }
-
-    .event-content {
-        width: 100%;
-        margin: 10px 0px;
-        margin-top: 30px;
-    }
-
-    .event-content {
-        margin: 0px;
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-
-    .event-time {
-        font-size: 13px;
-    }
+  .event-time {
+    font-size: 13px;
+  }
 }

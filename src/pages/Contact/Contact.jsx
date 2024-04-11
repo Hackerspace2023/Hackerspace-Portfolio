@@ -21,7 +21,6 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     toast.success("Message sent successfully!");
-    console.log(formData);
     setFormData({ name: "", email: "", message: "" });
   };
   return (
@@ -41,7 +40,13 @@ const Contact = () => {
                 referrerpolicy="no-referrer-when-downgrade"
                 className={Style.map}
               ></iframe>
-              <a href="https://www.google.com/maps?ll=22.51047,88.415088&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=13627599571396767696" target="_blank" className="mapButton">View In Map</a>
+              <a
+                href="https://www.google.com/maps?ll=22.51047,88.415088&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=13627599571396767696"
+                target="_blank"
+                className="mapButton"
+              >
+                View In Map
+              </a>
             </div>
             <div className={Style.right}>
               <div className={Style.rightTitle}>Contact Form</div>

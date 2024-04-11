@@ -100,14 +100,20 @@ const Events = () => {
     // </section>
     <section className="Events">
       <div className="titleContainer">
-          <span className="tagAbout tagAbout1">{`<h2>`}</span>
-          <h1 className="title">Our Events</h1>
-          <span className="tagAbout tagAbout2">{`</h2>`}</span>
-        </div>
-        <div className="aboutDescription">
-        Hackerspace keenly engages in hosting various hackathons, coding contests, and workshops to engage students in coding projects, skill development, and networking opportunities.
-        </div>
-        <EventsCategory category="category" data={events} renderComponet={(ele)=><EventsCard data={ele}/>}/>
+        <span className="tagAbout tagAbout1">{`<h2>`}</span>
+        <h1 className="title">Our Events</h1>
+        <span className="tagAbout tagAbout2">{`</h2>`}</span>
+      </div>
+      <div className="aboutDescription">
+        Hackerspace keenly engages in hosting various hackathons, coding
+        contests, and workshops to engage students in coding projects, skill
+        development, and networking opportunities.
+      </div>
+      <EventsCategory
+        category="category"
+        data={events}
+        renderComponet={(ele) => <EventsCard data={ele} />}
+      />
     </section>
   );
 };

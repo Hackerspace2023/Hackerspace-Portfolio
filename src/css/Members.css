@@ -6,7 +6,7 @@
   position: relative;
   z-index: 1;
 }
-.categoryTitle{
+.categoryTitle {
   /* background-color: red; */
   /* font-size: 35px; */
   color: var(--primary-color);
@@ -15,16 +15,15 @@
   margin: 0 auto;
   margin-top: 50px;
 }
-.membersCategory{
+.membersCategory {
   /* background-color: red; */
   min-width: fit-content;
   /* gap: 10px; */
 }
-.membersOptions
-{
+.membersOptions {
   width: fit-content;
 }
-.membersCategory.active{
+.membersCategory.active {
   background-color: var(--primary-color) !important;
   color: var(--background-color);
 }

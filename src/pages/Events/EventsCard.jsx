@@ -17,8 +17,11 @@ const EventsCard = ({ data }) => {
             <p className="event-time">{data.description}</p>
           </div>
           <div className="mob-btn">
-            
-            <a href={data.registrationLink} target="_blank" className={`buttonLink ${data.registrationLink==="NULL"?"active":""}`}>
+            <a
+              href={data.registrationLink}
+              target="_blank"
+              className={`buttonLink ${data.registrationLink === "NULL" ? "active" : ""}`}
+            >
               <Button
                 text="Register"
                 type="a"

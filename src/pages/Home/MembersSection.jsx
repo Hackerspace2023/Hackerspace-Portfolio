@@ -31,7 +31,6 @@ const MembersSection = ({ ...props }) => {
       <div className="membersRight">
         <Swiper
           spaceBetween={30}
-          
           centeredSlides={true}
           autoplay={{
             delay: 2500,
@@ -58,13 +57,15 @@ const MembersSection = ({ ...props }) => {
 
                 <div className="membersContainer">
                   <div className="membersProfile">
-                    <ImageBorder icon={ele.image} className="membersImage"/>
+                    <ImageBorder icon={ele.image} className="membersImage" />
                   </div>
                   <div className="membersContenetBorder">
                     <div className="membersContenet">
                       <div className="membersContenetAbout">
                         <h2>{ele.name}</h2>
-                        <h3>{ele.stream} ({ele.year})</h3>
+                        <h3>
+                          {ele.stream} ({ele.year})
+                        </h3>
                         <p>"{ele.description}"</p>
                       </div>
                       <div className="membersConteneLinks">

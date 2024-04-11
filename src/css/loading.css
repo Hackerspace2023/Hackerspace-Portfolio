@@ -1,69 +1,66 @@
-.loading{
-    color: var(--primary-color);
-    background-color: var(--background-color);
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 50px;
+.loading {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
 }
-.loading-bar-section
-{
-    /* background-color: red; */
-    width: 100%;
-    padding: 20px;
-    border: 2px solid var(--text-color);
+.loading-bar-section {
+  /* background-color: red; */
+  width: 100%;
+  padding: 20px;
+  border: 2px solid var(--text-color);
 }
-.loading-percentage{
-    font-size: 25px;
-    letter-spacing: 2px;
+.loading-percentage {
+  font-size: 25px;
+  letter-spacing: 2px;
 }
-.loading-bar{
-    margin-top: 20px;
-    height: 10px;
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    border-radius: 10px;
+.loading-bar {
+  margin-top: 20px;
+  height: 10px;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 10px;
 }
-.loading-text{
-    font-size: 60px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    @apply font-audiowide;
-    text-align: center;
+.loading-text {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  @apply font-audiowide;
+  text-align: center;
 }
 
-@media only screen and (max-width: 450px)
-{
-    .loading-text{
-        font-size: 40px;
-    }
-    .loading-percentage{
-        font-size: 20px;
-    }
-    .loading-bar{
-        height: 5px;
-    }
-    .loading-bar-section{
-        padding: 10px;
-    }
+@media only screen and (max-width: 450px) {
+  .loading-text {
+    font-size: 40px;
+  }
+  .loading-percentage {
+    font-size: 20px;
+  }
+  .loading-bar {
+    height: 5px;
+  }
+  .loading-bar-section {
+    padding: 10px;
+  }
 }
-@media only screen and (max-width: 330px)
-{
-    .loading-text{
-        font-size: 15px;
-    }
-    .loading-percentage{
-        font-size: 15px;
-    }
-    .loading-bar{
-        height: 5px;
-    }
-    .loading-bar-section{
-        padding: 10px;
-    }
+@media only screen and (max-width: 330px) {
+  .loading-text {
+    font-size: 15px;
+  }
+  .loading-percentage {
+    font-size: 15px;
+  }
+  .loading-bar {
+    height: 5px;
+  }
+  .loading-bar-section {
+    padding: 10px;
+  }
 }

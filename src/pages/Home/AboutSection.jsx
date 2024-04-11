@@ -41,7 +41,7 @@ const AboutSection = ({ ...props }) => {
           <Button text="Learn More" to={"/about"} />
         </div>
       </div>
-      <Button text="Learn More" to={"/about"} className="aboutSectionButton"/>
+      <Button text="Learn More" to={"/about"} className="aboutSectionButton" />
     </section>
   );
 };

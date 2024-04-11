@@ -1,17 +1,13 @@
 .about {
-  /* height: 100vh; */
   max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
-  /* height: 100vh; */
-  /* background-color: red; */
   position: relative;
   z-index: 1;
 }
 
 /*  ============= Section Gap ==================  */
 .about {
-  /* margin-top: 100px; */
   padding-top: 80px;
 }
 
@@ -34,13 +30,11 @@
 }
 
 .tagAbout {
-
   color: var(--sub-text-color);
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
 }
 
 .tagAbout1 {
@@ -56,15 +50,8 @@
 }
 
 .aboutContent {
-  /* width: 63vw;
-  height: 35vw; */
   width: 89%;
-  /* height: 650px; */
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px; */
   margin: 50px 84px 0 84px;
-  /* background-color: blue; */
   background: url(../../src/assets/aboutContent.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -83,12 +70,10 @@
 
 .aboutText p {
   font-size: 34px;
-  /* font-size: 2vw; */
   font-style: normal;
   font-weight: 200;
   line-height: normal;
   line-height: 50px;
-  /* line-height: 3vw; */
 }
 
 .aboutLogo {
@@ -124,7 +109,6 @@
   }
 }
 
-
 @media screen and (max-width: 1250px) {
   .aboutContent {
     width: 86%;
@@ -154,7 +138,7 @@
   .aboutContent {
     width: 84%;
   }
-  
+
   .aboutText p {
     font-size: 24px;
   }
@@ -241,7 +225,6 @@
     margin-left: auto;
     margin-right: auto;
     color: var(--light-text-color);
-    /* color: var(--text-color); */
   }
 
   .aboutSectionButton {
@@ -260,7 +243,7 @@
 }
 
 @media screen and (max-width: 600px) {
-.mob-aboutContent {
+  .mob-aboutContent {
     line-height: 30px;
   }
 }
@@ -270,141 +253,3 @@
     font-size: 14px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media screen and (max-width: 720px) {
-  .aboutText {
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (max-width: 705px) {
-  .aboutText p {
-    font-size: 16px;
-    line-height: 28px;
-  }
-
-  .aboutContent {
-    margin-left: 48px;
-  }
-}
-
-@media screen and (max-width: 625px) {
-  .aboutLogo {
-    top: -26px;
-    left: -26px;
-  }
-
-  .aboutText p {
-    font-size: 14px;
-    line-height: 25px;
-  }
-
-  .aboutButton {
-    scale: 0.5;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .aboutText p {
-    font-size: 12px;
-    line-height: 22px;
-  }
-
-  .aboutButton {
-    scale: 0.4;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .aboutContent {
-    margin-left: 31px;
-    margin-right: 55px;
-  }
-
-  .aboutText p {
-    font-size: 12px;
-    line-height: 22px;
-  }
-
-  .aboutButton {
-    scale: 0.4;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .aboutLogo {
-    top: -20px;
-    left: -20px;
-    scale: 1.5;
-  }
-
-  .aboutContent {
-    width: 90%;
-  }
-
-  .aboutContent {
-    margin-left: 22px;
-  }
-
-  .aboutText p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-
-  .aboutText {
-    margin-bottom: 0px;
-  }
-
-  .aboutButton {
-    scale: 0.4;
-  }
-}
-
-@media screen and (max-width: 445px) {
-  .aboutContent {
-    width: 95%;
-  }
-
-  .aboutContent {
-    margin-left: 10px;
-  }
-
-  .buttonText {
-    font-size: 18px;
-    letter-spacing: 0px;
-  }
-
-  .aboutText p {
-    font-size: 12px;
-    line-height: 19px;
-  }
-}
-
-@media screen and (max-width: 385px) {
-  .aboutLogo {
-    top: -17px;
-    left: -17px;
-  }
-
-  .aboutText p {
-    font-size: 9px;
-    line-height: 17px;
-  }
-
-  .buttonText {
-    font-size: 12px;
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
-} */

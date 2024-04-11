@@ -2,7 +2,6 @@
   padding-top: 80px;
   position: relative;
   z-index: 1;
-  /* overflow-x: hidden; */
   margin-bottom: 50px;
 }
 
@@ -17,7 +16,7 @@
   margin-right: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .title {
@@ -56,12 +55,10 @@
   margin-left: auto;
   margin-right: auto;
   color: var(--light-text-color);
-  /* color: var(--text-color); */
 }
 
 /* ========= Journey ========= */
 .journey {
-  /* background-color: red; */
   max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
@@ -71,21 +68,16 @@
 
 /* ======================================= PAGE 8 ==================================== */
 
-
-
 /* ===================================== TIMELINE =============================== */
 
 .timeline {
   height: fit-content;
-  /* max-width: 1300px; */
-  /* background-color: red; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 50px;
-  /* padding-bottom: 20px; */
   margin-top: 50px;
   overflow: hidden;
   position: relative;
@@ -99,7 +91,6 @@
   background-color: var(--text-color);
   width: 2px;
   height: 100%;
-  /* z-index: -1; */
 }
 
 /* ============================ TIMELINE RESPONSIVE ==================================== */
@@ -110,8 +101,6 @@
 
 .timeline ul li {
   padding: 20px;
-  /* border-radius: 10px; */
-  /* box-shadow: 0px 0px 10px #00000079; */
   border: 2px solid var(--primary-color);
   width: 50%;
   position: relative;
@@ -121,7 +110,6 @@
 }
 
 .timeline ul li:hover {
-  /* box-shadow: 0px 0px 15px #000000d2; */
   background-color: var(--sub-background-color);
 }
 
@@ -134,7 +122,6 @@
   font-size: 25px;
   line-height: 30px;
   margin-bottom: 10px;
-  /* color: #ea7c11; */
   color: var(--primary-color);
   font-weight: 700;
 }
@@ -150,7 +137,6 @@
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: 2px;
-  /* background-color: red; */
   transform: translateY(-5px);
 }
 
@@ -158,14 +144,12 @@
   float: left;
   clear: right;
   transform: translateX(-30px);
-  /* border-radius: 20px 0px 20px 20px; */
 }
 
 .timeline ul li:nth-child(even) {
   float: right;
   clear: left;
   transform: translateX(30px);
-  /* border-radius: 0px 20px 20px 20px; */
 }
 
 .timeline ul li::before {
@@ -201,13 +185,10 @@
 
 /* ========= Experience ========= */
 .experience {
-  /* background-color: red; */
   padding-top: 80px;
-
 }
 
 .experienceContainer {
-  /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -219,7 +200,6 @@
 .experienceCard {
   height: 200px;
   width: 280px;
-  /* background-color: red; */
 }
 
 .experienceCard .cardTitle {
@@ -308,21 +288,17 @@
     float: none;
     clear: none;
     transform: translateX(30px);
-    /* border-radius: 20px 0px 20px 20px; */
   }
 
   .timeline ul li:nth-child(even) {
     float: none;
     clear: none;
     transform: translateX(30px);
-    /* border-radius: 0px 20px 20px 20px; */
   }
 
   .timeline ul li:nth-child(odd)::before {
     transform: translate(-50%, -50%);
     left: -33px;
-    /* margin-left: 50px; */
-    /* top: -10px; */
   }
 
   .timeline ul li:nth-child(even)::before {
@@ -403,21 +379,17 @@
     float: none;
     clear: none;
     transform: translateX(30px);
-    /* border-radius: 20px 0px 20px 20px; */
   }
 
   .timeline ul li:nth-child(even) {
     float: none;
     clear: none;
     transform: translateX(30px);
-    /* border-radius: 0px 20px 20px 20px; */
   }
 
   .timeline ul li:nth-child(odd)::before {
     transform: translate(-50%, -50%);
     left: -33px;
-    /* margin-left: 50px; */
-    /* top: -10px; */
   }
 
   .timeline ul li:nth-child(even)::before {
