@@ -73,6 +73,7 @@ const ProjectSection = () => {
                   </div>
                   <div
                     // href="https://github.com/Hackerspace2023/Hackerspace-Portfolio/graphs/contributors"
+                    
                     className="mob-contributors"
                   >
                     {/* <img src="https://contrib.rocks/image?repo=Hackerspace2023/Hackerspace-Portfolio" /> */}
@@ -91,7 +92,7 @@ const ProjectSection = () => {
                 </div>
               </div>
 
-              <div className="projectItem">
+              <div className="projectItem" >
                 <div className="projectItemContent">
                   <h3>{project.name}</h3>
                   <h4>{project.domain}</h4>

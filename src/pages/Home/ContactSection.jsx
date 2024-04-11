@@ -6,12 +6,12 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { FaYoutube } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { updateTitle } from "../../features/navSlice";
 
 const ContactSection = ({ ...props }) => {
-    
-      
   return (
     <>
       <section className="contactSection" {...props} data-aos="fade-up">
@@ -21,16 +21,31 @@ const ContactSection = ({ ...props }) => {
           <span className="tagAbout tagAbout2">{`</h2>`}</span>
         </div>
         <div className="contactContainer">
-          <a className="circleIcon" data-icon="twitter" href="#">
-            <FaXTwitter />
+          <a
+            className="circleIcon"
+            data-icon="twitter"
+            href="https://www.youtube.com/@CodingCommunityMSITHackerspace"
+            target="_blank"
+          >
+            <FaYoutube />
           </a>
-            <a className="circleIcon" data-icon="instagram" href="#">
+          <a
+            className="circleIcon"
+            data-icon="instagram"
+            href="https://www.instagram.com/_hackerspace_msit_/"
+            target="_blank"
+          >
             <AiFillInstagram />
           </a>
-          <a className="circleIcon" data-icon="linkedin" href="#" target="_blank">
-            <FaLinkedin />
+          <a
+            className="circleIcon"
+            data-icon="linkedin"
+            href="https://www.facebook.com/profile.php?id=100091680046825"
+            target="_blank"
+          >
+            <FaFacebook />
           </a>
-          <Link className="circleIcon" data-icon="mail" to="/contact" >
+          <Link className="circleIcon" data-icon="mail" to="/contact">
             <IoMdMail />
           </Link>
         </div>
