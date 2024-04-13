@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../../css/gallery.css";
 import Swiper from "swiper";
 import { ImageBorder } from "../../components";
 import { gallery, members } from "../../data";
 import close from "../../assets/close-button.png";
+import { useLocation } from "react-router-dom";
 
 const Gallery = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   const [job, setJob] = useState("web");
   const s = members.filter(types);
 

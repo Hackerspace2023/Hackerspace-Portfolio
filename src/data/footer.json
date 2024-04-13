@@ -23,13 +23,13 @@
         "type": "internal"
       },
       {
-        "text": "Gallery",
-        "link": "/gallery",
+        "text": "Members",
+        "link": "/members",
         "type": "internal"
       },
       {
-        "text": "Members",
-        "link": "/members",
+        "text": "Gallery",
+        "link": "/gallery",
         "type": "internal"
       },
       {
