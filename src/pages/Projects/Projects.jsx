@@ -3,8 +3,15 @@ import { projects } from "../../data";
 import EventsCard from "../Events/EventsCard";
 import "../../css/Projects.css";
 import ProjectCard from "./ProjectCard";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Projects = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     // <section className="px-4 md:px-6 lg:px-8 py-4 sm:py-8 lg:py-24 space-y-10 relative z-1">
     //   <div className="flex flex-col gap-4 sm:gap-2 mx-auto text-2xl [&>code]:text-txt-secondary w-fit sm:px-24">
