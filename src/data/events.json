@@ -3,6 +3,16 @@
         "eventName": "Orientation 2024",
         "eventDate": "2024-04-08",
         "eventTime": "03:45 PM",
+        "location": "Online",
+        "description": "In this intensive workshop, participants delved into Python's application in data science, mastering key concepts and techniques over three immersive days.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/WorkShop-DataScience(2024).jpeg?raw=true",
+        "registrationLink": "NULL",
+        "category": "past"
+    },
+    {
+        "eventName": "Orientation 2024",
+        "eventDate": "2024-04-08",
+        "eventTime": "03:45 PM",
         "location": "MSIT, Kolkata",
         "description": "This was an Orientation event for the 1st years telling them what Hackerspace is and it's motive to Hack the Future.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/Orientation-2(2024)-1.jpeg?raw=true",

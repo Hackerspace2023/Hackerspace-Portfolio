@@ -4,28 +4,56 @@
         "eventDate": "2024-04-08",
         "location": "MSIT, Kolkata",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/Node_Sql(2024)-1.jpeg?raw=true"
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2024)-5.jpg?raw=true"
     },
     {
         "eventName": "Orientation 2024",
+        "eventDate": "2024-04-08",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2024)-4.jpg?raw=true"
+    },
+    {
+        "eventName": "Orientation 2024",
+        "eventDate": "2024-04-08",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2024)-3.jpg?raw=true"
+    },
+    {
+        "eventName": "Orientation 2024",
+        "eventDate": "2024-04-08",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2024)-2.jpg?raw=true"
+    },
+    {
+        "eventName": "Orientation 2024",
+        "eventDate": "2024-04-08",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-orientation2(2024)-1.jpg?raw=true"
+    },
+    {
+        "eventName": "Node-SQL Session 2024",
+        "eventDate": "2024-04-08",
+        "location": "MSIT, Kolkata",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/Node_Sql(2024)-1.jpeg?raw=true"
+    },
+    {
+        "eventName": "Node-SQL Session 2024",
         "eventDate": "2024-04-08",
         "location": "MSIT, Kolkata",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/Node_Sql(2024)-2.jpeg?raw=true"
     },
     {
-        "eventName": "Orientation 2024",
+        "eventName": "Node-SQL Session 2024",
         "eventDate": "2024-04-08",
         "location": "MSIT, Kolkata",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/IMG_5410.jpeg?raw=true"
-    },
-    {
-        "eventName": "lorem",
-        "eventDate": "2020-01-01",
-        "location": "MSIT, Kolkata",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/IMG_5406.jpeg?raw=true"
     },
     {
         "eventName": "lorem",
@@ -113,3 +141,4 @@
         "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Gallery/hackerspace-class(2023)-4.jpeg?raw=true"
     }
 ]
+
