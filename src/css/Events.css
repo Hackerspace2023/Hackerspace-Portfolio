@@ -50,7 +50,7 @@
 
 .event-name {
   font-family: "Audiowide", sans-serif;
-  font-size: 40px;
+  font-size: 33px;
   font-style: normal;
   font-weight: 400;
   line-height: 60px;
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 600px) {
   .event-name {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .event-card {

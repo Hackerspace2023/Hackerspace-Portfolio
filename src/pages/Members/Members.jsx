@@ -1,11 +1,18 @@
 import { Card, MembersCategory } from "../../components";
 import { membersData, membersNew } from "../../data";
 import "../../css/Members.css";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Members = () => {
   // console.log(memberNew);
   // console.log(membersData);
 
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <section className="Members">

@@ -17,7 +17,7 @@
             "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Deblina_Mandal.jpg?raw=true"
         },
         {
-            "name": "Biswajit",
+            "name": "Biswajit Chattopadhyay",
             "email": "biswajitchattopadh890@gmail.com",
             "stream": "CSE",
             "year": "4th",
@@ -131,7 +131,7 @@
             "year": "2nd",
             "instagram": "NULL",
             "facebook": "NULL",
-            "linkedin": "linkedin.com/shigrafsalik",
+            "linkedin": "NULL",
             "twitter": "NULL",
             "portfolio": "NULL",
             "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Shigraf_Salik.jpg?raw=true"
@@ -149,7 +149,7 @@
             "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anwesha_Sen.jpg?raw=true"
         },
         {
-            "name": "Anwesha chowdhury",
+            "name": "Anwesha Chowdhury",
             "email": "Anweshacy@gmail.com",
             "stream": "CSE",
             "year": "2nd",
@@ -158,7 +158,7 @@
             "linkedin": "NULL",
             "twitter": "NULL",
             "portfolio": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anwesha_Chowdhury.jpg?raw=true"
+            "image": "https://raw.githubusercontent.com/Hackerspace2023/hackspace-portfolio-images/f5530880be647f381aaa0bbc0d174184c8b42b57/Profiles/Anwesha_Chowdhury.jpg"
         },
         {
             "name": "Ayantika karfa",
@@ -183,6 +183,19 @@
             "twitter": "NULL",
             "portfolio": "NULL",
             "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sagarika_Bandyopadhyay.jpg?raw=true"
+        },
+        {
+            "name": "Namrata Sinha Roy",
+            "email": "nsinharoy3@gmail.com",
+            "phone": 9062570475,
+            "stream": "ECE",
+            "year": "2nd",
+            "instagram": "https://www.instagram.com/namikochan__?igsh=MTEwOGQxNnJ6cmV4eA==",
+            "facebook": "NULL",
+            "linkedIn": "https://www.linkedin.com/in/namratasinharoy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Namrata_Sinha_Roy.jpg?raw=true"
         },
         {
             "name": "SOUMYADIP MAL",
@@ -218,7 +231,7 @@
             "linkedin": "https://www.linkedin.com/in/srijita-laha-420766260",
             "twitter": "https://x.com/Srijita748505?t=XV4YsgesQrqg2An_TnwrjQ&s=08",
             "portfolio": "NULL",
-            "image": "https://www.ateneo.edu/sites/default/files/2021-11/istockphoto-517998264-612x612.jpeg"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Srijita_Laha.jpeg?raw=true"
         },
         {
             "name": "Ushree Das",
@@ -230,7 +243,7 @@
             "linkedin": "https://www.linkedin.com/in/ushree-das-03593a27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "twitter": "NULL",
             "portfolio": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Ushree_Das.jpg?raw=true"
+            "image": "https://raw.githubusercontent.com/Hackerspace2023/hackspace-portfolio-images/b1cf64b32a54c4f83b5e070362a60f4392f14439/Profiles/Ushree_Das.jpg"
         }
     ]
 }

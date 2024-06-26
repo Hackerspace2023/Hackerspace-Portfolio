@@ -20,7 +20,7 @@
     "year": "1st",
     "instagram": "NULL",
     "facebook": "NULL",
-    "linkedIn": "NULL",
+    "linkedIn": "https://www.linkedin.com/in/adwitiyo-bera-b7ba5b301/",
     "twitter": "NULL",
     "portfolio": "NULL",
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Adwitiyo_Bera.jpg?raw=true"
@@ -182,7 +182,7 @@
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Bidisha_Banik.jpg?raw=true"
   },
   {
-    "name": "BINULLY DAS",
+    "name": "Binay Das",
     "email": "binaydas1123@gmail.com",
     "phone": 8101533320,
     "stream": "CSE",
@@ -192,10 +192,10 @@
     "linkedIn": "https://www.linkedin.com/in/binaydas",
     "twitter": "NULL",
     "portfolio": "https://binay-das.github.io/portfolio-website/",
-    "image": "NULL"
+    "image": "https://binay-das.github.io/portfolio-website/user.png"
   },
   {
-    "name": "Biswajit",
+    "name": "Biswajit Chattopadhyay",
     "email": "biswajitchattopadh890@gmail.com",
     "phone": 7872501820,
     "stream": "CSE",
@@ -657,7 +657,7 @@
     "year": "2nd",
     "instagram": "NULL",
     "facebook": "NULL",
-    "linkedIn": "linkedin.com/shigrafsalik",
+    "linkedIn": "NULL",
     "twitter": "NULL",
     "portfolio": "NULL",
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Shigraf_Salik.jpg?raw=true"
@@ -713,19 +713,6 @@
     "twitter": "NULL",
     "portfolio": "https://sreeparno-kundu.github.io/sreeparno_portfolio/",
     "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sreeparno_Kundu.jpg?raw=true"
-  },
-  {
-    "name": "Subham Paul",
-    "email": "subham712303@gmail.com",
-    "phone": 7479050202,
-    "stream": "CSE",
-    "year": "2nd",
-    "instagram": "NULL",
-    "facebook": "NULL",
-    "linkedIn": "https://www.linkedin.com/in/iam-subham-paul",
-    "twitter": "NULL",
-    "portfolio": "https://subham-paul.vercel.app/",
-    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Subham_Paul.jpg?raw=true"
   },
   {
     "name": "Subhradeep Pal",
@@ -829,7 +816,7 @@
     "linkedIn": "https://www.linkedin.com/in/ushree-das-03593a27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "twitter": "NULL",
     "portfolio": "NULL",
-    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Ushree_Das.jpg?raw=true"
+    "image": "https://raw.githubusercontent.com/Hackerspace2023/hackspace-portfolio-images/b1cf64b32a54c4f83b5e070362a60f4392f14439/Profiles/Ushree_Das.jpg"
   },
   {
     "name": "Vishu Vaishnav",

@@ -5,7 +5,7 @@
   },
   "data": [
     {
-      "name": "Biswajit",
+      "name": "Biswajit Chattopadhyay",
       "email": "biswajitchattopadh890@gmail.com",
       "stream": "CSE",
       "year": "4th",
@@ -194,23 +194,8 @@
       "facebook": "NULL",
       "linkedin": "https://www.linkedin.com/in/sayandip-ghosh-754895253",
       "twitter": "NULL",
-      "portfolio": "https://www.linkedin.com/in/sayandip-ghosh-754895253",
+      "portfolio": "https://sayandip-ghosh.github.io/sayandip-portfolio/",
       "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayandip_Ghosh.jpg?raw=true",
-      "domain": "Web Dev",
-      "github": ""
-    },
-    {
-      "name": "Subham Paul",
-      "email": "subham712303@gmail.com",
-      "stream": "CSE",
-      "year": "2nd",
-      "since": 2023,
-      "instagram": "NULL",
-      "facebook": "NULL",
-      "linkedin": "https://www.linkedin.com/in/iam-subham-paul",
-      "twitter": "NULL",
-      "portfolio": "https://subham-paul.vercel.app/",
-      "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Subham_Paul.jpg?raw=true",
       "domain": "Web Dev",
       "github": ""
     },
@@ -507,7 +492,7 @@
       "since": 2024,
       "instagram": "NULL",
       "facebook": "NULL",
-      "linkedin": "NULL",
+      "linkedin": "https://www.linkedin.com/in/adwitiyo-bera-b7ba5b301/",
       "twitter": "NULL",
       "portfolio": "NULL",
       "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Adwitiyo_Bera.jpg?raw=true",

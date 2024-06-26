@@ -110,5 +110,34 @@
     "showOnHighlights": false,
     "repo": "",
     "url": "https://fighting-hackerspace.netlify.app/"
+  },
+  {
+    "name": "ImageGenerator",
+    "domain": "Artificial Intelligence",
+    "tag": "AI/ML",
+    "description": "This project converts text into vivid images using advanced AI, offering a seamless blend of creativity and technology for captivating visual expression.",
+    "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectImg/ImageGenerator.jpeg?raw=true",
+    "video": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Project/ProjectVideo/ImageGenerator.mp4?raw=true",
+    "contributors": [
+      {
+        "name": "̌Devasmita Kundu",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Devasmita_Kundu.jpg?raw=true"
+      },
+      {
+        "name": "̌Samrat Ghosh",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Samrat_Ghosh.jpg?raw=true"
+      },
+      {
+        "name": "̌Ankita Ghosh",
+        "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Ankita_Ghosh.jpg?raw=true"
+      },
+      {
+        "name": "̌Binay Das",
+        "image": "https://binay-das.github.io/portfolio-website/user.png"
+      }
+    ],
+    "showOnHighlights": true,
+    "repo": "",
+    "url": "NULL"
   }
 ]

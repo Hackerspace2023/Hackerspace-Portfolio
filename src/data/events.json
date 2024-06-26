@@ -1,5 +1,25 @@
 [
     {
+        "eventName": "Java WorkShop",
+        "eventDate": "2024-05-08",
+        "eventTime": "08:00 PM",
+        "location": "Online",
+        "description": "3-day online workshop and discover the exciting world of software development and Java programming",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/WorkShop-Java(2024).jpeg?raw=true",
+        "registrationLink": "https://forms.gle/suVq2HSLFXUJw4KP8",
+        "category": "past"
+    },
+    {
+        "eventName": "DataScience WorkShop",
+        "eventDate": "2024-04-21",
+        "eventTime": "08:00 PM",
+        "location": "Online",
+        "description": "In this intensive workshop, participants delved into Python's application in data science, mastering key concepts and techniques over three immersive days.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/WorkShop-DataScience(2024).jpeg?raw=true",
+        "registrationLink": "NULL",
+        "category": "past"
+    },
+    {
         "eventName": "Orientation 2024",
         "eventDate": "2024-04-08",
         "eventTime": "03:45 PM",
