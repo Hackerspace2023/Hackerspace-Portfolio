@@ -1,5 +1,15 @@
 [
     {
+        "eventName": "CodeCraft 3.0",
+        "eventDate": "2024-07-27",
+        "eventTime": "07:00 PM",
+        "location": "Online",
+        "description": "This was the 3rd Web Development Contest conducted for 24 hours where each individual embarked on a Digital Odyssey to solve the given problem statement.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CodeCraft-3(2024).jpeg?raw=true",
+        "registrationLink": "https://forms.gle/4Z9D3LmfGfREAQbJ8",
+        "category": "upcoming"
+    },
+    {
         "eventName": "Java WorkShop",
         "eventDate": "2024-05-08",
         "eventTime": "08:00 PM",
