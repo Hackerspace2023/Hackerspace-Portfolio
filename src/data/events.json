@@ -1,5 +1,15 @@
 [
     {
+        "eventName": "Programming Classes",
+        "eventDate": "2024-08-31",
+        "eventTime": "07:00 PM",
+        "location": "Online",
+        "description": "Unlock your coding potential with our weekly classes, featuring challenges that sharpen your skills and broaden your horizons.",
+        "eventImage": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Events/CP_Classes(2024).png?raw=true",
+        "registrationLink": "https://forms.gle/Aj9i5TKrD5nLhTzu7",
+        "category": "upcoming"
+    },
+    {
         "eventName": "CodeCraft 3.0",
         "eventDate": "2024-08-02",
         "eventTime": "07:00 PM",
