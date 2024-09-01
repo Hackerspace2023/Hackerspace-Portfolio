@@ -20,7 +20,7 @@ const Home = () => {
       <AboutSection id="about" />
       <ProjectSection id="projects" />
       <MembersSection id="members" />
-      <EventsSection id="members" />
+      {/* <EventsSection id="events" /> */}
       <ContactSection id="contact" />
     </>
   );
