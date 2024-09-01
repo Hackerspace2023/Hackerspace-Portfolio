@@ -65,6 +65,21 @@
             "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Prince_Thakur.jpg?raw=true"
         },
         {
+            "name": "Sayan Sanpui",
+            "email": "sayansanpuicoding@gmail.com",
+            "stream": "CSE",
+            "year": "2nd",
+            "since": 2023,
+            "instagram": "https://www.instagram.com/sayansanpui_dev",
+            "facebook": "https://www.facebook.com/sayan.sanpui.161",
+            "linkedin": "https://www.linkedin.com/in/sayansanpui/",
+            "twitter": "https://twitter.com/sayansanpui_dev",
+            "portfolio": "https://sayansanpui.github.io/Portfolio/",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayan_Sanpui.jpg?raw=true",
+            "domain": "Web Dev",
+            "github": ""
+        },
+        {
             "name": "Senorita Sharma",
             "email": "senoritas792@gmail.com",
             "stream": "IT",
