@@ -13,7 +13,7 @@ const Card = ({ className = "", data, ...props }) => {
         <div className="cardContent">
           <h3>{data.name}</h3>
           <p>
-            {data.year} Year ({data.stream})
+            {data.year === "PassOut" ? `${data.year} ${data.session} (${data.stream})` : `${data.year} Year (${data.stream})`}
           </p>
           <div className="socials">
             <a
