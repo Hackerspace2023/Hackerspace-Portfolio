@@ -1,0 +1,92 @@
+{
+    "info": {
+        "title": "Pass Out",
+        "shortForm": "PassOut"
+    },
+    "data": [
+        {
+            "name": "Biswajit Chattopadhyay",
+            "email": "biswajitchattopadh890@gmail.com",
+            "phone": 7872501820,
+            "stream": "CSE",
+            "year": "PassOut",
+            "instagram": "NULL",
+            "facebook": "NULL",
+            "linkedIn": "NULL",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true",
+            "session": "2024"
+        },
+        {
+            "name": "Deblina Mandal",
+            "email": "mandaldeb21@gmail.com",
+            "phone": 9123721946,
+            "stream": "CSE",
+            "year": "PassOut",
+            "instagram": "https://www.instagram.com/deblina.mandal?igsh=NGVhN2U2NjQ0Yg==",
+            "facebook": "https://www.facebook.com/debu.mandal.79274?mibextid=ZbWKwL",
+            "linkedIn": "https://www.linkedin.com/in/deblina-mandal-13b990226",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Deblina_Mandal.jpg?raw=true",
+            "session": "2024"
+        },
+        {
+            "name": "Akash Das",
+            "email": "astroidworld@gmail.com",
+            "phone": 8617210391,
+            "stream": "IT",
+            "year": "PassOut",
+            "instagram": "https://www.instagram.com/astroidworld_creativity/",
+            "facebook": "https://www.facebook.com/astroidworld",
+            "linkedIn": "https://www.linkedin.com/in/theakashdas/",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Akash_Das.jpg?raw=true",
+            "session": "2024"
+        },
+        {
+            "name": "Krishnendu Roy",
+            "email": "krishnendu.kalyani1@gmail.com",
+            "phone": 9073712806,
+            "stream": "CSE",
+            "year": "PassOut",
+            "instagram": "https://www.instagram.com/krishnendu_roy52",
+            "facebook": "NULL",
+            "linkedIn": "https://www.linkedin.com/in/krishnendu-roy-577251168/",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnendu_Roy.jpg?raw=true",
+            "session": "2024"
+        },
+        {
+            "name": "Subhradeep Pal",
+            "email": "subhradeeppal30@gmail.com",
+            "phone": 9051611683,
+            "stream": "ECE",
+            "year": "PassOut",
+            "instagram": "NULL",
+            "facebook": "https://www.facebook.com/profile.php?id=100011713045159",
+            "linkedIn": "https://www.linkedin.com/in/subhradeep-pal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Subhradeep_Pal.jpg?raw=true",
+            "session": "2024"
+        },
+                {
+            "name": "Anurag Kumar Sah",
+            "email": "anuragkumarsah2024@gmail.com",
+            "phone": 7603013100,
+            "stream": "CSE",
+            "year": "PassOut",
+            "instagram": "NULL",
+            "facebook": "NULL",
+            "linkedIn": "https://www.linkedin.com/in/anurag-kumar-sah-88497b199/",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anurag_Kumar_Sah.jpg?raw=true",
+            "session": "2024"
+        }
+    ]
+}
