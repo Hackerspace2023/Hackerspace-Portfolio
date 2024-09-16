@@ -21,22 +21,6 @@
             "session": "2025"
         },
         {
-            "name": "Enakshi Nahar",
-            "email": "enakshinahar2003@gmail.com",
-            "stream": "CSE",
-            "year": "4th",
-            "since": 2023,
-            "domain": "CDP",
-            "instagram": "NULL",
-            "facebook": "NULL",
-            "linkedin": "https://www.linkedin.com/in/enakshi-nahar-52b320236",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Enakshi_Nahar.jpg?raw=true",
-            "github": "NULL",
-            "session": "2025"
-        },
-        {
             "name": "Samrat Ghosh",
             "email": "samratghosh490@gmail.com",
             "stream": "CSE",
@@ -49,6 +33,22 @@
             "twitter": "https://twitter.com/piku_samrat490",
             "portfolio": "https://samratghg9.bio.link/",
             "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Samrat_Ghosh.jpg?raw=true",
+            "github": "NULL",
+            "session": "2025"
+        },
+        {
+            "name": "Enakshi Nahar",
+            "email": "enakshinahar2003@gmail.com",
+            "stream": "CSE",
+            "year": "4th",
+            "since": 2023,
+            "domain": "CDP",
+            "instagram": "NULL",
+            "facebook": "NULL",
+            "linkedin": "https://www.linkedin.com/in/enakshi-nahar-52b320236",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Enakshi_Nahar.jpg?raw=true",
             "github": "NULL",
             "session": "2025"
         },

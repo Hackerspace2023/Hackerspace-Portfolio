@@ -69,22 +69,6 @@
       "session": "2025"
     },
     {
-      "name": "Deep Das",
-      "email": "animdeep2019@gmail.com",
-      "stream": "IT",
-      "year": "3rd",
-      "since": 2023,
-      "instagram": "https://www.instagram.com/deep_arts_10/",
-      "facebook": "https://www.facebook.com/youtanimstar",
-      "linkedin": "https://www.linkedin.com/in/thedeepdas/",
-      "twitter": "https://twitter.com/youtanimstar",
-      "portfolio": "https://deepdas-portfolio.netlify.app/",
-      "image": "https://avatars.githubusercontent.com/u/107903218?v=4",
-      "domain": "Web Dev",
-      "github": "https://github.com/youtanimstar",
-      "session": "2026"
-    },
-    {
       "name": "Sayan Sanpui",
       "email": "sayansanpuicoding@gmail.com",
       "stream": "CSE",
@@ -98,6 +82,22 @@
       "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sayan_Sanpui.jpg?raw=true",
       "domain": "Web Dev",
       "github": "NULL",
+      "session": "2026"
+    },
+    {
+      "name": "Deep Das",
+      "email": "animdeep2019@gmail.com",
+      "stream": "IT",
+      "year": "3rd",
+      "since": 2023,
+      "instagram": "https://www.instagram.com/deep_arts_10/",
+      "facebook": "https://www.facebook.com/youtanimstar",
+      "linkedin": "https://www.linkedin.com/in/thedeepdas/",
+      "twitter": "https://twitter.com/youtanimstar",
+      "portfolio": "https://deepdas-portfolio.netlify.app/",
+      "image": "https://avatars.githubusercontent.com/u/107903218?v=4",
+      "domain": "Web Dev",
+      "github": "https://github.com/youtanimstar",
       "session": "2026"
     },
     {
