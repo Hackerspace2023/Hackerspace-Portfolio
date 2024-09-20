@@ -5,55 +5,10 @@
     },
     "data": [
         {
-            "name": "Krishnendu Roy",
-            "email": "krishnendu.kalyani1@gmail.com",
-            "stream": "CSE",
-            "year": "4th",
-            "since": 2022,
-            "domain": "Poster and Video",
-            "instagram": "https://www.instagram.com/krishnendu_roy52",
-            "facebook": "NULL",
-            "linkedin": "https://www.linkedin.com/in/krishnendu-roy-577251168/",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "github": "https://github.com/krishnenduroy52",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnendu_Roy.jpg?raw=true"
-        },
-        {
-            "name": "Akash Das",
-            "email": "astroidworld@gmail.com",
-            "stream": "IT",
-            "year": "4th",
-            "since": 2022,
-            "domain": "Poster and Video",
-            "instagram": "https://www.instagram.com/astroidworld_creativity/",
-            "facebook": "https://www.facebook.com/astroidworld",
-            "linkedin": "https://www.linkedin.com/in/theakashdas/",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "github": "https://github.com/astroidworld",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Akash_Das.jpg?raw=true"
-        },
-        {
-            "name": "Biswajit",
-            "email": "biswajitchattopadh890@gmail.com",
-            "stream": "CSE",
-            "year": "4th",
-            "since": 2022,
-            "domain": "Poster and Video",
-            "instagram": "NULL",
-            "facebook": "NULL",
-            "linkedin": "NULL",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "github": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true"
-        },
-        {
             "name": "Aahana Malakar",
             "email": "aahana.malakar04@gmail.com",
             "stream": "CSE",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2024,
             "domain": "Poster and Video",
             "instagram": "https://www.instagram.com/aahana6286/",
@@ -62,28 +17,14 @@
             "twitter": "NULL",
             "portfolio": "https://aahanamalakar.github.io/Portfolio/",
             "github": "https://github.com/AahanaMalakar",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Aahana_Malakar.jpg?raw=true"
-        },
-        {
-            "name": "Pushkar Pan",
-            "email": "Pushkar_pcse2022@msit.edu.in",
-            "stream": "CSE",
-            "year": "2nd",
-            "since": 2023,
-            "domain": "Poster and Video",
-            "instagram": "https://www.instagram.com/myst_blazeio?igsh=Z2pyb2EyOW81bzIx",
-            "facebook": "NULL",
-            "linkedin": "https://www.linkedin.com/in/pushkar-pan-61b515281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "twitter": "NULL",
-            "portfolio": "blazeio.artstation.com",
-            "github": "",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Pushkar_Pan.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Aahana_Malakar.jpg?raw=true",
+            "session":"2026"
         },
         {
             "name": "Namrata Sinha Roy",
             "email": "nsinharoy3@gmail.com",
             "stream": "ECE",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2023,
             "domain": "Poster and Video",
             "instagram": "https://www.instagram.com/namikochan__?igsh=MTEwOGQxNnJ6cmV4eA==",
@@ -92,13 +33,14 @@
             "twitter": "NULL",
             "portfolio": "NULL",
             "github": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Namrata_Sinha_Roy.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Namrata_Sinha_Roy.jpg?raw=true",
+            "session":"2026"
         },
         {
             "name": "Rahul Kumar Shaw",
             "email": "rahultechnical99@gmail.com",
             "stream": "IT",
-            "year": "1st",
+            "year": "2nd",
             "since": 2023,
             "domain": "Poster and Video",
             "instagram": "NULL",
@@ -107,13 +49,14 @@
             "twitter": "NULL",
             "portfolio": "NULL",
             "github": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Rahul_kumar_Shaw.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Rahul_kumar_Shaw.jpg?raw=true",
+            "session":"2027"
         },
         {
             "name": "Tanisha Ali",
             "email": "tanishaali89@gmail.com",
             "stream": "CSE",
-            "year": "1st",
+            "year": "2nd",
             "since": 2024,
             "domain": "Poster and Video",
             "instagram": "https://www.instagram.com/tanishaali751/",
@@ -122,13 +65,14 @@
             "twitter": "https://twitter.com/AliTanisha16460/",
             "portfolio": "https://tanisha971.github.io/portfolio/",
             "github": "https://github.com/tanisha971/",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Tanisha_Ali.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Tanisha_Ali.jpg?raw=true",
+            "session":"2027"
         },
         {
             "name": "MOHD GUFRAN",
             "email": "gufrannzb@gmail.com",
             "stream": "BCA",
-            "year": "1st",
+            "year": "2nd",
             "since": 2024,
             "domain": "Poster and Video",
             "instagram": "https://www.instagram.com/gufrannzb",
@@ -137,7 +81,8 @@
             "twitter": "https://www.twitter.com/gufrannzb",
             "portfolio": "NULL",
             "github": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/MD_Gufran.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/MD_Gufran.jpg?raw=true",
+            "session":"2027"
         }
     ]
 }
