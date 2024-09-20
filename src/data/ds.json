@@ -5,40 +5,10 @@
     },
     "data": [
         {
-            "name": "Deblina Mandal",
-            "email": "mandaldeb21@gmail.com",
-            "stream": "CSE",
-            "year": "4th",
-            "since": 2023,
-            "domain": "Data Science",
-            "instagram": "https://www.instagram.com/deblina.mandal?igsh=NGVhN2U2NjQ0Yg==",
-            "facebook": "https://www.facebook.com/debu.mandal.79274?mibextid=ZbWKwL",
-            "linkedin": "https://www.linkedin.com/in/deblina-mandal-13b990226",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "github": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Deblina_Mandal.jpg?raw=true"
-        },
-        {
-            "name": "Biswajit Chattopadhyay",
-            "email": "biswajitchattopadh890@gmail.com",
-            "stream": "CSE",
-            "year": "4th",
-            "since": 2022,
-            "domain": "Data Science",
-            "instagram": "NULL",
-            "facebook": "NULL",
-            "linkedin": "NULL",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "github": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Biswajit_Chattopadhyay.jpg?raw=true"
-        },
-        {
             "name": "Devasmita Kundu",
             "email": "kdevasmita@gmail.com",
             "stream": "CSE",
-            "year": "3rd",
+            "year": "4th",
             "since": 2023,
             "domain": "Data Science",
             "instagram": "NULL",
@@ -47,43 +17,14 @@
             "twitter": "NULL",
             "portfolio": "NULL",
             "github": "https://github.com/Luna-Skywalker",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Devasmita_Kundu.jpg?raw=true"
-        },
-        {
-            "name": "Kiran Kulavi",
-            "email": "kiran_k.cse2021@msit.edu.in",
-            "stream": "CSE",
-            "year": "3rd",
-            "since": 2024,
-            "domain": "Data Science",
-            "instagram": "https://www.instagram.com/_kkkk_kiran?igsh=OW9jeDQ5MHIxbWZq",
-            "facebook": "https://www.facebook.com/kiran.kulavi.5?mibextid=ZbWKwL",
-            "linkedin": "https://www.linkedin.com/in/kiran-kulavi-683b37229",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "github": "https://github.com/Ri744",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Kiran_Kulavi.jpg?raw=true"
-        },
-        {
-            "name": "KRISHNOPREYA CHAKRABORTY",
-            "email": "kpchakraborty11@gmail.com",
-            "stream": "CSBS",
-            "year": "3rd",
-            "since": 2024,
-            "domain": "Data Science",
-            "instagram": "https://www.instagram.com/_kaypeeeeeee_/",
-            "facebook": "NULL",
-            "linkedin": "https://www.linkedin.com/in/krishnopreya-chakraborty-431767275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "twitter": "NULL",
-            "portfolio": "NULL",
-            "github": "https://github.com/Kpreya",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnopreya_Chakraborty.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Devasmita_Kundu.jpg?raw=true",
+            "session": "2025"
         },
         {
             "name": "Aniruddha Ghosh",
             "email": "ghoshaniruddha2003@gmail.com",
             "stream": "CSE",
-            "year": "3rd",
+            "year": "4th",
             "since": 2023,
             "domain": "Data Science",
             "instagram": "NULL",
@@ -92,13 +33,46 @@
             "twitter": "https://twitter.com/DMMPrice",
             "portfolio": "https://dmmprice.github.io/",
             "github": "https://github.com/DMMPrice",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Aniruddha_Ghosh.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Aniruddha_Ghosh.jpg?raw=true",
+            "session": "2025"
+        },
+        {
+            "name": "Kiran Kulavi",
+            "email": "kiran_k.cse2021@msit.edu.in",
+            "stream": "CSE",
+            "year": "4th",
+            "since": 2024,
+            "domain": "Data Science",
+            "instagram": "https://www.instagram.com/_kkkk_kiran?igsh=OW9jeDQ5MHIxbWZq",
+            "facebook": "https://www.facebook.com/kiran.kulavi.5?mibextid=ZbWKwL",
+            "linkedin": "https://www.linkedin.com/in/kiran-kulavi-683b37229",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "github": "https://github.com/Ri744",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Kiran_Kulavi.jpg?raw=true",
+            "session": "2025"
+        },
+        {
+            "name": "KRISHNOPREYA CHAKRABORTY",
+            "email": "kpchakraborty11@gmail.com",
+            "stream": "CSBS",
+            "year": "4th",
+            "since": 2024,
+            "domain": "Data Science",
+            "instagram": "https://www.instagram.com/_kaypeeeeeee_/",
+            "facebook": "NULL",
+            "linkedin": "https://www.linkedin.com/in/krishnopreya-chakraborty-431767275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "twitter": "NULL",
+            "portfolio": "NULL",
+            "github": "https://github.com/Kpreya",
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Krishnopreya_Chakraborty.jpg?raw=true",
+            "session": "2025"
         },
         {
             "name": "Debarghya Saha",
             "email": "debarghyarockz@gmail.com",
             "stream": "CSBS",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2024,
             "domain": "Data Science",
             "instagram": "https://www.instagram.com/debarghx?igsh=b240cHcyN21yazdt",
@@ -107,13 +81,14 @@
             "twitter": "NULL",
             "portfolio": "NULL",
             "github": "https://github.com/debarghyaRONIN",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Debarghya_Saha.jpeg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Debarghya_Saha.jpeg?raw=true",
+            "session": "2026"
         },
         {
             "name": "Muskaan Das",
             "email": "muskaandas2004@gmail.com",
             "stream": "CSE DS",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2023,
             "domain": "Data Science",
             "instagram": "https://www.instagram.com/muskaan.xxd/?next=%2F",
@@ -122,13 +97,14 @@
             "twitter": "https://x.com/muskaan_xd?t=0CnD2ddYD9Z_bMJ2o7MZYQ&s=09",
             "portfolio": "https://muskaand26.github.io/portfolio.m/",
             "github": "https://github.com/muskaand26",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Muskaan_Das.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Muskaan_Das.jpg?raw=true",
+            "session": "2026"
         },
         {
             "name": "Somshirsha Bhattacharya",
             "email": "somshirshabhattacharya@gmail.com",
             "stream": "CSE",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2024,
             "domain": "Data Science",
             "instagram": "https://www.instagram.com/isomshirsha.b_03?igsh=NHFwc3o0NjduZ216",
@@ -137,13 +113,14 @@
             "twitter": "NULL",
             "portfolio": "NULL",
             "github": "https://github.com/Somshirsha",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Somshirsha_Bhattacharya.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Somshirsha_Bhattacharya.jpg?raw=true",
+            "session": "2026"
         },
         {
             "name": "Anwesha Sen",
             "email": "senanwesha690@gmail.com",
             "stream": "CSE",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2023,
             "domain": "Data Science",
             "instagram": "https://www.instagram.com/anw.esha1/",
@@ -152,13 +129,14 @@
             "twitter": "NULL",
             "portfolio": "https://anwesha712.github.io/myportfolio/",
             "github": "https://github.com/Anwesha712",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anwesha_Sen.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Anwesha_Sen.jpg?raw=true",
+            "session": "2026"
         },
         {
             "name": "Ankit Kundu",
             "email": "ankitkundu980@gmail.com",
             "stream": "IT",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2024,
             "domain": "Data Science",
             "instagram": "https://www.instagram.com/ankit_kundu__10?igsh=MWJ6aXRqem1iOGN0Zg==",
@@ -167,13 +145,14 @@
             "twitter": "https://x.com/__Ankit___10_?t=uKtnnyVoOgdHRN6Yi8XBlg&s=09",
             "portfolio": "NULL",
             "github": "https://github.com/Ankit-Koder",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Ankit_Kundu.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Ankit_Kundu.jpg?raw=true",
+            "session": "2026"
         },
         {
             "name": "Sweta Das",
             "email": "swetadas570@gmail.com",
             "stream": "CSE",
-            "year": "2nd",
+            "year": "3rd",
             "since": 2024,
             "domain": "Data Science",
             "instagram": "https://www.instagram.com/__iamswetaaa__?igsh=MXU4NGcxendweDFrMQ==",
@@ -182,7 +161,8 @@
             "twitter": "NULL",
             "portfolio": "NULL",
             "github": "NULL",
-            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sweta_Das.jpg?raw=true"
+            "image": "https://github.com/Hackerspace2023/hackspace-portfolio-images/blob/main/Profiles/Sweta_Das.jpg?raw=true",
+            "session": "2026"
         }
     ]
 }
